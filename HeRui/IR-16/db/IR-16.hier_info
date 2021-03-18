@@ -1,0 +1,91 @@
+|IR-16
+Q15 <= IR-8:inst.Q7
+CP => IR-8:inst.CP
+CP => IR-8:inst1.CP
+D15 => IR-8:inst.D7
+D14 => IR-8:inst.D6
+D13 => IR-8:inst.D5
+D12 => IR-8:inst.D4
+D11 => IR-8:inst.D3
+D10 => IR-8:inst.D2
+D9 => IR-8:inst.D1
+D8 => IR-8:inst.D0
+Q14 <= IR-8:inst.Q6
+Q13 <= IR-8:inst.Q5
+Q12 <= IR-8:inst.Q4
+Q11 <= IR-8:inst.Q3
+Q10 <= IR-8:inst.Q2
+Q9 <= IR-8:inst.Q1
+Q8 <= IR-8:inst.Q0
+Q7 <= IR-8:inst1.Q7
+D7 => IR-8:inst1.D7
+D6 => IR-8:inst1.D6
+D5 => IR-8:inst1.D5
+D4 => IR-8:inst1.D4
+D3 => IR-8:inst1.D3
+D2 => IR-8:inst1.D2
+D1 => IR-8:inst1.D1
+D0 => IR-8:inst1.D0
+Q6 <= IR-8:inst1.Q6
+Q5 <= IR-8:inst1.Q5
+Q4 <= IR-8:inst1.Q4
+Q3 <= IR-8:inst1.Q3
+Q2 <= IR-8:inst1.Q2
+Q1 <= IR-8:inst1.Q1
+Q0 <= IR-8:inst1.Q0
+
+
+|IR-16|IR-8:inst
+Q7 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CP => inst1.CLK
+CP => inst3.CLK
+CP => inst.CLK
+CP => inst2.CLK
+CP => inst5.CLK
+CP => inst7.CLK
+CP => inst4.CLK
+CP => inst6.CLK
+D7 => inst1.DATAIN
+Q6 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst3.DATAIN
+Q5 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst.DATAIN
+Q4 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst2.DATAIN
+Q3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst5.DATAIN
+Q2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst7.DATAIN
+Q1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst4.DATAIN
+Q0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst6.DATAIN
+
+
+|IR-16|IR-8:inst1
+Q7 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CP => inst1.CLK
+CP => inst3.CLK
+CP => inst.CLK
+CP => inst2.CLK
+CP => inst5.CLK
+CP => inst7.CLK
+CP => inst4.CLK
+CP => inst6.CLK
+D7 => inst1.DATAIN
+Q6 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst3.DATAIN
+Q5 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst.DATAIN
+Q4 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst2.DATAIN
+Q3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst5.DATAIN
+Q2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst7.DATAIN
+Q1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst4.DATAIN
+Q0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst6.DATAIN
+
+
