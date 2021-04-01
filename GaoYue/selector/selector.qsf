@@ -67,3 +67,4 @@ set_location_assignment PIN_147 -to Y5
 set_location_assignment PIN_149 -to Y6
 set_location_assignment PIN_150 -to Y7
 set_location_assignment PIN_23 -to AY
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
