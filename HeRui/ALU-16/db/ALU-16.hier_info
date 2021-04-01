@@ -1,10 +1,9 @@
 |ALU-16_for_Test
 F0 <= ALU-16:inst.F0N
 C0N => ALU-16:inst.C0N
-CP => selector:inst3.A0
-CP => selector:inst3.B0
-A => selector:inst3.AY
-B => selector:inst3.BY
+CP => inst3.IN0
+CP => inst4.IN0
+B => inst3.IN1
 D15 => IR-16:inst1.D15
 D15 => IR-16:inst2.D15
 D14 => IR-16:inst1.D14
@@ -37,6 +36,7 @@ D1 => IR-16:inst1.D1
 D1 => IR-16:inst2.D1
 D0 => IR-16:inst1.D0
 D0 => IR-16:inst2.D0
+A => inst4.IN1
 S0 => ALU-16:inst.S0
 S1 => ALU-16:inst.S1
 S2 => ALU-16:inst.S2
@@ -511,49 +511,6 @@ Q1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
 D1 => inst4.DATAIN
 Q0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
 D0 => inst6.DATAIN
-
-
-|ALU-16_for_Test|selector:inst3
-Y7 <= inst46.DB_MAX_OUTPUT_PORT_TYPE
-B7 => inst.IN0
-BY => inst.IN1
-BY => inst15.IN1
-BY => inst21.IN1
-BY => inst23.IN1
-BY => inst2.IN1
-BY => inst17.IN1
-BY => inst27.IN1
-BY => inst26.IN1
-A7 => inst22.IN0
-AY => inst22.IN1
-AY => inst13.IN1
-AY => inst16.IN1
-AY => inst24.IN1
-AY => inst25.IN1
-AY => inst14.IN1
-AY => inst18.IN1
-AY => inst28.IN1
-Y6 <= inst47.DB_MAX_OUTPUT_PORT_TYPE
-B6 => inst15.IN0
-A6 => inst13.IN0
-Y5 <= inst48.DB_MAX_OUTPUT_PORT_TYPE
-B5 => inst21.IN0
-A5 => inst16.IN0
-Y4 <= inst49.DB_MAX_OUTPUT_PORT_TYPE
-B4 => inst23.IN0
-A4 => inst24.IN0
-Y3 <= inst50.DB_MAX_OUTPUT_PORT_TYPE
-B3 => inst2.IN0
-A3 => inst25.IN0
-Y2 <= inst51.DB_MAX_OUTPUT_PORT_TYPE
-B2 => inst17.IN0
-A2 => inst14.IN0
-Y1 <= inst52.DB_MAX_OUTPUT_PORT_TYPE
-B1 => inst27.IN0
-A1 => inst18.IN0
-Y0 <= inst53.DB_MAX_OUTPUT_PORT_TYPE
-B0 => inst26.IN0
-A0 => inst28.IN0
 
 
 |ALU-16_for_Test|IR-16:inst2

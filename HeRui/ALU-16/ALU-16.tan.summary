@@ -5,27 +5,27 @@ Timing Analyzer Summary
 Type           : Worst-case tsu
 Slack          : N/A
 Required Time  : None
-Actual Time    : 1.738 ns
-From           : D14
-To             : IR-16:inst2|IR-8:inst|inst3
+Actual Time    : 1.205 ns
+From           : D10
+To             : IR-16:inst1|IR-8:inst|inst7
 From Clock     : --
-To Clock       : CP
+To Clock       : B
 Failed Paths   : 0
 
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 23.517 ns
-From           : IR-16:inst2|IR-8:inst1|inst7
+Actual Time    : 25.877 ns
+From           : IR-16:inst1|IR-8:inst1|inst5
 To             : F15
-From Clock     : A
+From Clock     : CP
 To Clock       : --
 Failed Paths   : 0
 
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 22.670 ns
+Actual Time    : 25.361 ns
 From           : S1
 To             : F15
 From Clock     : --
@@ -35,11 +35,11 @@ Failed Paths   : 0
 Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : 0.004 ns
-From           : D1
-To             : IR-16:inst2|IR-8:inst1|inst4
+Actual Time    : 0.601 ns
+From           : D3
+To             : IR-16:inst2|IR-8:inst1|inst5
 From Clock     : --
-To Clock       : A
+To Clock       : CP
 Failed Paths   : 0
 
 Type           : Total number of failed paths

@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Thu Apr 01 21:31:57 2021
+Analysis & Synthesis Status : Successful - Thu Apr 01 22:07:30 2021
 Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
 Revision Name : ALU-16
 Top-level Entity Name : ALU-16_for_Test
 Family : Cyclone II
-Total logic elements : 72
-    Total combinational functions : 72
-    Dedicated logic registers : 16
-Total registers : 16
+Total logic elements : 85
+    Total combinational functions : 85
+    Dedicated logic registers : 32
+Total registers : 32
 Total pins : 44
 Total virtual pins : 0
 Total memory bits : 0

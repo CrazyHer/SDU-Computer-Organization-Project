@@ -142,9 +142,6 @@ db|ALU-16.(6).cnf
 BLOCK_DESIGN_NAMING
 AUTO
 }
-# hierarchies {
-selector:inst3
-}
 # macro_sequence
 
 # end
@@ -156,7 +153,7 @@ db|ALU-16.(3).cnf
 # case_insensitive
 # source_file
 ALU-16_for_Test.bdf
-6e4177f4e991e5523b87b261343e63
+b7e968cf0b56648b0d23e96c3c31
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
