@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ALU-16
-Thu Apr 01 22:07:30 2021
+Thu Apr 01 22:16:22 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -39,7 +39,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                 ;
 +------------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Apr 01 22:07:30 2021   ;
+; Analysis & Synthesis Status        ; Successful - Thu Apr 01 22:16:22 2021   ;
 ; Quartus II Version                 ; 8.1 Build 163 10/28/2008 SJ Web Edition ;
 ; Revision Name                      ; ALU-16                                  ;
 ; Top-level Entity Name              ; ALU-16_for_Test                         ;
@@ -132,18 +132,18 @@ applicable agreement for further details.
 +----------------------------------------------------------------+--------------------+--------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                           ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                           ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------------------+
-; ALU-16_for_Test.bdf              ; yes             ; User Block Diagram/Schematic File  ; E:/Project/计组实验/sdu-computer-organization-project/HeRui/ALU-16/ALU-16_for_Test.bdf ;
-; ALU-16.bdf                       ; yes             ; User Block Diagram/Schematic File  ; E:/Project/计组实验/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.bdf          ;
-; ../IR-16/IR-16.bdf               ; yes             ; User Block Diagram/Schematic File  ; E:/Project/计组实验/sdu-computer-organization-project/HeRui/IR-16/IR-16.bdf            ;
-; ../IR-16/IR-8.bdf                ; yes             ; User Block Diagram/Schematic File  ; E:/Project/计组实验/sdu-computer-organization-project/HeRui/IR-16/IR-8.bdf             ;
-; 74182.bdf                        ; yes             ; Megafunction                       ; d:/altera/81/quartus/libraries/others/maxplus2/74182.bdf                               ;
-; 74181.bdf                        ; yes             ; Megafunction                       ; d:/altera/81/quartus/libraries/others/maxplus2/74181.bdf                               ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                          ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                          ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+
+; ALU-16_for_Test.bdf              ; yes             ; User Block Diagram/Schematic File  ; F:/sdu-computer-organization-project/HeRui/ALU-16/ALU-16_for_Test.bdf ;
+; ALU-16.bdf                       ; yes             ; User Block Diagram/Schematic File  ; F:/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.bdf          ;
+; ../IR-16/IR-16.bdf               ; yes             ; User Block Diagram/Schematic File  ; F:/sdu-computer-organization-project/HeRui/IR-16/IR-16.bdf            ;
+; ../IR-16/IR-8.bdf                ; yes             ; User Block Diagram/Schematic File  ; F:/sdu-computer-organization-project/HeRui/IR-16/IR-8.bdf             ;
+; 74182.bdf                        ; yes             ; Megafunction                       ; c:/altera/81/quartus/libraries/others/maxplus2/74182.bdf              ;
+; 74181.bdf                        ; yes             ; Megafunction                       ; c:/altera/81/quartus/libraries/others/maxplus2/74181.bdf              ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -218,7 +218,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Thu Apr 01 22:07:29 2021
+    Info: Processing started: Thu Apr 01 22:16:17 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ALU-16 -c ALU-16
 Info: Found 1 design units, including 1 entities, in source file ALU-16_for_Test.bdf
     Info: Found entity 1: ALU-16_for_Test
@@ -245,9 +245,9 @@ Info: Implemented 161 device resources after synthesis - the final resource coun
     Info: Implemented 19 output pins
     Info: Implemented 117 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 230 megabytes
-    Info: Processing ended: Thu Apr 01 22:07:30 2021
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 193 megabytes
+    Info: Processing ended: Thu Apr 01 22:16:23 2021
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:02
 
 

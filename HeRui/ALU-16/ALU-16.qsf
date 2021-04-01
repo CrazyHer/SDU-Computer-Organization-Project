@@ -90,3 +90,4 @@ set_location_assignment PIN_165 -to F15
 set_location_assignment PIN_34 -to C15
 set_location_assignment PIN_35 -to GN
 set_location_assignment PIN_37 -to PN
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"

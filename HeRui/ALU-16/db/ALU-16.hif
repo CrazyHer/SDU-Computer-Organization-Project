@@ -42,49 +42,6 @@ ALU-16:inst
 
 # end
 # entity
-74182
-# storage
-db|ALU-16.(1).cnf
-db|ALU-16.(1).cnf
-# case_insensitive
-# source_file
-d:|altera|81|quartus|libraries|others|maxplus2|74182.bdf
-7e848f93ad7899d68043667228e561f6
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-ALU-16:inst|74182:inst1
-}
-# macro_sequence
-
-# end
-# entity
-74181
-# storage
-db|ALU-16.(2).cnf
-db|ALU-16.(2).cnf
-# case_insensitive
-# source_file
-d:|altera|81|quartus|libraries|others|maxplus2|74181.bdf
-5a7a42864d75db2f39a1f2da31e3e53
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-ALU-16:inst|74181:inst3
-ALU-16:inst|74181:inst4
-ALU-16:inst|74181:inst2
-ALU-16:inst|74181:inst
-}
-# macro_sequence
-
-# end
-# entity
 IR-16
 # storage
 db|ALU-16.(4).cnf
@@ -161,6 +118,49 @@ AUTO
 }
 # hierarchies {
 |
+}
+# macro_sequence
+
+# end
+# entity
+74182
+# storage
+db|ALU-16.(1).cnf
+db|ALU-16.(1).cnf
+# case_insensitive
+# source_file
+c:|altera|81|quartus|libraries|others|maxplus2|74182.bdf
+7e848f93ad7899d68043667228e561f6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU-16:inst|74182:inst1
+}
+# macro_sequence
+
+# end
+# entity
+74181
+# storage
+db|ALU-16.(2).cnf
+db|ALU-16.(2).cnf
+# case_insensitive
+# source_file
+c:|altera|81|quartus|libraries|others|maxplus2|74181.bdf
+5a7a42864d75db2f39a1f2da31e3e53
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU-16:inst|74181:inst3
+ALU-16:inst|74181:inst4
+ALU-16:inst|74181:inst2
+ALU-16:inst|74181:inst
 }
 # macro_sequence
 
