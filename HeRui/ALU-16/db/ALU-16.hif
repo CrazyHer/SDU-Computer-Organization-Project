@@ -1,0 +1,169 @@
+Version 8.1 Build 163 10/28/2008 SJ Web Edition
+11
+945
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+ALU-16
+# storage
+db|ALU-16.(0).cnf
+db|ALU-16.(0).cnf
+# case_insensitive
+# source_file
+ALU-16.bdf
+423a272ea3a38474695ad625fc7cad1d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU-16:inst
+}
+# macro_sequence
+
+# end
+# entity
+IR-16
+# storage
+db|ALU-16.(4).cnf
+db|ALU-16.(4).cnf
+# case_insensitive
+# source_file
+..|IR-16|IR-16.bdf
+749c6486b6edf9e36ae1627ccc8a7ee
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+IR-16:inst1
+IR-16:inst2
+}
+# macro_sequence
+
+# end
+# entity
+IR-8
+# storage
+db|ALU-16.(5).cnf
+db|ALU-16.(5).cnf
+# case_insensitive
+# source_file
+..|IR-16|IR-8.bdf
+c6abeb56dfbd6f9fd32ee24828eedca8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+IR-16:inst1|IR-8:inst
+IR-16:inst1|IR-8:inst1
+IR-16:inst2|IR-8:inst
+IR-16:inst2|IR-8:inst1
+}
+# macro_sequence
+
+# end
+# entity
+selector
+# storage
+db|ALU-16.(6).cnf
+db|ALU-16.(6).cnf
+# case_insensitive
+# source_file
+..|..|GaoYue|selector|selector.bdf
+1e6f47dfce83127353b7c1179b17c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+ALU-16_for_Test
+# storage
+db|ALU-16.(3).cnf
+db|ALU-16.(3).cnf
+# case_insensitive
+# source_file
+ALU-16_for_Test.bdf
+b7e968cf0b56648b0d23e96c3c31
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+74182
+# storage
+db|ALU-16.(1).cnf
+db|ALU-16.(1).cnf
+# case_insensitive
+# source_file
+c:|altera|81|quartus|libraries|others|maxplus2|74182.bdf
+7e848f93ad7899d68043667228e561f6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU-16:inst|74182:inst1
+}
+# macro_sequence
+
+# end
+# entity
+74181
+# storage
+db|ALU-16.(2).cnf
+db|ALU-16.(2).cnf
+# case_insensitive
+# source_file
+c:|altera|81|quartus|libraries|others|maxplus2|74181.bdf
+5a7a42864d75db2f39a1f2da31e3e53
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU-16:inst|74181:inst3
+ALU-16:inst|74181:inst4
+ALU-16:inst|74181:inst2
+ALU-16:inst|74181:inst
+}
+# macro_sequence
+
+# end
+# complete
+
