@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ALU-16
-Thu Apr 01 22:16:22 2021
+Wed Apr 21 17:41:39 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -39,16 +39,16 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                 ;
 +------------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Apr 01 22:16:22 2021   ;
+; Analysis & Synthesis Status        ; Successful - Wed Apr 21 17:41:39 2021   ;
 ; Quartus II Version                 ; 8.1 Build 163 10/28/2008 SJ Web Edition ;
 ; Revision Name                      ; ALU-16                                  ;
-; Top-level Entity Name              ; ALU-16_for_Test                         ;
+; Top-level Entity Name              ; ALU-8                                   ;
 ; Family                             ; Cyclone II                              ;
-; Total logic elements               ; 85                                      ;
-;     Total combinational functions  ; 85                                      ;
-;     Dedicated logic registers      ; 32                                      ;
-; Total registers                    ; 32                                      ;
-; Total pins                         ; 44                                      ;
+; Total logic elements               ; 36                                      ;
+;     Total combinational functions  ; 36                                      ;
+;     Dedicated logic registers      ; 0                                       ;
+; Total registers                    ; 0                                       ;
+; Total pins                         ; 32                                      ;
 ; Total virtual pins                 ; 0                                       ;
 ; Total memory bits                  ; 0                                       ;
 ; Embedded Multiplier 9-bit elements ; 0                                       ;
@@ -61,8 +61,8 @@ applicable agreement for further details.
 +----------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                         ; Setting            ; Default Value      ;
 +----------------------------------------------------------------+--------------------+--------------------+
-; Device                                                         ; EP2C8Q208C8        ;                    ;
-; Top-level entity name                                          ; ALU-16_for_Test    ; ALU-16             ;
+; Device                                                         ; EP2C8Q208C7        ;                    ;
+; Top-level entity name                                          ; ALU-8              ; ALU-16             ;
 ; Family name                                                    ; Cyclone II         ; Stratix II         ;
 ; Use Generated Physical Constraints File                        ; Off                ;                    ;
 ; Use smart compilation                                          ; Off                ; Off                ;
@@ -132,18 +132,15 @@ applicable agreement for further details.
 +----------------------------------------------------------------+--------------------+--------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                          ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                          ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+
-; ALU-16_for_Test.bdf              ; yes             ; User Block Diagram/Schematic File  ; F:/sdu-computer-organization-project/HeRui/ALU-16/ALU-16_for_Test.bdf ;
-; ALU-16.bdf                       ; yes             ; User Block Diagram/Schematic File  ; F:/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.bdf          ;
-; ../IR-16/IR-16.bdf               ; yes             ; User Block Diagram/Schematic File  ; F:/sdu-computer-organization-project/HeRui/IR-16/IR-16.bdf            ;
-; ../IR-16/IR-8.bdf                ; yes             ; User Block Diagram/Schematic File  ; F:/sdu-computer-organization-project/HeRui/IR-16/IR-8.bdf             ;
-; 74182.bdf                        ; yes             ; Megafunction                       ; c:/altera/81/quartus/libraries/others/maxplus2/74182.bdf              ;
-; 74181.bdf                        ; yes             ; Megafunction                       ; c:/altera/81/quartus/libraries/others/maxplus2/74181.bdf              ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                 ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                 ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------+
+; ALU-8.bdf                        ; yes             ; User Block Diagram/Schematic File  ; E:/Project/¼Æ×é¿ÎÉè/sdu-computer-organization-project/HeRui/ALU-16/ALU-8.bdf ;
+; 74181.bdf                        ; yes             ; Megafunction                       ; d:/altera/81/quartus/libraries/others/maxplus2/74181.bdf                     ;
+; 74182.bdf                        ; yes             ; Megafunction                       ; d:/altera/81/quartus/libraries/others/maxplus2/74182.bdf                     ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -151,49 +148,40 @@ applicable agreement for further details.
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Estimated Total logic elements              ; 85    ;
+; Estimated Total logic elements              ; 36    ;
 ;                                             ;       ;
-; Total combinational functions               ; 85    ;
+; Total combinational functions               ; 36    ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 67    ;
-;     -- 3 input functions                    ; 15    ;
-;     -- <=2 input functions                  ; 3     ;
+;     -- 4 input functions                    ; 30    ;
+;     -- 3 input functions                    ; 5     ;
+;     -- <=2 input functions                  ; 1     ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 85    ;
+;     -- normal mode                          ; 36    ;
 ;     -- arithmetic mode                      ; 0     ;
 ;                                             ;       ;
-; Total registers                             ; 32    ;
-;     -- Dedicated logic registers            ; 32    ;
+; Total registers                             ; 0     ;
+;     -- Dedicated logic registers            ; 0     ;
 ;     -- I/O registers                        ; 0     ;
 ;                                             ;       ;
-; I/O pins                                    ; 44    ;
-; Maximum fan-out node                        ; inst3 ;
-; Maximum fan-out                             ; 16    ;
-; Total fan-out                               ; 402   ;
-; Average fan-out                             ; 2.50  ;
+; I/O pins                                    ; 32    ;
+; Maximum fan-out node                        ; M     ;
+; Maximum fan-out                             ; 8     ;
+; Total fan-out                               ; 146   ;
+; Average fan-out                             ; 2.15  ;
 +---------------------------------------------+-------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                              ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                      ; Library Name ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------+--------------+
-; |ALU-16_for_Test           ; 85 (2)            ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 44   ; 0            ; |ALU-16_for_Test                         ; work         ;
-;    |ALU-16:inst|           ; 83 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU-16_for_Test|ALU-16:inst             ; work         ;
-;       |74181:inst2|        ; 19 (19)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU-16_for_Test|ALU-16:inst|74181:inst2 ; work         ;
-;       |74181:inst3|        ; 19 (19)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU-16_for_Test|ALU-16:inst|74181:inst3 ; work         ;
-;       |74181:inst4|        ; 20 (20)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU-16_for_Test|ALU-16:inst|74181:inst4 ; work         ;
-;       |74181:inst|         ; 17 (17)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU-16_for_Test|ALU-16:inst|74181:inst  ; work         ;
-;       |74182:inst1|        ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU-16_for_Test|ALU-16:inst|74182:inst1 ; work         ;
-;    |IR-16:inst1|           ; 0 (0)             ; 16 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU-16_for_Test|IR-16:inst1             ; work         ;
-;       |IR-8:inst1|         ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU-16_for_Test|IR-16:inst1|IR-8:inst1  ; work         ;
-;       |IR-8:inst|          ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU-16_for_Test|IR-16:inst1|IR-8:inst   ; work         ;
-;    |IR-16:inst2|           ; 0 (0)             ; 16 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU-16_for_Test|IR-16:inst2             ; work         ;
-;       |IR-8:inst1|         ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU-16_for_Test|IR-16:inst2|IR-8:inst1  ; work         ;
-;       |IR-8:inst|          ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU-16_for_Test|IR-16:inst2|IR-8:inst   ; work         ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
+; |ALU-8                     ; 36 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 32   ; 0            ; |ALU-8              ; work         ;
+;    |74181:inst2|           ; 16 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU-8|74181:inst2  ; work         ;
+;    |74181:inst|            ; 15 (15)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU-8|74181:inst   ; work         ;
+;    |74182:inst1|           ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ALU-8|74182:inst1  ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -202,7 +190,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 32    ;
+; Total registers                              ; 0     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -218,36 +206,35 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Thu Apr 01 22:16:17 2021
+    Info: Processing started: Wed Apr 21 17:41:38 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ALU-16 -c ALU-16
-Info: Found 1 design units, including 1 entities, in source file ALU-16_for_Test.bdf
-    Info: Found entity 1: ALU-16_for_Test
+Info: Found 1 design units, including 1 entities, in source file ALU-8.bdf
+    Info: Found entity 1: ALU-8
 Info: Found 1 design units, including 1 entities, in source file ALU-16.bdf
     Info: Found entity 1: ALU-16
 Info: Found 1 design units, including 1 entities, in source file ../IR-16/IR-16.bdf
     Info: Found entity 1: IR-16
 Info: Found 1 design units, including 1 entities, in source file ../IR-16/IR-8.bdf
     Info: Found entity 1: IR-8
-Info: Found 1 design units, including 1 entities, in source file ../../GaoYue/selector/selector.bdf
-    Info: Found entity 1: selector
-Info: Elaborating entity "ALU-16_for_Test" for the top level hierarchy
-Info: Elaborating entity "ALU-16" for hierarchy "ALU-16:inst"
-Info: Elaborating entity "74182" for hierarchy "ALU-16:inst|74182:inst1"
-Info: Elaborated megafunction instantiation "ALU-16:inst|74182:inst1"
-Info: Elaborating entity "74181" for hierarchy "ALU-16:inst|74181:inst3"
-Info: Elaborated megafunction instantiation "ALU-16:inst|74181:inst3"
-Info: Elaborating entity "IR-16" for hierarchy "IR-16:inst1"
-Info: Elaborating entity "IR-8" for hierarchy "IR-16:inst1|IR-8:inst"
-Info: Ignored 60 buffer(s)
-    Info: Ignored 60 SOFT buffer(s)
-Info: Implemented 161 device resources after synthesis - the final resource count might be different
-    Info: Implemented 25 input pins
-    Info: Implemented 19 output pins
-    Info: Implemented 117 logic cells
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 193 megabytes
-    Info: Processing ended: Thu Apr 01 22:16:23 2021
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:02
+Info: Found 1 design units, including 1 entities, in source file ALU-16_for_Test.bdf
+    Info: Found entity 1: ALU-16_for_Test
+Info: Elaborating entity "ALU-8" for the top level hierarchy
+Info: Elaborating entity "74181" for hierarchy "74181:inst"
+Info: Elaborated megafunction instantiation "74181:inst"
+Info: Elaborating entity "74182" for hierarchy "74182:inst1"
+Info: Elaborated megafunction instantiation "74182:inst1"
+Info: Ignored 30 buffer(s)
+    Info: Ignored 30 SOFT buffer(s)
+Warning: Output pins are stuck at VCC or GND
+    Warning (13410): Pin "GN" is stuck at GND
+Info: Implemented 68 device resources after synthesis - the final resource count might be different
+    Info: Implemented 22 input pins
+    Info: Implemented 10 output pins
+    Info: Implemented 36 logic cells
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 230 megabytes
+    Info: Processing ended: Wed Apr 21 17:41:39 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
 
 

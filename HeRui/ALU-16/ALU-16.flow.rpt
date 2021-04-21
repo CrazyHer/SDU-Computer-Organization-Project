@@ -1,5 +1,5 @@
 Flow report for ALU-16
-Thu Apr 01 22:16:42 2021
+Wed Apr 21 17:41:43 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -38,19 +38,19 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +------------------------------------+-----------------------------------------+
-; Flow Status                        ; Successful - Thu Apr 01 22:16:42 2021   ;
+; Flow Status                        ; Successful - Wed Apr 21 17:41:43 2021   ;
 ; Quartus II Version                 ; 8.1 Build 163 10/28/2008 SJ Web Edition ;
 ; Revision Name                      ; ALU-16                                  ;
-; Top-level Entity Name              ; ALU-16_for_Test                         ;
+; Top-level Entity Name              ; ALU-8                                   ;
 ; Family                             ; Cyclone II                              ;
-; Device                             ; EP2C8Q208C8                             ;
+; Device                             ; EP2C8Q208C7                             ;
 ; Timing Models                      ; Final                                   ;
 ; Met timing requirements            ; Yes                                     ;
-; Total logic elements               ; 85 / 8,256 ( 1 % )                      ;
-;     Total combinational functions  ; 85 / 8,256 ( 1 % )                      ;
-;     Dedicated logic registers      ; 32 / 8,256 ( < 1 % )                    ;
-; Total registers                    ; 32                                      ;
-; Total pins                         ; 44 / 138 ( 32 % )                       ;
+; Total logic elements               ; 36 / 8,256 ( < 1 % )                    ;
+;     Total combinational functions  ; 36 / 8,256 ( < 1 % )                    ;
+;     Dedicated logic registers      ; 0 / 8,256 ( 0 % )                       ;
+; Total registers                    ; 0                                       ;
+; Total pins                         ; 32 / 138 ( 23 % )                       ;
 ; Total virtual pins                 ; 0                                       ;
 ; Total memory bits                  ; 0 / 165,888 ( 0 % )                     ;
 ; Embedded Multiplier 9-bit elements ; 0 / 36 ( 0 % )                          ;
@@ -63,26 +63,27 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/01/2021 22:16:18 ;
+; Start date & time ; 04/21/2021 17:41:38 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ALU-16              ;
 +-------------------+---------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                                                      ;
-+------------------------------------+-------------------------------------------------------------------------------+---------------+-----------------+----------------+
-; Assignment Name                    ; Value                                                                         ; Default Value ; Entity Name     ; Section Id     ;
-+------------------------------------+-------------------------------------------------------------------------------+---------------+-----------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 109952948873397.161728657805344                                               ; --            ; --              ; --             ;
-; MAX_CORE_JUNCTION_TEMP             ; 85                                                                            ; --            ; --              ; --             ;
-; MIN_CORE_JUNCTION_TEMP             ; 0                                                                             ; --            ; --              ; --             ;
-; MISC_FILE                          ; E:/Project/计组实验/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.dpf ; --            ; --              ; --             ;
-; PARTITION_COLOR                    ; 16764057                                                                      ; --            ; ALU-16_for_Test ; Top            ;
-; PARTITION_NETLIST_TYPE             ; SOURCE                                                                        ; --            ; ALU-16_for_Test ; Top            ;
-; TOP_LEVEL_ENTITY                   ; ALU-16_for_Test                                                               ; ALU-16        ; --              ; --             ;
-; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                                                           ; --            ; --              ; eda_blast_fpga ;
-+------------------------------------+-------------------------------------------------------------------------------+---------------+-----------------+----------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                  ;
++------------------------------------+-------------------------------------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                                                                         ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+-------------------------------------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 141812763934858.161899809814740                                               ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                                                                            ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                                                                             ; --            ; --          ; --             ;
+; MISC_FILE                          ; E:/Project/计组实验/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.dpf ; --            ; --          ; --             ;
+; MISC_FILE                          ; E:/Project/计组课设/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.dpf ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                                                                      ; --            ; ALU-8       ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                                                        ; --            ; ALU-8       ; Top            ;
+; TOP_LEVEL_ENTITY                   ; ALU-8                                                                         ; ALU-16        ; --          ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                                                           ; --            ; --          ; eda_blast_fpga ;
++------------------------------------+-------------------------------------------------------------------------------+---------------+-------------+----------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------+
@@ -90,11 +91,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:04     ; 1.0                     ; 190 MB              ; 00:00:02                           ;
-; Fitter                  ; 00:00:03     ; 1.0                     ; 210 MB              ; 00:00:02                           ;
-; Assembler               ; 00:00:01     ; 1.0                     ; 189 MB              ; 00:00:01                           ;
-; Classic Timing Analyzer ; 00:00:02     ; 1.0                     ; 149 MB              ; 00:00:01                           ;
-; Total                   ; 00:00:10     ; --                      ; --                  ; 00:00:06                           ;
+; Analysis & Synthesis    ; 00:00:01     ; 1.0                     ; 227 MB              ; 00:00:01                           ;
+; Fitter                  ; 00:00:01     ; 1.0                     ; 260 MB              ; 00:00:01                           ;
+; Assembler               ; 00:00:00     ; 1.0                     ; 225 MB              ; 00:00:01                           ;
+; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 182 MB              ; 00:00:00                           ;
+; Total                   ; 00:00:02     ; --                      ; --                  ; 00:00:03                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -103,10 +104,10 @@ applicable agreement for further details.
 +-------------------------+------------------+---------------+------------+----------------+
 ; Module Name             ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
 +-------------------------+------------------+---------------+------------+----------------+
-; Analysis & Synthesis    ; stu403-6         ; Windows Vista ; 6.1        ; i686           ;
-; Fitter                  ; stu403-6         ; Windows Vista ; 6.1        ; i686           ;
-; Assembler               ; stu403-6         ; Windows Vista ; 6.1        ; i686           ;
-; Classic Timing Analyzer ; stu403-6         ; Windows Vista ; 6.1        ; i686           ;
+; Analysis & Synthesis    ; 何锐的神船       ; Windows Vista ; 6.2        ; x86_64         ;
+; Fitter                  ; 何锐的神船       ; Windows Vista ; 6.2        ; x86_64         ;
+; Assembler               ; 何锐的神船       ; Windows Vista ; 6.2        ; x86_64         ;
+; Classic Timing Analyzer ; 何锐的神船       ; Windows Vista ; 6.2        ; x86_64         ;
 +-------------------------+------------------+---------------+------------+----------------+
 
 

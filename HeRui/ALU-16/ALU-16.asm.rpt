@@ -1,5 +1,5 @@
 Assembler report for ALU-16
-Thu Apr 01 22:16:38 2021
+Wed Apr 21 17:41:42 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: F:/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.sof
-  6. Assembler Device Options: F:/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.pof
+  5. Assembler Device Options: E:/Project/计组课设/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.sof
+  6. Assembler Device Options: E:/Project/计组课设/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.pof
   7. Assembler Messages
 
 
@@ -38,11 +38,11 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Apr 01 22:16:38 2021 ;
+; Assembler Status      ; Successful - Wed Apr 21 17:41:42 2021 ;
 ; Revision Name         ; ALU-16                                ;
-; Top-level Entity Name ; ALU-16_for_Test                       ;
+; Top-level Entity Name ; ALU-8                                 ;
 ; Family                ; Cyclone II                            ;
-; Device                ; EP2C8Q208C8                           ;
+; Device                ; EP2C8Q208C7                           ;
 +-----------------------+---------------------------------------+
 
 
@@ -76,37 +76,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+--------------------------------------------------------------+
-; Assembler Generated Files                                    ;
-+--------------------------------------------------------------+
-; File Name                                                    ;
-+--------------------------------------------------------------+
-; F:/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.sof ;
-; F:/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.pof ;
-+--------------------------------------------------------------+
++-------------------------------------------------------------------------------+
+; Assembler Generated Files                                                     ;
++-------------------------------------------------------------------------------+
+; File Name                                                                     ;
++-------------------------------------------------------------------------------+
+; E:/Project/计组课设/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.sof ;
+; E:/Project/计组课设/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.pof ;
++-------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Assembler Device Options: F:/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.sof ;
-+----------------+-----------------------------------------------------------------------+
-; Option         ; Setting                                                               ;
-+----------------+-----------------------------------------------------------------------+
-; Device         ; EP2C8Q208C8                                                           ;
-; JTAG usercode  ; 0xFFFFFFFF                                                            ;
-; Checksum       ; 0x000D2936                                                            ;
-+----------------+-----------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: E:/Project/计组课设/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.sof ;
++----------------+----------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                ;
++----------------+----------------------------------------------------------------------------------------+
+; Device         ; EP2C8Q208C7                                                                            ;
+; JTAG usercode  ; 0xFFFFFFFF                                                                             ;
+; Checksum       ; 0x000C6F8E                                                                             ;
++----------------+----------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Assembler Device Options: F:/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.pof ;
-+--------------------+-------------------------------------------------------------------+
-; Option             ; Setting                                                           ;
-+--------------------+-------------------------------------------------------------------+
-; Device             ; EPCS4                                                             ;
-; JTAG usercode      ; 0x00000000                                                        ;
-; Checksum           ; 0x06EF1386                                                        ;
-; Compression Ratio  ; 3                                                                 ;
-+--------------------+-------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: E:/Project/计组课设/sdu-computer-organization-project/HeRui/ALU-16/ALU-16.pof ;
++--------------------+------------------------------------------------------------------------------------+
+; Option             ; Setting                                                                            ;
++--------------------+------------------------------------------------------------------------------------+
+; Device             ; EPCS4                                                                              ;
+; JTAG usercode      ; 0x00000000                                                                         ;
+; Checksum           ; 0x06EF6617                                                                         ;
+; Compression Ratio  ; 3                                                                                  ;
++--------------------+------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -115,14 +115,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Thu Apr 01 22:16:37 2021
+    Info: Processing started: Wed Apr 21 17:41:42 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off ALU-16 -c ALU-16
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 189 megabytes
-    Info: Processing ended: Thu Apr 01 22:16:39 2021
-    Info: Elapsed time: 00:00:02
+    Info: Peak virtual memory: 225 megabytes
+    Info: Processing ended: Wed Apr 21 17:41:42 2021
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:01
 
 
