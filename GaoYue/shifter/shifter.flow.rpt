@@ -1,5 +1,5 @@
 Flow report for shifter
-Thu Apr 15 19:28:32 2021
+Wed Apr 21 22:06:51 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -35,28 +35,27 @@ applicable agreement for further details.
 
 
 
-+-------------------------------------------------------------------------+
-; Flow Summary                                                            ;
-+-------------------------------+-----------------------------------------+
-; Flow Status                   ; Successful - Thu Apr 15 19:28:32 2021   ;
-; Quartus II Version            ; 8.1 Build 163 10/28/2008 SJ Web Edition ;
-; Revision Name                 ; shifter                                 ;
-; Top-level Entity Name         ; shifter                                 ;
-; Family                        ; Stratix II                              ;
-; Met timing requirements       ; Yes                                     ;
-; Logic utilization             ; < 1 %                                   ;
-;     Combinational ALUTs       ; 4 / 12,480 ( < 1 % )                    ;
-;     Dedicated logic registers ; 0 / 12,480 ( 0 % )                      ;
-; Total registers               ; 0                                       ;
-; Total pins                    ; 11 / 343 ( 3 % )                        ;
-; Total virtual pins            ; 0                                       ;
-; Total block memory bits       ; 0 / 419,328 ( 0 % )                     ;
-; DSP block 9-bit elements      ; 0 / 96 ( 0 % )                          ;
-; Total PLLs                    ; 0 / 6 ( 0 % )                           ;
-; Total DLLs                    ; 0 / 2 ( 0 % )                           ;
-; Device                        ; EP2S15F484C3                            ;
-; Timing Models                 ; Final                                   ;
-+-------------------------------+-----------------------------------------+
++------------------------------------------------------------------------------+
+; Flow Summary                                                                 ;
++------------------------------------+-----------------------------------------+
+; Flow Status                        ; Successful - Wed Apr 21 22:06:51 2021   ;
+; Quartus II Version                 ; 8.1 Build 163 10/28/2008 SJ Web Edition ;
+; Revision Name                      ; shifter                                 ;
+; Top-level Entity Name              ; shifter                                 ;
+; Family                             ; Cyclone II                              ;
+; Device                             ; EP2C8Q208C7                             ;
+; Timing Models                      ; Final                                   ;
+; Met timing requirements            ; Yes                                     ;
+; Total logic elements               ; 8 / 8,256 ( < 1 % )                     ;
+;     Total combinational functions  ; 8 / 8,256 ( < 1 % )                     ;
+;     Dedicated logic registers      ; 0 / 8,256 ( 0 % )                       ;
+; Total registers                    ; 0                                       ;
+; Total pins                         ; 12 / 138 ( 9 % )                        ;
+; Total virtual pins                 ; 0                                       ;
+; Total memory bits                  ; 0 / 165,888 ( 0 % )                     ;
+; Embedded Multiplier 9-bit elements ; 0 / 36 ( 0 % )                          ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                           ;
++------------------------------------+-----------------------------------------+
 
 
 +-----------------------------------------+
@@ -64,7 +63,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/15/2021 19:28:21 ;
+; Start date & time ; 04/21/2021 22:06:44 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; shifter             ;
 +-------------------+---------------------+
@@ -75,7 +74,9 @@ applicable agreement for further details.
 +------------------------------------+-------------------------------+---------------+-------------+----------------+
 ; Assignment Name                    ; Value                         ; Default Value ; Entity Name ; Section Id     ;
 +------------------------------------+-------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 5025750199659.161848610110956 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID              ; 5025750199659.161901400400172 ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                            ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                             ; --            ; --          ; --             ;
 ; PARTITION_COLOR                    ; 16764057                      ; --            ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE             ; SOURCE                        ; --            ; --          ; Top            ;
 ; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                           ; --            ; --          ; eda_blast_fpga ;
@@ -87,11 +88,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:01     ; 1.0                     ; 220 MB              ; 00:00:01                           ;
-; Fitter                  ; 00:00:05     ; 1.0                     ; 288 MB              ; 00:00:04                           ;
-; Assembler               ; 00:00:02     ; 1.0                     ; 249 MB              ; 00:00:03                           ;
-; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 179 MB              ; 00:00:00                           ;
-; Total                   ; 00:00:09     ; --                      ; --                  ; 00:00:08                           ;
+; Analysis & Synthesis    ; 00:00:01     ; 1.0                     ; 244 MB              ; 00:00:01                           ;
+; Fitter                  ; 00:00:02     ; 1.0                     ; 279 MB              ; 00:00:02                           ;
+; Assembler               ; 00:00:01     ; 1.0                     ; 244 MB              ; 00:00:01                           ;
+; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 199 MB              ; 00:00:00                           ;
+; Total                   ; 00:00:04     ; --                      ; --                  ; 00:00:04                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

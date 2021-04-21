@@ -1,5 +1,5 @@
 Assembler report for shifter
-Thu Apr 15 19:28:30 2021
+Wed Apr 21 22:06:50 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -38,11 +38,11 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Apr 15 19:28:30 2021 ;
+; Assembler Status      ; Successful - Wed Apr 21 22:06:50 2021 ;
 ; Revision Name         ; shifter                               ;
 ; Top-level Entity Name ; shifter                               ;
-; Family                ; Stratix II                            ;
-; Device                ; EP2S15F484C3                          ;
+; Family                ; Cyclone II                            ;
+; Device                ; EP2C8Q208C7                           ;
 +-----------------------+---------------------------------------+
 
 
@@ -68,8 +68,7 @@ applicable agreement for further details.
 ; Hexadecimal Output File count direction                                     ; Up       ; Up            ;
 ; Release clears before tri-states                                            ; Off      ; Off           ;
 ; Auto-restart configuration after error                                      ; On       ; On            ;
-; Maintain Compatibility with All Stratix II MRAM Versions                    ; Off      ; Off           ;
-; Use Checkered Pattern as Uninitialized RAM Content                          ; Off      ; Off           ;
+; Maintain Compatibility with All Cyclone II M4K Versions                     ; On       ; On            ;
 ; Generate Serial Vector Format File (.svf) for Target Device                 ; Off      ; Off           ;
 ; Generate a JEDEC STAPL Format File (.jam) for Target Device                 ; Off      ; Off           ;
 ; Generate a compressed Jam STAPL Byte Code 2.0 File (.jbc) for Target Device ; Off      ; Off           ;
@@ -92,9 +91,9 @@ applicable agreement for further details.
 +----------------+------------------------------------------------------------------------------------------------------------+
 ; Option         ; Setting                                                                                                    ;
 +----------------+------------------------------------------------------------------------------------------------------------+
-; Device         ; EP2S15F484C3                                                                                               ;
+; Device         ; EP2C8Q208C7                                                                                                ;
 ; JTAG usercode  ; 0xFFFFFFFF                                                                                                 ;
-; Checksum       ; 0x00278162                                                                                                 ;
+; Checksum       ; 0x000C5CE0                                                                                                 ;
 +----------------+------------------------------------------------------------------------------------------------------------+
 
 
@@ -103,9 +102,9 @@ applicable agreement for further details.
 +--------------------+--------------------------------------------------------------------------------------------------------+
 ; Option             ; Setting                                                                                                ;
 +--------------------+--------------------------------------------------------------------------------------------------------+
-; Device             ; EPC16                                                                                                  ;
-; JTAG usercode      ; 0xFFFFFFFF                                                                                             ;
-; Checksum           ; 0x1EF5CBFC                                                                                             ;
+; Device             ; EPCS4                                                                                                  ;
+; JTAG usercode      ; 0x00000000                                                                                             ;
+; Checksum           ; 0x06F0F523                                                                                             ;
 ; Compression Ratio  ; 3                                                                                                      ;
 +--------------------+--------------------------------------------------------------------------------------------------------+
 
@@ -116,14 +115,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Thu Apr 15 19:28:28 2021
+    Info: Processing started: Wed Apr 21 22:06:49 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off shifter -c shifter
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 249 megabytes
-    Info: Processing ended: Thu Apr 15 19:28:30 2021
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 244 megabytes
+    Info: Processing ended: Wed Apr 21 22:06:50 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
 
 
