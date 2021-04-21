@@ -1,5 +1,5 @@
 Assembler report for THREE-STATE-GATE
-Tue Apr 13 21:33:25 2021
+Thu Apr 22 00:03:57 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -38,9 +38,9 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Apr 13 21:33:25 2021 ;
+; Assembler Status      ; Successful - Thu Apr 22 00:03:57 2021 ;
 ; Revision Name         ; THREE-STATE-GATE                      ;
-; Top-level Entity Name ; THREE-STATE-GATE                      ;
+; Top-level Entity Name ; THREE-STATE-DOUBLE-GATE               ;
 ; Family                ; Cyclone II                            ;
 ; Device                ; EP2C8Q208C7                           ;
 +-----------------------+---------------------------------------+
@@ -93,7 +93,7 @@ applicable agreement for further details.
 +----------------+------------------------------------------------------------------------------------------------------------+
 ; Device         ; EP2C8Q208C7                                                                                                ;
 ; JTAG usercode  ; 0xFFFFFFFF                                                                                                 ;
-; Checksum       ; 0x000C6212                                                                                                 ;
+; Checksum       ; 0x000C14D4                                                                                                 ;
 +----------------+------------------------------------------------------------------------------------------------------------+
 
 
@@ -104,7 +104,7 @@ applicable agreement for further details.
 +--------------------+--------------------------------------------------------------------------------------------------------+
 ; Device             ; EPCS4                                                                                                  ;
 ; JTAG usercode      ; 0x00000000                                                                                             ;
-; Checksum           ; 0x06F0D2C1                                                                                             ;
+; Checksum           ; 0x06F02DD6                                                                                             ;
 ; Compression Ratio  ; 3                                                                                                      ;
 +--------------------+--------------------------------------------------------------------------------------------------------+
 
@@ -115,13 +115,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Tue Apr 13 21:33:24 2021
+    Info: Processing started: Thu Apr 22 00:03:57 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off THREE-STATE-GATE -c THREE-STATE-GATE
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 225 megabytes
-    Info: Processing ended: Tue Apr 13 21:33:25 2021
+    Info: Peak virtual memory: 226 megabytes
+    Info: Processing ended: Thu Apr 22 00:03:58 2021
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
