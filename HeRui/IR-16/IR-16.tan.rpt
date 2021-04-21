@@ -1,5 +1,5 @@
 Classic Timing Analyzer report for IR-16
-Thu Mar 18 19:56:20 2021
+Thu Apr 08 20:44:26 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -167,7 +167,7 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Classic Timing Analyzer
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Thu Mar 18 19:56:20 2021
+    Info: Processing started: Thu Apr 08 20:44:26 2021
 Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off IR-16 -c IR-16 --timing_analysis_only
 Warning: Found pins functioning as undefined clocks and/or memory enables
     Info: Assuming node "CP" is an undefined clock
@@ -212,8 +212,8 @@ Info: th for register "IR-8:inst1|inst2" (data pin = "D4", clock pin = "CP") is 
         Info: Total cell delay = 1.306 ns ( 19.97 % )
         Info: Total interconnect delay = 5.233 ns ( 80.03 % )
 Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 192 megabytes
-    Info: Processing ended: Thu Mar 18 19:56:20 2021
+    Info: Peak virtual memory: 193 megabytes
+    Info: Processing ended: Thu Apr 08 20:44:26 2021
     Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 

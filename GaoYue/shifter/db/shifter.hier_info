@@ -1,0 +1,29 @@
+|shifter
+pin_name <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+pin_name23 => inst1.IN0
+pin_name23 => inst5.IN0
+pin_name20 => inst1.IN1
+pin_name20 => inst4.IN1
+pin_name20 => inst7.IN1
+pin_name20 => inst10.IN1
+pin_name21 => inst2.IN1
+pin_name21 => inst5.IN1
+pin_name21 => inst8.IN1
+pin_name21 => inst11.IN1
+pin_name24 => inst.IN0
+pin_name24 => inst4.IN0
+pin_name24 => inst8.IN0
+pin_name19 => inst.IN1
+pin_name19 => inst3.IN1
+pin_name19 => inst6.IN1
+pin_name19 => inst9.IN1
+pin_name16 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+pin_name25 => inst3.IN0
+pin_name25 => inst7.IN0
+pin_name25 => inst11.IN0
+pin_name17 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+pin_name22 => inst6.IN0
+pin_name22 => inst10.IN0
+pin_name18 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+
+

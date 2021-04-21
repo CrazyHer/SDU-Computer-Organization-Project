@@ -37,6 +37,22 @@ Q0 <= IR-8:inst1.Q0
 
 |IR-16|IR-8:inst
 Q7 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+RE => inst1.ACLR
+RE => inst1.PRESET
+RE => inst3.ACLR
+RE => inst3.PRESET
+RE => inst.ACLR
+RE => inst.PRESET
+RE => inst2.ACLR
+RE => inst2.PRESET
+RE => inst5.ACLR
+RE => inst5.PRESET
+RE => inst7.ACLR
+RE => inst7.PRESET
+RE => inst4.ACLR
+RE => inst4.PRESET
+RE => inst6.ACLR
+RE => inst6.PRESET
 CP => inst1.CLK
 CP => inst3.CLK
 CP => inst.CLK
@@ -64,6 +80,22 @@ D0 => inst6.DATAIN
 
 |IR-16|IR-8:inst1
 Q7 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+RE => inst1.ACLR
+RE => inst1.PRESET
+RE => inst3.ACLR
+RE => inst3.PRESET
+RE => inst.ACLR
+RE => inst.PRESET
+RE => inst2.ACLR
+RE => inst2.PRESET
+RE => inst5.ACLR
+RE => inst5.PRESET
+RE => inst7.ACLR
+RE => inst7.PRESET
+RE => inst4.ACLR
+RE => inst4.PRESET
+RE => inst6.ACLR
+RE => inst6.PRESET
 CP => inst1.CLK
 CP => inst3.CLK
 CP => inst.CLK

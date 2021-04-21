@@ -1,0 +1,147 @@
+Version 8.1 Build 163 10/28/2008 SJ Web Edition
+11
+942
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+selector
+# storage
+db|FANGCUN-SYSTEM.(1).cnf
+db|FANGCUN-SYSTEM.(1).cnf
+# case_insensitive
+# source_file
+..|..|GaoYue|selector|selector.bdf
+1e6f47dfce83127353b7c1179b17c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+selector:inst
+}
+# macro_sequence
+
+# end
+# entity
+counter
+# storage
+db|FANGCUN-SYSTEM.(2).cnf
+db|FANGCUN-SYSTEM.(2).cnf
+# case_insensitive
+# source_file
+..|..|GaoYue|counter|counter.bdf
+2596d216f4cfd585cc3ba4d8c59b61e9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+counter:PC
+counter:uPC
+}
+# macro_sequence
+
+# end
+# entity
+START-CP
+# storage
+db|FANGCUN-SYSTEM.(3).cnf
+db|FANGCUN-SYSTEM.(3).cnf
+# case_insensitive
+# source_file
+..|START-CP|START-CP.bdf
+4fa156c01c6239115464ed493a88ef4
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+START-CP:inst7
+}
+# macro_sequence
+
+# end
+# entity
+IR-8
+# storage
+db|FANGCUN-SYSTEM.(4).cnf
+db|FANGCUN-SYSTEM.(4).cnf
+# case_insensitive
+# source_file
+..|IR-16|IR-8.bdf
+2a4b6499a0341aa32075242cc649e7
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+IR-8:MAR
+IR-8:MDR
+}
+# macro_sequence
+
+# end
+# entity
+THREE-STATE-GATE
+# storage
+db|FANGCUN-SYSTEM.(5).cnf
+db|FANGCUN-SYSTEM.(5).cnf
+# case_insensitive
+# source_file
+..|THREE-STATE-GATE|THREE-STATE-GATE.bdf
+fbc61a487d86cd511431c2e794965d5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+THREE-STATE-GATE:inst8
+}
+# macro_sequence
+
+# end
+# entity
+FANGCUN-SYSTEM
+# storage
+db|FANGCUN-SYSTEM.(0).cnf
+db|FANGCUN-SYSTEM.(0).cnf
+# case_insensitive
+# source_file
+FANGCUN-SYSTEM.bdf
+10b88e42e03d3b6313184bbbe4f56353
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

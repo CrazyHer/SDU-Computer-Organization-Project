@@ -1,0 +1,150 @@
+Version 8.1 Build 163 10/28/2008 SJ Web Edition
+11
+942
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+counter
+# storage
+db|microprogramming-ALU.(1).cnf
+db|microprogramming-ALU.(1).cnf
+# case_insensitive
+# source_file
+..|counter|counter.bdf
+2596d216f4cfd585cc3ba4d8c59b61e9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+counter:inst4
+}
+# macro_sequence
+
+# end
+# entity
+ALU-16
+# storage
+db|microprogramming-ALU.(2).cnf
+db|microprogramming-ALU.(2).cnf
+# case_insensitive
+# source_file
+..|..|HeRui|ALU-16|ALU-16.bdf
+423a272ea3a38474695ad625fc7cad1d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU-16:inst
+}
+# macro_sequence
+
+# end
+# entity
+IR-8
+# storage
+db|microprogramming-ALU.(5).cnf
+db|microprogramming-ALU.(5).cnf
+# case_insensitive
+# source_file
+..|..|HeRui|IR-16|IR-8.bdf
+2a4b6499a0341aa32075242cc649e7
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+IR-8:inst3
+IR-8:inst1
+IR-8:inst2
+}
+# macro_sequence
+
+# end
+# entity
+74182
+# storage
+db|microprogramming-ALU.(3).cnf
+db|microprogramming-ALU.(3).cnf
+# case_insensitive
+# source_file
+..|..|..|..|qu|quartus|libraries|others|maxplus2|74182.bdf
+7e848f93ad7899d68043667228e561f6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU-16:inst|74182:inst1
+}
+# macro_sequence
+
+# end
+# entity
+74181
+# storage
+db|microprogramming-ALU.(4).cnf
+db|microprogramming-ALU.(4).cnf
+# case_insensitive
+# source_file
+..|..|..|..|qu|quartus|libraries|others|maxplus2|74181.bdf
+5a7a42864d75db2f39a1f2da31e3e53
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU-16:inst|74181:inst3
+ALU-16:inst|74181:inst4
+ALU-16:inst|74181:inst2
+ALU-16:inst|74181:inst
+}
+# macro_sequence
+
+# end
+# entity
+microprogramming-ALU
+# storage
+db|microprogramming-ALU.(0).cnf
+db|microprogramming-ALU.(0).cnf
+# case_insensitive
+# source_file
+microprogramming-ALU.bdf
+cc65ed6fb2e58485bffbb3744fd8d878
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

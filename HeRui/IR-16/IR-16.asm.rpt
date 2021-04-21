@@ -1,5 +1,5 @@
 Assembler report for IR-16
-Thu Mar 18 19:56:18 2021
+Thu Apr 08 20:44:25 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: H:/计组课设/HeRui/IR-16/IR-16.sof
-  6. Assembler Device Options: H:/计组课设/HeRui/IR-16/IR-16.pof
+  5. Assembler Device Options: D:/计组课设/HeRui/IR-16/IR-16.sof
+  6. Assembler Device Options: D:/计组课设/HeRui/IR-16/IR-16.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Mar 18 19:56:18 2021 ;
+; Assembler Status      ; Successful - Thu Apr 08 20:44:25 2021 ;
 ; Revision Name         ; IR-16                                 ;
 ; Top-level Entity Name ; IR-16                                 ;
 ; Family                ; Cyclone II                            ;
@@ -81,13 +81,13 @@ applicable agreement for further details.
 +-----------------------------------+
 ; File Name                         ;
 +-----------------------------------+
-; H:/计组课设/HeRui/IR-16/IR-16.sof ;
-; H:/计组课设/HeRui/IR-16/IR-16.pof ;
+; D:/计组课设/HeRui/IR-16/IR-16.sof ;
+; D:/计组课设/HeRui/IR-16/IR-16.pof ;
 +-----------------------------------+
 
 
 +-------------------------------------------------------------+
-; Assembler Device Options: H:/计组课设/HeRui/IR-16/IR-16.sof ;
+; Assembler Device Options: D:/计组课设/HeRui/IR-16/IR-16.sof ;
 +----------------+--------------------------------------------+
 ; Option         ; Setting                                    ;
 +----------------+--------------------------------------------+
@@ -98,7 +98,7 @@ applicable agreement for further details.
 
 
 +-------------------------------------------------------------+
-; Assembler Device Options: H:/计组课设/HeRui/IR-16/IR-16.pof ;
+; Assembler Device Options: D:/计组课设/HeRui/IR-16/IR-16.pof ;
 +--------------------+----------------------------------------+
 ; Option             ; Setting                                ;
 +--------------------+----------------------------------------+
@@ -115,13 +115,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Thu Mar 18 19:56:18 2021
+    Info: Processing started: Thu Apr 08 20:44:24 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off IR-16 -c IR-16
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 223 megabytes
-    Info: Processing ended: Thu Mar 18 19:56:19 2021
+    Info: Processing ended: Thu Apr 08 20:44:25 2021
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

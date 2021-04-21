@@ -1,0 +1,28 @@
+|counter
+q0 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst3.ACLR
+CLR => inst8.ACLR
+CLR => inst9.ACLR
+CLR => inst10.ACLR
+CLR => inst11.ACLR
+CLR => inst12.ACLR
+CLR => inst13.ACLR
+CLR => inst14.ACLR
+CLK => inst3.CLK
+PRN => inst3.PRESET
+PRN => inst8.PRESET
+PRN => inst9.PRESET
+PRN => inst10.PRESET
+PRN => inst11.PRESET
+PRN => inst12.PRESET
+PRN => inst13.PRESET
+PRN => inst14.PRESET
+q1 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+q3 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+q4 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+q5 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+q6 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+q7 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+

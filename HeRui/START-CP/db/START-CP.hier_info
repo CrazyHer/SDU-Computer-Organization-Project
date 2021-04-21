@@ -1,0 +1,9 @@
+|START-CP
+OUT_CP <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+HALT => inst.IN0
+CONTINUOUS_PULSE => inst4.IN1
+CLR => inst6.ACLR
+CLR => inst6.PRESET
+START_CP => inst6.CLK
+
+

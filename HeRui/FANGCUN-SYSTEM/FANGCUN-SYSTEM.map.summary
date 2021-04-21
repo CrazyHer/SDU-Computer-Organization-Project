@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Apr 15 21:54:10 2021
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
+Revision Name : FANGCUN-SYSTEM
+Top-level Entity Name : FANGCUN-SYSTEM
+Family : Cyclone II
+Total logic elements : 41
+    Total combinational functions : 28
+    Dedicated logic registers : 41
+Total registers : 41
+Total pins : 46
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
