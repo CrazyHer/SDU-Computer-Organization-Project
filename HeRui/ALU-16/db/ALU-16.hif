@@ -39,26 +39,6 @@ AUTO
 
 # end
 # entity
-ALU-8
-# storage
-db|ALU-16.(1).cnf
-db|ALU-16.(1).cnf
-# case_insensitive
-# source_file
-ALU-8.bdf
-db55175e48bb02ece7e7ace28cefeb0
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-|
-}
-# macro_sequence
-
-# end
-# entity
 74181
 # storage
 db|ALU-16.(2).cnf
@@ -95,6 +75,26 @@ AUTO
 }
 # hierarchies {
 74182:inst1
+}
+# macro_sequence
+
+# end
+# entity
+ALU-8
+# storage
+db|ALU-16.(1).cnf
+db|ALU-16.(1).cnf
+# case_insensitive
+# source_file
+ALU-8.bdf
+f1ec5a2f6d6ab96d451938df64f3b55
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
 }
 # macro_sequence
 

@@ -35,6 +35,23 @@ counter.bdf
 BLOCK_DESIGN_NAMING
 AUTO
 }
+# macro_sequence
+
+# end
+# entity
+couter-with-pr
+# storage
+db|counter.(1).cnf
+db|counter.(1).cnf
+# case_insensitive
+# source_file
+couter-with-pr.bdf
+65d9cfa9c2967d727b350cf9a2c8753
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
 # hierarchies {
 |
 }

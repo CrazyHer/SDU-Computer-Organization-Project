@@ -37,6 +37,7 @@ F6N <= 74181:inst2.F2N
 F7N <= 74181:inst2.F3N
 PN <= 74182:inst1.PN
 GN <= 74182:inst1.GN
+CN8 <= 74182:inst1.CY
 
 
 |ALU-8|74181:inst
