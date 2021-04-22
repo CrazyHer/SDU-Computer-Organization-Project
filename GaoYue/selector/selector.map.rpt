@@ -1,5 +1,5 @@
 Analysis & Synthesis report for selector
-Thu Mar 18 20:30:19 2021
+Thu Apr 22 21:38:09 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -39,16 +39,16 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                 ;
 +------------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Mar 18 20:30:19 2021   ;
+; Analysis & Synthesis Status        ; Successful - Thu Apr 22 21:38:09 2021   ;
 ; Quartus II Version                 ; 8.1 Build 163 10/28/2008 SJ Web Edition ;
 ; Revision Name                      ; selector                                ;
-; Top-level Entity Name              ; selector                                ;
+; Top-level Entity Name              ; selector-4                              ;
 ; Family                             ; Cyclone II                              ;
-; Total logic elements               ; 8                                       ;
-;     Total combinational functions  ; 8                                       ;
+; Total logic elements               ; 24                                      ;
+;     Total combinational functions  ; 24                                      ;
 ;     Dedicated logic registers      ; 0                                       ;
 ; Total registers                    ; 0                                       ;
-; Total pins                         ; 26                                      ;
+; Total pins                         ; 44                                      ;
 ; Total virtual pins                 ; 0                                       ;
 ; Total memory bits                  ; 0                                       ;
 ; Embedded Multiplier 9-bit elements ; 0                                       ;
@@ -62,7 +62,7 @@ applicable agreement for further details.
 ; Option                                                         ; Setting            ; Default Value      ;
 +----------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                         ; EP2C8Q208C8        ;                    ;
-; Top-level entity name                                          ; selector           ; selector           ;
+; Top-level entity name                                          ; selector-4         ; selector           ;
 ; Family name                                                    ; Cyclone II         ; Stratix II         ;
 ; Use Generated Physical Constraints File                        ; Off                ;                    ;
 ; Use smart compilation                                          ; Off                ; Off                ;
@@ -132,13 +132,13 @@ applicable agreement for further details.
 +----------------------------------------------------------------+--------------------+--------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                            ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                      ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------+
-; selector.bdf                     ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/dell/Desktop/hr-gy/¼Æ×é¿ÎÉè/GaoYue/selector/selector.bdf ;
-+----------------------------------+-----------------+------------------------------------------+-------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                 ;
++----------------------------------+-----------------+------------------------------------+------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path ;
++----------------------------------+-----------------+------------------------------------+------------------------------+
+; selector-4.bdf                   ; yes             ; User Block Diagram/Schematic File  ; F:/selector/selector-4.bdf   ;
++----------------------------------+-----------------+------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------+
@@ -146,27 +146,27 @@ applicable agreement for further details.
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Estimated Total logic elements              ; 8     ;
+; Estimated Total logic elements              ; 24    ;
 ;                                             ;       ;
-; Total combinational functions               ; 8     ;
+; Total combinational functions               ; 24    ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 8     ;
+;     -- 4 input functions                    ; 16    ;
 ;     -- 3 input functions                    ; 0     ;
-;     -- <=2 input functions                  ; 0     ;
+;     -- <=2 input functions                  ; 8     ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 8     ;
+;     -- normal mode                          ; 24    ;
 ;     -- arithmetic mode                      ; 0     ;
 ;                                             ;       ;
 ; Total registers                             ; 0     ;
 ;     -- Dedicated logic registers            ; 0     ;
 ;     -- I/O registers                        ; 0     ;
 ;                                             ;       ;
-; I/O pins                                    ; 26    ;
-; Maximum fan-out node                        ; AY    ;
+; I/O pins                                    ; 44    ;
+; Maximum fan-out node                        ; BY    ;
 ; Maximum fan-out                             ; 8     ;
-; Total fan-out                               ; 40    ;
-; Average fan-out                             ; 1.18  ;
+; Total fan-out                               ; 88    ;
+; Average fan-out                             ; 1.29  ;
 +---------------------------------------------+-------+
 
 
@@ -175,7 +175,7 @@ applicable agreement for further details.
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |selector                  ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 26   ; 0            ; |selector           ; work         ;
+; |selector-4                ; 24 (24)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 44   ; 0            ; |selector-4         ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -201,19 +201,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Thu Mar 18 20:30:18 2021
+    Info: Processing started: Thu Apr 22 21:38:03 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off selector -c selector
-Warning: Using design file selector.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info: Found entity 1: selector
-Info: Elaborating entity "selector" for the top level hierarchy
-Info: Implemented 34 device resources after synthesis - the final resource count might be different
-    Info: Implemented 18 input pins
+Info: Found 1 design units, including 1 entities, in source file selector-4.bdf
+    Info: Found entity 1: selector-4
+Info: Elaborating entity "selector-4" for the top level hierarchy
+Info: Implemented 68 device resources after synthesis - the final resource count might be different
+    Info: Implemented 36 input pins
     Info: Implemented 8 output pins
-    Info: Implemented 8 logic cells
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 189 megabytes
-    Info: Processing ended: Thu Mar 18 20:30:19 2021
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Implemented 24 logic cells
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 193 megabytes
+    Info: Processing ended: Thu Apr 22 21:38:10 2021
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:02
 
 

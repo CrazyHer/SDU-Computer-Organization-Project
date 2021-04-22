@@ -35,6 +35,23 @@ selector.bdf
 BLOCK_DESIGN_NAMING
 AUTO
 }
+# macro_sequence
+
+# end
+# entity
+selector-4
+# storage
+db|selector.(1).cnf
+db|selector.(1).cnf
+# case_insensitive
+# source_file
+selector-4.bdf
+aecea17a492b679b5f1ec8d37732c77
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
 # hierarchies {
 |
 }

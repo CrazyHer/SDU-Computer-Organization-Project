@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP2C8Q208) Path("C:/Users/dell/Desktop/hr-gy/¼Æ×é¿ÎÉè/GaoYue/selector/") File("selector.sof") MfrSpec(OpMask(1));
+		Device PartName(EP2C8Q208) Path("F:/selector/") File("selector.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
