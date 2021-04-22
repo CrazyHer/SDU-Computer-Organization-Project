@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ALU-16
-Wed Apr 21 21:32:42 2021
+Thu Apr 22 19:45:55 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -39,7 +39,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                 ;
 +------------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Apr 21 21:32:42 2021   ;
+; Analysis & Synthesis Status        ; Successful - Thu Apr 22 19:45:55 2021   ;
 ; Quartus II Version                 ; 8.1 Build 163 10/28/2008 SJ Web Edition ;
 ; Revision Name                      ; ALU-16                                  ;
 ; Top-level Entity Name              ; ALU-8                                   ;
@@ -206,7 +206,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Wed Apr 21 21:32:41 2021
+    Info: Processing started: Thu Apr 22 19:45:53 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ALU-16 -c ALU-16
 Info: Found 1 design units, including 1 entities, in source file ALU-8.bdf
     Info: Found entity 1: ALU-8
@@ -233,8 +233,8 @@ Info: Implemented 74 device resources after synthesis - the final resource count
     Info: Implemented 41 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 2 warnings
     Info: Peak virtual memory: 230 megabytes
-    Info: Processing ended: Wed Apr 21 21:32:42 2021
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Thu Apr 22 19:45:55 2021
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 
