@@ -1,0 +1,552 @@
+Version 8.1 Build 163 10/28/2008 SJ Web Edition
+11
+942
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+IR-8
+# storage
+db|ModelMachine.(2).cnf
+db|ModelMachine.(2).cnf
+# case_insensitive
+# source_file
+..|HeRui|IR-16|IR-8.bdf
+2a4b6499a0341aa32075242cc649e7
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+IR-8:IR
+IR-8:PSW
+IR-8:Y
+IR-8:MAR
+IR-8:MDR
+IR-8:R0
+IR-8:R1
+IR-8:R2
+IR-8:R3
+IR-8:Z
+ZHENLIE-CHENGFAQI:inst84|IR-16:inst2|IR-8:inst2
+ZHENLIE-CHENGFAQI:inst84|IR-16:inst2|IR-8:inst3
+}
+# macro_sequence
+
+# end
+# entity
+THREE-STATE-DOUBLE-GATE
+# storage
+db|ModelMachine.(3).cnf
+db|ModelMachine.(3).cnf
+# case_insensitive
+# source_file
+..|HeRui|THREE-STATE-GATE|THREE-STATE-DOUBLE-GATE.bdf
+acb218a3ca2249762e7b23e1aca16c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+THREE-STATE-DOUBLE-GATE:inst3
+THREE-STATE-DOUBLE-GATE:inst2
+}
+# macro_sequence
+
+# end
+# entity
+selector-4
+# storage
+db|ModelMachine.(4).cnf
+db|ModelMachine.(4).cnf
+# case_insensitive
+# source_file
+..|GaoYue|selector|selector-4.bdf
+aecea17a492b679b5f1ec8d37732c77
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+selector-4:inst4
+}
+# macro_sequence
+
+# end
+# entity
+ALU-8
+# storage
+db|ModelMachine.(6).cnf
+db|ModelMachine.(6).cnf
+# case_insensitive
+# source_file
+..|HeRui|ALU-16|ALU-8.bdf
+f1ec5a2f6d6ab96d451938df64f3b55
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU-8:ALU
+}
+# macro_sequence
+
+# end
+# entity
+THREE-STATE-GATE
+# storage
+db|ModelMachine.(9).cnf
+db|ModelMachine.(9).cnf
+# case_insensitive
+# source_file
+..|HeRui|THREE-STATE-GATE|THREE-STATE-GATE.bdf
+fbc61a487d86cd511431c2e794965d5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+THREE-STATE-ONE-GATE
+# storage
+db|ModelMachine.(11).cnf
+db|ModelMachine.(11).cnf
+# case_insensitive
+# source_file
+..|HeRui|THREE-STATE-GATE|THREE-STATE-ONE-GATE.bdf
+f6b31a6988ed68f4dd5c441be3c69e8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+THREE-STATE-ONE-GATE:inst5
+THREE-STATE-ONE-GATE:inst30
+THREE-STATE-ONE-GATE:inst70
+THREE-STATE-ONE-GATE:inst73
+}
+# macro_sequence
+
+# end
+# entity
+selector
+# storage
+db|ModelMachine.(12).cnf
+db|ModelMachine.(12).cnf
+# case_insensitive
+# source_file
+..|GaoYue|selector|selector.bdf
+1e6f47dfce83127353b7c1179b17c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+selector:inst55
+selector:inst28
+selector:inst67
+}
+# macro_sequence
+
+# end
+# entity
+selector-2bit
+# storage
+db|ModelMachine.(13).cnf
+db|ModelMachine.(13).cnf
+# case_insensitive
+# source_file
+..|GaoYue|selector|selector-2bit.bdf
+5620c111ddc015f245e3cc1ebb80dece
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+selector-2bit:inst17
+}
+# macro_sequence
+
+# end
+# entity
+count2
+# storage
+db|ModelMachine.(14).cnf
+db|ModelMachine.(14).cnf
+# case_insensitive
+# source_file
+..|GaoYue|pre_counter|count8|count2.bdf
+56519fac4cc8e6de72796fc1ebad9c0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+count8:uPC|count2:inst
+count8:uPC|count2:inst1
+count8:uPC|count2:inst3
+count8:uPC|count2:inst2
+count8:pc|count2:inst
+count8:pc|count2:inst1
+count8:pc|count2:inst3
+count8:pc|count2:inst2
+}
+# macro_sequence
+
+# end
+# entity
+select2-1
+# storage
+db|ModelMachine.(15).cnf
+db|ModelMachine.(15).cnf
+# case_insensitive
+# source_file
+..|GaoYue|pre_counter|count8|select2-1.bdf
+e5dd33c2226c932f38f97c29e958820
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+count8:uPC|count2:inst|select2-1:inst2
+count8:uPC|count2:inst|select2-1:inst4
+count8:uPC|count2:inst|select2-1:inst3
+count8:uPC|count2:inst1|select2-1:inst2
+count8:uPC|count2:inst1|select2-1:inst4
+count8:uPC|count2:inst1|select2-1:inst3
+count8:uPC|count2:inst3|select2-1:inst2
+count8:uPC|count2:inst3|select2-1:inst4
+count8:uPC|count2:inst3|select2-1:inst3
+count8:uPC|count2:inst2|select2-1:inst2
+count8:uPC|count2:inst2|select2-1:inst4
+count8:uPC|count2:inst2|select2-1:inst3
+count8:pc|count2:inst|select2-1:inst2
+count8:pc|count2:inst|select2-1:inst4
+count8:pc|count2:inst|select2-1:inst3
+count8:pc|count2:inst1|select2-1:inst2
+count8:pc|count2:inst1|select2-1:inst4
+count8:pc|count2:inst1|select2-1:inst3
+count8:pc|count2:inst3|select2-1:inst2
+count8:pc|count2:inst3|select2-1:inst4
+count8:pc|count2:inst3|select2-1:inst3
+count8:pc|count2:inst2|select2-1:inst2
+count8:pc|count2:inst2|select2-1:inst4
+count8:pc|count2:inst2|select2-1:inst3
+}
+# macro_sequence
+
+# end
+# entity
+count8
+# storage
+db|ModelMachine.(1).cnf
+db|ModelMachine.(1).cnf
+# case_insensitive
+# source_file
+..|GaoYue|pre_counter|count8|count8.bdf
+1eb3b767ddd6ce2f9c48655f7aa85bc6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+count8:uPC
+count8:pc
+}
+# macro_sequence
+
+# end
+# entity
+START-CP
+# storage
+db|ModelMachine.(10).cnf
+db|ModelMachine.(10).cnf
+# case_insensitive
+# source_file
+..|HeRui|START-CP|START-CP.bdf
+3d4be3e34ef5d5ba12e95a1dff12d6f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+START-CP:inst20
+}
+# macro_sequence
+
+# end
+# entity
+74138
+# storage
+db|ModelMachine.(5).cnf
+db|ModelMachine.(5).cnf
+# case_insensitive
+# source_file
+..|..|..|..|..|altera|81|quartus|libraries|others|maxplus2|74138.bdf
+6cadbea2e3f85766eb8e4e262292077
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74138:CP_CHOOSER
+74138:uPC_CHOOSER
+74138:inst75
+74138:inst
+74138:inst6
+}
+# macro_sequence
+
+# end
+# entity
+74181
+# storage
+db|ModelMachine.(7).cnf
+db|ModelMachine.(7).cnf
+# case_insensitive
+# source_file
+..|..|..|..|..|altera|81|quartus|libraries|others|maxplus2|74181.bdf
+5a7a42864d75db2f39a1f2da31e3e53
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU-8:ALU|74181:inst
+ALU-8:ALU|74181:inst2
+}
+# macro_sequence
+
+# end
+# entity
+74182
+# storage
+db|ModelMachine.(8).cnf
+db|ModelMachine.(8).cnf
+# case_insensitive
+# source_file
+..|..|..|..|..|altera|81|quartus|libraries|others|maxplus2|74182.bdf
+7e848f93ad7899d68043667228e561f6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU-8:ALU|74182:inst1
+}
+# macro_sequence
+
+# end
+# entity
+74183
+# storage
+db|ModelMachine.(18).cnf
+db|ModelMachine.(18).cnf
+# case_insensitive
+# source_file
+..|..|..|..|..|altera|81|quartus|libraries|others|maxplus2|74183.bdf
+d0d7f3a6ee24851e43a72a4c132f187c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+ZHENLIE-CHENGFAQI-UNIT
+# storage
+db|ModelMachine.(19).cnf
+db|ModelMachine.(19).cnf
+# case_insensitive
+# source_file
+..|HeRui|ZHENLIE-CHENGFAQI|ZHENLIE-CHENGFAQI-UNIT.bdf
+7611296576c540776f99d8ae6a0c892
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst64
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst65
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst66
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst67
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst68
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst69
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst70
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst71
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst62
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst63
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst54
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst55
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst46
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst47
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst38
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst39
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst30
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst31
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst22
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst23
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst14
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst15
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst13
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst21
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst12
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst29
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst20
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst11
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst37
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst28
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst19
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst10
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst45
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst36
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst27
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst18
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst9
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst53
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst44
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst35
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst26
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst17
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst61
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst52
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst43
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst34
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst25
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst16
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst60
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst51
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst42
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst33
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst24
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst59
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst50
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst41
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst32
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst58
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst49
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst40
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst57
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst48
+ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst56
+}
+# macro_sequence
+
+# end
+# entity
+ZHENLIE-CHENGFAQI
+# storage
+db|ModelMachine.(16).cnf
+db|ModelMachine.(16).cnf
+# case_insensitive
+# source_file
+..|HeRui|ZHENLIE-CHENGFAQI|ZHENLIE-CHENGFAQI.bdf
+6847a12fb056c4b1814033b864a9e475
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ZHENLIE-CHENGFAQI:inst84
+}
+# macro_sequence
+
+# end
+# entity
+IR-16
+# storage
+db|ModelMachine.(17).cnf
+db|ModelMachine.(17).cnf
+# case_insensitive
+# source_file
+..|HeRui|IR-16|IR-16.bdf
+8767ae36814fc80bb2382435183fcf3
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ZHENLIE-CHENGFAQI:inst84|IR-16:inst2
+}
+# macro_sequence
+
+# end
+# entity
+NOR16
+# storage
+db|ModelMachine.(20).cnf
+db|ModelMachine.(20).cnf
+# case_insensitive
+# source_file
+..|..|..|..|..|altera|81|quartus|libraries|others|maxplus2|NOR16.bdf
+12eec9dff4d497dadea1817884c8df
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+ModelMachine
+# storage
+db|ModelMachine.(0).cnf
+db|ModelMachine.(0).cnf
+# case_insensitive
+# source_file
+ModelMachine.bdf
+ebcec7aadd923bcbeeb66234ab562b48
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

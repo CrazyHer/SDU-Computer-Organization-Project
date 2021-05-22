@@ -1,5 +1,5 @@
 Flow report for selector
-Thu Apr 22 21:38:28 2021
+Thu May 06 22:41:53 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +------------------------------------+-----------------------------------------+
-; Flow Status                        ; Successful - Thu Apr 22 21:38:28 2021   ;
+; Flow Status                        ; Successful - Thu May 06 22:41:53 2021   ;
 ; Quartus II Version                 ; 8.1 Build 163 10/28/2008 SJ Web Edition ;
 ; Revision Name                      ; selector                                ;
 ; Top-level Entity Name              ; selector-4                              ;
@@ -63,7 +63,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/22/2021 21:38:04 ;
+; Start date & time ; 05/06/2021 22:41:48 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; selector            ;
 +-------------------+---------------------+
@@ -74,11 +74,12 @@ applicable agreement for further details.
 +------------------------------------+-------------------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                    ; Value                                                             ; Default Value ; Entity Name ; Section Id     ;
 +------------------------------------+-------------------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 109952948961628.161909868301208                                   ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID              ; 154535781996721.162031210803424                                   ; --            ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP             ; 85                                                                ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP             ; 0                                                                 ; --            ; --          ; --             ;
 ; MISC_FILE                          ; C:/Users/dell/Desktop/hr-gy/¼Æ×é¿ÎÉè/GaoYue/selector/selector.dpf ; --            ; --          ; --             ;
 ; MISC_FILE                          ; D:/sdu-computer-organization-project/GaoYue/selector/selector.dpf ; --            ; --          ; --             ;
+; MISC_FILE                          ; F:/selector/selector.dpf                                          ; --            ; --          ; --             ;
 ; PARTITION_COLOR                    ; 16764057                                                          ; --            ; selector-4  ; Top            ;
 ; PARTITION_NETLIST_TYPE             ; SOURCE                                                            ; --            ; selector-4  ; Top            ;
 ; TOP_LEVEL_ENTITY                   ; selector-4                                                        ; selector      ; --          ; --             ;
@@ -91,11 +92,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:04     ; 1.0                     ; 190 MB              ; 00:00:01                           ;
-; Fitter                  ; 00:00:03     ; 1.0                     ; 210 MB              ; 00:00:02                           ;
-; Assembler               ; 00:00:06     ; 1.0                     ; 189 MB              ; 00:00:01                           ;
-; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 146 MB              ; 00:00:00                           ;
-; Total                   ; 00:00:14     ; --                      ; --                  ; 00:00:04                           ;
+; Analysis & Synthesis    ; 00:00:00     ; 1.0                     ; 243 MB              ; 00:00:00                           ;
+; Fitter                  ; 00:00:01     ; 1.0                     ; 277 MB              ; 00:00:01                           ;
+; Assembler               ; 00:00:01     ; 1.0                     ; 244 MB              ; 00:00:01                           ;
+; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 199 MB              ; 00:00:00                           ;
+; Total                   ; 00:00:03     ; --                      ; --                  ; 00:00:02                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -104,10 +105,10 @@ applicable agreement for further details.
 +-------------------------+------------------+---------------+------------+----------------+
 ; Module Name             ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
 +-------------------------+------------------+---------------+------------+----------------+
-; Analysis & Synthesis    ; stu403-43        ; Windows Vista ; 6.1        ; i686           ;
-; Fitter                  ; stu403-43        ; Windows Vista ; 6.1        ; i686           ;
-; Assembler               ; stu403-43        ; Windows Vista ; 6.1        ; i686           ;
-; Classic Timing Analyzer ; stu403-43        ; Windows Vista ; 6.1        ; i686           ;
+; Analysis & Synthesis    ; LAPTOP-195JJLPF  ; Windows Vista ; 6.2        ; x86_64         ;
+; Fitter                  ; LAPTOP-195JJLPF  ; Windows Vista ; 6.2        ; x86_64         ;
+; Assembler               ; LAPTOP-195JJLPF  ; Windows Vista ; 6.2        ; x86_64         ;
+; Classic Timing Analyzer ; LAPTOP-195JJLPF  ; Windows Vista ; 6.2        ; x86_64         ;
 +-------------------------+------------------+---------------+------------+----------------+
 
 

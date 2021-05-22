@@ -1,0 +1,206 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 14.258 ns
+From           : RAMD1
+To             : ZHENLIE-CHENGFAQI:inst84|IR-16:inst2|IR-8:inst2|inst2
+From Clock     : --
+To Clock       : CPMULTU
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 21.017 ns
+From           : IR-8:R3|inst
+To             : RAMD5
+From Clock     : START_CP
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 20.337 ns
+From           : EN_BUS_CHOOSE_B
+To             : RAMD5
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 4.200 ns
+From           : CP_CHOOSE_B
+To             : IR-8:R2|inst1
+From Clock     : --
+To Clock       : START_CP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'HALT'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 92.83 MHz ( period = 10.772 ns )
+From           : IR-8:Y|inst4
+To             : ZHENLIE-CHENGFAQI:inst84|IR-16:inst2|IR-8:inst2|inst2
+From Clock     : HALT
+To Clock       : HALT
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CONTINUOUS_PULSE'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 94.72 MHz ( period = 10.557 ns )
+From           : IR-8:Y|inst4
+To             : ZHENLIE-CHENGFAQI:inst84|IR-16:inst2|IR-8:inst2|inst2
+From Clock     : CONTINUOUS_PULSE
+To Clock       : CONTINUOUS_PULSE
+Failed Paths   : 0
+
+Type           : Clock Setup: 'START_CP'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 95.60 MHz ( period = 10.460 ns )
+From           : IR-8:Y|inst4
+To             : ZHENLIE-CHENGFAQI:inst84|IR-16:inst2|IR-8:inst2|inst2
+From Clock     : START_CP
+To Clock       : START_CP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'uPC_CHOOSE_C'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 302.02 MHz ( period = 3.311 ns )
+From           : count8:uPC|count2:inst3|inst1
+To             : count8:uPC|count2:inst|inst1
+From Clock     : uPC_CHOOSE_C
+To Clock       : uPC_CHOOSE_C
+Failed Paths   : 0
+
+Type           : Clock Setup: 'uPC_CHOOSE_A'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 307.41 MHz ( period = 3.253 ns )
+From           : count8:uPC|count2:inst3|inst1
+To             : count8:uPC|count2:inst|inst1
+From Clock     : uPC_CHOOSE_A
+To Clock       : uPC_CHOOSE_A
+Failed Paths   : 0
+
+Type           : Clock Setup: 'uPC_CHOOSE_B'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 307.41 MHz ( period = 3.253 ns )
+From           : count8:uPC|count2:inst3|inst1
+To             : count8:uPC|count2:inst|inst1
+From Clock     : uPC_CHOOSE_B
+To Clock       : uPC_CHOOSE_B
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CP_CHOOSE_A'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 405.02 MHz ( period = 2.469 ns )
+From           : count8:pc|count2:inst2|inst1
+To             : count8:pc|count2:inst|inst1
+From Clock     : CP_CHOOSE_A
+To Clock       : CP_CHOOSE_A
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CP_CHOOSE_B'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 405.02 MHz ( period = 2.469 ns )
+From           : count8:pc|count2:inst2|inst1
+To             : count8:pc|count2:inst|inst1
+From Clock     : CP_CHOOSE_B
+To Clock       : CP_CHOOSE_B
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CP_CHOOSE_C'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 405.02 MHz ( period = 2.469 ns )
+From           : count8:pc|count2:inst2|inst1
+To             : count8:pc|count2:inst|inst1
+From Clock     : CP_CHOOSE_C
+To Clock       : CP_CHOOSE_C
+Failed Paths   : 0
+
+Type           : Clock Hold: 'START_CP'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : IR-8:Y|inst3
+To             : ZHENLIE-CHENGFAQI:inst84|IR-16:inst2|IR-8:inst3|inst3
+From Clock     : START_CP
+To Clock       : START_CP
+Failed Paths   : 47
+
+Type           : Clock Hold: 'CONTINUOUS_PULSE'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : IR-8:Y|inst3
+To             : ZHENLIE-CHENGFAQI:inst84|IR-16:inst2|IR-8:inst3|inst3
+From Clock     : CONTINUOUS_PULSE
+To Clock       : CONTINUOUS_PULSE
+Failed Paths   : 49
+
+Type           : Clock Hold: 'HALT'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : IR-8:Y|inst3
+To             : ZHENLIE-CHENGFAQI:inst84|IR-16:inst2|IR-8:inst3|inst3
+From Clock     : HALT
+To Clock       : HALT
+Failed Paths   : 48
+
+Type           : Clock Hold: 'CP_CHOOSE_C'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : IR-8:Y|inst
+To             : IR-8:Z|inst
+From Clock     : CP_CHOOSE_C
+To Clock       : CP_CHOOSE_C
+Failed Paths   : 18
+
+Type           : Clock Hold: 'CP_CHOOSE_B'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : IR-8:Y|inst
+To             : IR-8:Z|inst
+From Clock     : CP_CHOOSE_B
+To Clock       : CP_CHOOSE_B
+Failed Paths   : 17
+
+Type           : Clock Hold: 'CP_CHOOSE_A'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : IR-8:Y|inst
+To             : IR-8:Z|inst
+From Clock     : CP_CHOOSE_A
+To Clock       : CP_CHOOSE_A
+Failed Paths   : 17
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 196
+
+--------------------------------------------------------------------------------------
+

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for counter
-Wed Apr 21 22:06:56 2021
+Thu May 13 21:04:18 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -39,7 +39,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                 ;
 +------------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Apr 21 22:06:56 2021   ;
+; Analysis & Synthesis Status        ; Successful - Thu May 13 21:04:18 2021   ;
 ; Quartus II Version                 ; 8.1 Build 163 10/28/2008 SJ Web Edition ;
 ; Revision Name                      ; counter                                 ;
 ; Top-level Entity Name              ; couter-with-pr                          ;
@@ -48,7 +48,7 @@ applicable agreement for further details.
 ;     Total combinational functions  ; 32                                      ;
 ;     Dedicated logic registers      ; 8                                       ;
 ; Total registers                    ; 8                                       ;
-; Total pins                         ; 18                                      ;
+; Total pins                         ; 19                                      ;
 ; Total virtual pins                 ; 0                                       ;
 ; Total memory bits                  ; 0                                       ;
 ; Embedded Multiplier 9-bit elements ; 0                                       ;
@@ -132,13 +132,13 @@ applicable agreement for further details.
 +----------------------------------------------------------------+--------------------+--------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                            ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                            ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------+
-; couter-with-pr.bdf               ; yes             ; User Block Diagram/Schematic File  ; E:/Project/¼Æ×é¿ÎÉè/sdu-computer-organization-project/GaoYue/counter/couter-with-pr.bdf ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                              ;
++----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                              ;
++----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------+
+; couter-with-pr.bdf               ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dell/Desktop/sdu-computer-organization-project/GaoYue/counter/couter-with-pr.bdf ;
++----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -162,11 +162,11 @@ applicable agreement for further details.
 ;     -- Dedicated logic registers            ; 8     ;
 ;     -- I/O registers                        ; 0     ;
 ;                                             ;       ;
-; I/O pins                                    ; 18    ;
+; I/O pins                                    ; 19    ;
 ; Maximum fan-out node                        ; CLR   ;
 ; Maximum fan-out                             ; 24    ;
 ; Total fan-out                               ; 120   ;
-; Average fan-out                             ; 2.07  ;
+; Average fan-out                             ; 2.03  ;
 +---------------------------------------------+-------+
 
 
@@ -175,7 +175,7 @@ applicable agreement for further details.
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |couter-with-pr            ; 32 (32)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 18   ; 0            ; |couter-with-pr     ; work         ;
+; |couter-with-pr            ; 32 (32)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 19   ; 0            ; |couter-with-pr     ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -201,13 +201,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Wed Apr 21 22:06:55 2021
+    Info: Processing started: Thu May 13 21:04:17 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off counter -c counter
 Info: Found 1 design units, including 1 entities, in source file counter.bdf
     Info: Found entity 1: counter
 Info: Found 1 design units, including 1 entities, in source file couter-with-pr.bdf
     Info: Found entity 1: couter-with-pr
 Info: Elaborating entity "couter-with-pr" for the top level hierarchy
+Warning: Tri-state node(s) do not directly drive top-level pin(s)
+    Warning: Converted tri-state buffer "inst2" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "inst25" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "inst26" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "inst27" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "inst28" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "inst29" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "inst30" feeding internal logic into a wire
+    Warning: Converted tri-state buffer "inst31" feeding internal logic into a wire
 Warning: Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
     Warning (13310): Register "inst3" is converted into an equivalent circuit using register "inst3~_emulated" and latch "inst3~latch"
     Warning (13310): Register "inst8" is converted into an equivalent circuit using register "inst8~_emulated" and latch "inst8~latch"
@@ -217,13 +226,15 @@ Warning: Presettable and clearable registers converted to equivalent circuits wi
     Warning (13310): Register "inst12" is converted into an equivalent circuit using register "inst12~_emulated" and latch "inst12~latch"
     Warning (13310): Register "inst13" is converted into an equivalent circuit using register "inst13~_emulated" and latch "inst13~latch"
     Warning (13310): Register "inst14" is converted into an equivalent circuit using register "inst14~_emulated" and latch "inst14~latch"
-Info: Implemented 50 device resources after synthesis - the final resource count might be different
-    Info: Implemented 10 input pins
+Warning: Design contains 1 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "en"
+Info: Implemented 51 device resources after synthesis - the final resource count might be different
+    Info: Implemented 11 input pins
     Info: Implemented 8 output pins
     Info: Implemented 32 logic cells
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 9 warnings
-    Info: Peak virtual memory: 230 megabytes
-    Info: Processing ended: Wed Apr 21 22:06:56 2021
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 20 warnings
+    Info: Peak virtual memory: 189 megabytes
+    Info: Processing ended: Thu May 13 21:04:18 2021
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

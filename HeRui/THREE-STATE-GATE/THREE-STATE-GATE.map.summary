@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Thu Apr 22 00:03:53 2021
+Analysis & Synthesis Status : Successful - Thu Apr 29 20:46:05 2021
 Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
 Revision Name : THREE-STATE-GATE
-Top-level Entity Name : THREE-STATE-DOUBLE-GATE
+Top-level Entity Name : THREE-STATE-ONE-GATE
 Family : Cyclone II
 Total logic elements : 0
     Total combinational functions : 0
     Dedicated logic registers : 0
 Total registers : 0
-Total pins : 26
+Total pins : 17
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0

@@ -1,5 +1,5 @@
 Assembler report for START-CP
-Tue Apr 13 21:18:40 2021
+Mon May 17 17:23:26 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: E:/Project/计组课设/sdu-computer-organization-project/HeRui/START-CP/START-CP.sof
-  6. Assembler Device Options: E:/Project/计组课设/sdu-computer-organization-project/HeRui/START-CP/START-CP.pof
+  5. Assembler Device Options: C:/Users/dell/Desktop/sdu-computer-organization-project/HeRui/START-CP/START-CP.sof
+  6. Assembler Device Options: C:/Users/dell/Desktop/sdu-computer-organization-project/HeRui/START-CP/START-CP.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Apr 13 21:18:40 2021 ;
+; Assembler Status      ; Successful - Mon May 17 17:23:26 2021 ;
 ; Revision Name         ; START-CP                              ;
 ; Top-level Entity Name ; START-CP                              ;
 ; Family                ; Cyclone II                            ;
@@ -76,37 +76,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+-----------------------------------------------------------------------------------+
-; Assembler Generated Files                                                         ;
-+-----------------------------------------------------------------------------------+
-; File Name                                                                         ;
-+-----------------------------------------------------------------------------------+
-; E:/Project/计组课设/sdu-computer-organization-project/HeRui/START-CP/START-CP.sof ;
-; E:/Project/计组课设/sdu-computer-organization-project/HeRui/START-CP/START-CP.pof ;
-+-----------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                           ;
++-------------------------------------------------------------------------------------+
+; File Name                                                                           ;
++-------------------------------------------------------------------------------------+
+; C:/Users/dell/Desktop/sdu-computer-organization-project/HeRui/START-CP/START-CP.sof ;
+; C:/Users/dell/Desktop/sdu-computer-organization-project/HeRui/START-CP/START-CP.pof ;
++-------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: E:/Project/计组课设/sdu-computer-organization-project/HeRui/START-CP/START-CP.sof ;
-+----------------+--------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                    ;
-+----------------+--------------------------------------------------------------------------------------------+
-; Device         ; EP2C8Q208C7                                                                                ;
-; JTAG usercode  ; 0xFFFFFFFF                                                                                 ;
-; Checksum       ; 0x000C4A1D                                                                                 ;
-+----------------+--------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/dell/Desktop/sdu-computer-organization-project/HeRui/START-CP/START-CP.sof ;
++----------------+----------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                      ;
++----------------+----------------------------------------------------------------------------------------------+
+; Device         ; EP2C8Q208C7                                                                                  ;
+; JTAG usercode  ; 0xFFFFFFFF                                                                                   ;
+; Checksum       ; 0x000C49DD                                                                                   ;
++----------------+----------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: E:/Project/计组课设/sdu-computer-organization-project/HeRui/START-CP/START-CP.pof ;
-+--------------------+----------------------------------------------------------------------------------------+
-; Option             ; Setting                                                                                ;
-+--------------------+----------------------------------------------------------------------------------------+
-; Device             ; EPCS4                                                                                  ;
-; JTAG usercode      ; 0x00000000                                                                             ;
-; Checksum           ; 0x06F125B7                                                                             ;
-; Compression Ratio  ; 3                                                                                      ;
-+--------------------+----------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/dell/Desktop/sdu-computer-organization-project/HeRui/START-CP/START-CP.pof ;
++--------------------+------------------------------------------------------------------------------------------+
+; Option             ; Setting                                                                                  ;
++--------------------+------------------------------------------------------------------------------------------+
+; Device             ; EPCS4                                                                                    ;
+; JTAG usercode      ; 0x00000000                                                                               ;
+; Checksum           ; 0x06F1273E                                                                               ;
+; Compression Ratio  ; 3                                                                                        ;
++--------------------+------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -115,13 +115,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Tue Apr 13 21:18:39 2021
+    Info: Processing started: Mon May 17 17:23:26 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off START-CP -c START-CP
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 225 megabytes
-    Info: Processing ended: Tue Apr 13 21:18:40 2021
+    Info: Peak virtual memory: 185 megabytes
+    Info: Processing ended: Mon May 17 17:23:27 2021
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

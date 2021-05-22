@@ -59,3 +59,4 @@ set_location_assignment PIN_88 -to D1
 set_location_assignment PIN_69 -to CY
 set_location_assignment PIN_70 -to DY
 set_global_assignment -name MISC_FILE "F:/selector/selector.dpf"
+set_global_assignment -name BDF_FILE "selector-2bit.bdf"

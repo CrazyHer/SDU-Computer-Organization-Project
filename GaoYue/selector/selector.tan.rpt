@@ -1,5 +1,5 @@
 Classic Timing Analyzer report for selector
-Thu Apr 22 21:38:28 2021
+Thu May 06 22:41:53 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -153,7 +153,7 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Classic Timing Analyzer
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Thu Apr 22 21:38:27 2021
+    Info: Processing started: Thu May 06 22:41:52 2021
 Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off selector -c selector --timing_analysis_only
 Info: Longest tpd from source pin "AY" to destination pin "Y2" is 16.290 ns
     Info: 1: + IC(0.000 ns) + CELL(0.994 ns) = 0.994 ns; Loc. = PIN_67; Fanout = 8; PIN Node = 'AY'
@@ -163,9 +163,9 @@ Info: Longest tpd from source pin "AY" to destination pin "Y2" is 16.290 ns
     Info: Total cell delay = 5.498 ns ( 33.75 % )
     Info: Total interconnect delay = 10.792 ns ( 66.25 % )
 Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 161 megabytes
-    Info: Processing ended: Thu Apr 22 21:38:29 2021
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 213 megabytes
+    Info: Processing ended: Thu May 06 22:41:53 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
 
 

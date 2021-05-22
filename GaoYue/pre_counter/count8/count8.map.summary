@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu May 13 22:43:00 2021
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
+Revision Name : count8
+Top-level Entity Name : count8
+Family : Cyclone II
+Total logic elements : 14
+    Total combinational functions : 14
+    Dedicated logic registers : 8
+Total registers : 8
+Total pins : 19
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

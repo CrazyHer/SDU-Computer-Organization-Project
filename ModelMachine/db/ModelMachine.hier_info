@@ -1,0 +1,2652 @@
+|ModelMachine
+RAM_READ <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+RAM_ENREAD => inst8.IN0
+HALT => START-CP:inst20.HALT
+CONTINUOUS_PULSE => START-CP:inst20.CONTINUOUS_PULSE
+START_CP => START-CP:inst20.START_CP
+CLR => inst25.IN0
+ROMA7 <= count8:uPC.Q7
+CP_CHOOSE_A => 74138:CP_CHOOSER.A
+CP_CHOOSE_B => 74138:CP_CHOOSER.B
+CP_CHOOSE_C => 74138:CP_CHOOSER.C
+RAMD7 <= THREE-STATE-DOUBLE-GATE:inst3.DIO7
+RAMD7 <= THREE-STATE-DOUBLE-GATE:inst2.DIO7
+RAMD7 <= THREE-STATE-ONE-GATE:inst5.Q7
+RAMD7 <= THREE-STATE-ONE-GATE:inst30.Q7
+RAMD7 <= THREE-STATE-ONE-GATE:inst70.Q7
+RAMD7 <= THREE-STATE-ONE-GATE:inst73.Q7
+RAMD6 <= THREE-STATE-DOUBLE-GATE:inst3.DIO6
+RAMD6 <= THREE-STATE-DOUBLE-GATE:inst2.DIO6
+RAMD6 <= THREE-STATE-ONE-GATE:inst5.Q6
+RAMD6 <= THREE-STATE-ONE-GATE:inst30.Q6
+RAMD6 <= THREE-STATE-ONE-GATE:inst70.Q6
+RAMD6 <= THREE-STATE-ONE-GATE:inst73.Q6
+RAMD5 <= THREE-STATE-DOUBLE-GATE:inst3.DIO5
+RAMD5 <= THREE-STATE-DOUBLE-GATE:inst2.DIO5
+RAMD5 <= THREE-STATE-ONE-GATE:inst5.Q5
+RAMD5 <= THREE-STATE-ONE-GATE:inst30.Q5
+RAMD5 <= THREE-STATE-ONE-GATE:inst70.Q5
+RAMD5 <= THREE-STATE-ONE-GATE:inst73.Q5
+RAMD4 <= THREE-STATE-DOUBLE-GATE:inst3.DIO4
+RAMD4 <= THREE-STATE-DOUBLE-GATE:inst2.DIO4
+RAMD4 <= THREE-STATE-ONE-GATE:inst5.Q4
+RAMD4 <= THREE-STATE-ONE-GATE:inst30.Q4
+RAMD4 <= THREE-STATE-ONE-GATE:inst70.Q4
+RAMD4 <= THREE-STATE-ONE-GATE:inst73.Q4
+RAMD3 <= THREE-STATE-DOUBLE-GATE:inst3.DIO3
+RAMD3 <= THREE-STATE-DOUBLE-GATE:inst2.DIO3
+RAMD3 <= THREE-STATE-ONE-GATE:inst5.Q3
+RAMD3 <= THREE-STATE-ONE-GATE:inst30.Q3
+RAMD3 <= THREE-STATE-ONE-GATE:inst70.Q3
+RAMD3 <= THREE-STATE-ONE-GATE:inst73.Q3
+RAMD2 <= THREE-STATE-DOUBLE-GATE:inst3.DIO2
+RAMD2 <= THREE-STATE-DOUBLE-GATE:inst2.DIO2
+RAMD2 <= THREE-STATE-ONE-GATE:inst5.Q2
+RAMD2 <= THREE-STATE-ONE-GATE:inst30.Q2
+RAMD2 <= THREE-STATE-ONE-GATE:inst70.Q2
+RAMD2 <= THREE-STATE-ONE-GATE:inst73.Q2
+RAMD1 <= THREE-STATE-DOUBLE-GATE:inst3.DIO1
+RAMD1 <= THREE-STATE-DOUBLE-GATE:inst2.DIO1
+RAMD1 <= THREE-STATE-ONE-GATE:inst5.Q1
+RAMD1 <= THREE-STATE-ONE-GATE:inst30.Q1
+RAMD1 <= THREE-STATE-ONE-GATE:inst70.Q1
+RAMD1 <= THREE-STATE-ONE-GATE:inst73.Q1
+RAMD0 <= THREE-STATE-DOUBLE-GATE:inst3.DIO0
+RAMD0 <= THREE-STATE-DOUBLE-GATE:inst2.DIO0
+RAMD0 <= THREE-STATE-ONE-GATE:inst5.Q0
+RAMD0 <= THREE-STATE-ONE-GATE:inst30.Q0
+RAMD0 <= THREE-STATE-ONE-GATE:inst70.Q0
+RAMD0 <= THREE-STATE-ONE-GATE:inst73.Q0
+uPC_CHOOSE_A => 74138:uPC_CHOOSER.A
+uPC_CHOOSE_B => 74138:uPC_CHOOSER.B
+uPC_CHOOSE_C => 74138:uPC_CHOOSER.C
+CPPSW => inst90.IN1
+C0N => ALU-8:ALU.C0N
+S0_S3 => ALU-8:ALU.S0
+S0_S3 => ALU-8:ALU.S3
+S1_S2 => ALU-8:ALU.S1
+S1_S2 => ALU-8:ALU.S2
+CPMULTU => inst94.OE
+CPMULTU => inst87.OE
+CPMULTU => inst80.IN1
+ROMA6 <= count8:uPC.Q6
+ROMA0 <= count8:uPC.Q0
+ROMA1 <= count8:uPC.Q1
+ROMA2 <= count8:uPC.Q2
+ROMA3 <= count8:uPC.Q3
+ROMA4 <= count8:uPC.Q4
+ROMA5 <= count8:uPC.Q5
+RAM_write <= inst41.DB_MAX_OUTPUT_PORT_TYPE
+RAM_EN_write => inst41.IN0
+RAM_EN_write => THREE-STATE-ONE-GATE:inst5.EN
+RAMA7 <= selector:inst28.Y7
+PC_PR => count8:pc.LD
+CHOOSE_MAR => selector:inst28.AY
+CHOOSE_PC => selector:inst28.BY
+RAMA6 <= selector:inst28.Y6
+RAMA5 <= selector:inst28.Y5
+RAMA4 <= selector:inst28.Y4
+RAMA3 <= selector:inst28.Y3
+RAMA2 <= selector:inst28.Y2
+RAMA1 <= selector:inst28.Y1
+RAMA0 <= selector:inst28.Y0
+CPuIR <= inst86.DB_MAX_OUTPUT_PORT_TYPE
+uRD <= inst35.DB_MAX_OUTPUT_PORT_TYPE
+RAML0 <= count8:pc.Q0
+RAML1 <= count8:pc.Q1
+RAML2 <= count8:pc.Q2
+RAML3 <= count8:pc.Q3
+RAML4 <= count8:pc.Q4
+RAML5 <= count8:pc.Q5
+RAML6 <= count8:pc.Q6
+RAML7 <= count8:pc.Q7
+SIG_V <= IR-8:PSW.Q0
+SIG_C <= IR-8:PSW.Q1
+SIG_N <= IR-8:PSW.Q2
+SIG_Z <= IR-8:PSW.Q3
+L0 <= count8:uPC.Q0
+L1 <= count8:uPC.Q1
+L2 <= count8:uPC.Q2
+L3 <= count8:uPC.Q3
+L4 <= count8:uPC.Q4
+L5 <= count8:uPC.Q5
+L6 <= count8:uPC.Q6
+L7 <= count8:uPC.Q7
+EN_BUS_CHOOSE_A => 74138:inst75.A
+EN_BUS_CHOOSE_B => 74138:inst75.B
+EN_BUS_CHOOSE_C => 74138:inst75.C
+CHOOSE_AdIR_H2 => selector-2bit:inst17.AY
+CHOOSE_AdIR_L2 => selector-2bit:inst17.BY
+MULTU_CHOOSE_H8 => selector:inst67.AY
+MULTU_CHOOSE_L8 => selector:inst67.BY
+
+
+|ModelMachine|START-CP:inst20
+OUT_CP <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+HALT => inst.IN0
+CONTINUOUS_PULSE => inst4.IN1
+CLR => inst6.ACLR
+CLR => inst6.PRESET
+START_CP => inst6.CLK
+
+
+|ModelMachine|count8:uPC
+Q7 <= count2:inst.Q1
+CK => count2:inst.CK
+CK => count2:inst1.CK
+CK => count2:inst3.CK
+CK => count2:inst2.CK
+CLR => count2:inst.CLR
+CLR => count2:inst1.CLR
+CLR => count2:inst3.CLR
+CLR => count2:inst2.CLR
+LD => inst5.IN0
+D1 => count2:inst3.D1
+D0 => count2:inst3.D0
+D3 => count2:inst2.D1
+D2 => count2:inst2.D0
+D5 => count2:inst1.D1
+D4 => count2:inst1.D0
+D7 => count2:inst.D1
+D6 => count2:inst.D0
+Q6 <= count2:inst.Q0
+Q5 <= count2:inst1.Q1
+Q4 <= count2:inst1.Q0
+Q3 <= count2:inst2.Q1
+Q2 <= count2:inst2.Q0
+Q1 <= count2:inst3.Q1
+Q0 <= count2:inst3.Q0
+
+
+|ModelMachine|count8:uPC|count2:inst
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst1.ACLR
+CLR => inst1.PRESET
+CLR => inst.PRESET
+CK => inst.CLK
+CK => inst1.CLK
+D1 => select2-1:inst2.A
+LD => inst7.IN0
+LD => select2-1:inst3.BY
+LD => select2-1:inst2.BY
+EN => inst6.IN0
+EN => inst11.IN0
+EN => select2-1:inst4.BY
+D0 => select2-1:inst3.A
+Q0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CN <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|count8:uPC|count2:inst|select2-1:inst2
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:uPC|count2:inst|select2-1:inst4
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:uPC|count2:inst|select2-1:inst3
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:uPC|count2:inst1
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst1.ACLR
+CLR => inst1.PRESET
+CLR => inst.PRESET
+CK => inst.CLK
+CK => inst1.CLK
+D1 => select2-1:inst2.A
+LD => inst7.IN0
+LD => select2-1:inst3.BY
+LD => select2-1:inst2.BY
+EN => inst6.IN0
+EN => inst11.IN0
+EN => select2-1:inst4.BY
+D0 => select2-1:inst3.A
+Q0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CN <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|count8:uPC|count2:inst1|select2-1:inst2
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:uPC|count2:inst1|select2-1:inst4
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:uPC|count2:inst1|select2-1:inst3
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:uPC|count2:inst3
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst1.ACLR
+CLR => inst1.PRESET
+CLR => inst.PRESET
+CK => inst.CLK
+CK => inst1.CLK
+D1 => select2-1:inst2.A
+LD => inst7.IN0
+LD => select2-1:inst3.BY
+LD => select2-1:inst2.BY
+EN => inst6.IN0
+EN => inst11.IN0
+EN => select2-1:inst4.BY
+D0 => select2-1:inst3.A
+Q0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CN <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|count8:uPC|count2:inst3|select2-1:inst2
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:uPC|count2:inst3|select2-1:inst4
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:uPC|count2:inst3|select2-1:inst3
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:uPC|count2:inst2
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst1.ACLR
+CLR => inst1.PRESET
+CLR => inst.PRESET
+CK => inst.CLK
+CK => inst1.CLK
+D1 => select2-1:inst2.A
+LD => inst7.IN0
+LD => select2-1:inst3.BY
+LD => select2-1:inst2.BY
+EN => inst6.IN0
+EN => inst11.IN0
+EN => select2-1:inst4.BY
+D0 => select2-1:inst3.A
+Q0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CN <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|count8:uPC|count2:inst2|select2-1:inst2
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:uPC|count2:inst2|select2-1:inst4
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:uPC|count2:inst2|select2-1:inst3
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|selector:inst55
+Y7 <= inst46.DB_MAX_OUTPUT_PORT_TYPE
+B7 => inst.IN0
+BY => inst.IN1
+BY => inst15.IN1
+BY => inst21.IN1
+BY => inst23.IN1
+BY => inst2.IN1
+BY => inst17.IN1
+BY => inst27.IN1
+BY => inst26.IN1
+A7 => inst22.IN0
+AY => inst22.IN1
+AY => inst13.IN1
+AY => inst16.IN1
+AY => inst24.IN1
+AY => inst25.IN1
+AY => inst14.IN1
+AY => inst18.IN1
+AY => inst28.IN1
+Y6 <= inst47.DB_MAX_OUTPUT_PORT_TYPE
+B6 => inst15.IN0
+A6 => inst13.IN0
+Y5 <= inst48.DB_MAX_OUTPUT_PORT_TYPE
+B5 => inst21.IN0
+A5 => inst16.IN0
+Y4 <= inst49.DB_MAX_OUTPUT_PORT_TYPE
+B4 => inst23.IN0
+A4 => inst24.IN0
+Y3 <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+B3 => inst2.IN0
+A3 => inst25.IN0
+Y2 <= inst51.DB_MAX_OUTPUT_PORT_TYPE
+B2 => inst17.IN0
+A2 => inst14.IN0
+Y1 <= inst52.DB_MAX_OUTPUT_PORT_TYPE
+B1 => inst27.IN0
+A1 => inst18.IN0
+Y0 <= inst53.DB_MAX_OUTPUT_PORT_TYPE
+B0 => inst26.IN0
+A0 => inst28.IN0
+
+
+|ModelMachine|IR-8:IR
+Q7 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+RE => inst1.ACLR
+RE => inst1.PRESET
+RE => inst3.ACLR
+RE => inst3.PRESET
+RE => inst.ACLR
+RE => inst.PRESET
+RE => inst2.ACLR
+RE => inst2.PRESET
+RE => inst5.ACLR
+RE => inst5.PRESET
+RE => inst7.ACLR
+RE => inst7.PRESET
+RE => inst4.ACLR
+RE => inst4.PRESET
+RE => inst6.ACLR
+RE => inst6.PRESET
+CP => inst1.CLK
+CP => inst3.CLK
+CP => inst.CLK
+CP => inst2.CLK
+CP => inst5.CLK
+CP => inst7.CLK
+CP => inst4.CLK
+CP => inst6.CLK
+D7 => inst1.DATAIN
+Q6 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst3.DATAIN
+Q5 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst.DATAIN
+Q4 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst2.DATAIN
+Q3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst5.DATAIN
+Q2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst7.DATAIN
+Q1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst4.DATAIN
+Q0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst6.DATAIN
+
+
+|ModelMachine|74138:CP_CHOOSER
+Y7N <= 22.DB_MAX_OUTPUT_PORT_TYPE
+G1 => 8.IN0
+G2BN => 1.IN1
+G2AN => 1.IN2
+B => 10.IN0
+A => 9.IN0
+C => 11.IN0
+Y6N <= 21.DB_MAX_OUTPUT_PORT_TYPE
+Y5N <= 20.DB_MAX_OUTPUT_PORT_TYPE
+Y4N <= 19.DB_MAX_OUTPUT_PORT_TYPE
+Y3N <= 18.DB_MAX_OUTPUT_PORT_TYPE
+Y2N <= 17.DB_MAX_OUTPUT_PORT_TYPE
+Y1N <= 16.DB_MAX_OUTPUT_PORT_TYPE
+Y0N <= 15.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|74138:uPC_CHOOSER
+Y7N <= 22.DB_MAX_OUTPUT_PORT_TYPE
+G1 => 8.IN0
+G2BN => 1.IN1
+G2AN => 1.IN2
+B => 10.IN0
+A => 9.IN0
+C => 11.IN0
+Y6N <= 21.DB_MAX_OUTPUT_PORT_TYPE
+Y5N <= 20.DB_MAX_OUTPUT_PORT_TYPE
+Y4N <= 19.DB_MAX_OUTPUT_PORT_TYPE
+Y3N <= 18.DB_MAX_OUTPUT_PORT_TYPE
+Y2N <= 17.DB_MAX_OUTPUT_PORT_TYPE
+Y1N <= 16.DB_MAX_OUTPUT_PORT_TYPE
+Y0N <= 15.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|IR-8:PSW
+Q7 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+RE => inst1.ACLR
+RE => inst1.PRESET
+RE => inst3.ACLR
+RE => inst3.PRESET
+RE => inst.ACLR
+RE => inst.PRESET
+RE => inst2.ACLR
+RE => inst2.PRESET
+RE => inst5.ACLR
+RE => inst5.PRESET
+RE => inst7.ACLR
+RE => inst7.PRESET
+RE => inst4.ACLR
+RE => inst4.PRESET
+RE => inst6.ACLR
+RE => inst6.PRESET
+CP => inst1.CLK
+CP => inst3.CLK
+CP => inst.CLK
+CP => inst2.CLK
+CP => inst5.CLK
+CP => inst7.CLK
+CP => inst4.CLK
+CP => inst6.CLK
+D7 => inst1.DATAIN
+Q6 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst3.DATAIN
+Q5 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst.DATAIN
+Q4 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst2.DATAIN
+Q3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst5.DATAIN
+Q2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst7.DATAIN
+Q1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst4.DATAIN
+Q0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst6.DATAIN
+
+
+|ModelMachine|ALU-8:ALU
+F0N <= 74181:inst.F0N
+B0N => 74181:inst.B0N
+A0N => 74181:inst.A0N
+A1N => 74181:inst.A1N
+B1N => 74181:inst.B1N
+A3N => 74181:inst.A3N
+B2N => 74181:inst.B2N
+A2N => 74181:inst.A2N
+M => 74181:inst.M
+M => 74181:inst2.M
+C0N => 74181:inst.CN
+C0N => 74182:inst1.CI
+B3N => 74181:inst.B3N
+S2 => 74181:inst.S2
+S2 => 74181:inst2.S2
+S1 => 74181:inst.S1
+S1 => 74181:inst2.S1
+S0 => 74181:inst.S0
+S0 => 74181:inst2.S0
+S3 => 74181:inst.S3
+S3 => 74181:inst2.S3
+F1N <= 74181:inst.F1N
+F2N <= 74181:inst.F2N
+F3N <= 74181:inst.F3N
+F4N <= 74181:inst2.F0N
+B4N => 74181:inst2.B0N
+A4N => 74181:inst2.A0N
+A5N => 74181:inst2.A1N
+B5N => 74181:inst2.B1N
+A7N => 74181:inst2.A3N
+B6N => 74181:inst2.B2N
+A6N => 74181:inst2.A2N
+B7N => 74181:inst2.B3N
+F5N <= 74181:inst2.F1N
+F6N <= 74181:inst2.F2N
+F7N <= 74181:inst2.F3N
+PN <= 74182:inst1.PN
+GN <= 74182:inst1.GN
+CN8 <= 74182:inst1.CY
+
+
+|ModelMachine|ALU-8:ALU|74181:inst
+F1N <= 86.DB_MAX_OUTPUT_PORT_TYPE
+A1N => 14.IN0
+A1N => 13.IN2
+A1N => 44.IN0
+S3 => 14.IN1
+S3 => 9.IN1
+S3 => 24.IN1
+S3 => 19.IN1
+B1N => 14.IN2
+B1N => 28.IN0
+B1N => 11.IN1
+S2 => 13.IN1
+S2 => 8.IN1
+S2 => 23.IN1
+S2 => 18.IN1
+S0 => 11.IN0
+S0 => 6.IN0
+S0 => 21.IN0
+S0 => 16.IN0
+S1 => 12.IN1
+S1 => 7.IN1
+S1 => 22.IN1
+S1 => 17.IN1
+M => 98.IN0
+A0N => 9.IN0
+A0N => 8.IN2
+A0N => 43.IN0
+B0N => 9.IN2
+B0N => 27.IN0
+B0N => 6.IN1
+CN => 66.IN2
+CN => 73.IN0
+CN => 73.IN3
+CN => 69.IN0
+CN => 64.IN0
+CN => 61.IN4
+CN => 61.IN5
+AEQB <= 83.DB_MAX_OUTPUT_PORT_TYPE
+A3N => 24.IN0
+A3N => 23.IN2
+A3N => 51.IN0
+B3N => 24.IN2
+B3N => 25.IN0
+B3N => 21.IN1
+A2N => 19.IN0
+A2N => 18.IN2
+A2N => 45.IN0
+B2N => 19.IN2
+B2N => 31.IN0
+B2N => 16.IN1
+F2N <= 85.DB_MAX_OUTPUT_PORT_TYPE
+F3N <= 84.DB_MAX_OUTPUT_PORT_TYPE
+PN <= 60.DB_MAX_OUTPUT_PORT_TYPE
+CN4 <= 78.DB_MAX_OUTPUT_PORT_TYPE
+GN <= 63.DB_MAX_OUTPUT_PORT_TYPE
+F0N <= 87.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ALU-8:ALU|74181:inst2
+F1N <= 86.DB_MAX_OUTPUT_PORT_TYPE
+A1N => 14.IN0
+A1N => 13.IN2
+A1N => 44.IN0
+S3 => 14.IN1
+S3 => 9.IN1
+S3 => 24.IN1
+S3 => 19.IN1
+B1N => 14.IN2
+B1N => 28.IN0
+B1N => 11.IN1
+S2 => 13.IN1
+S2 => 8.IN1
+S2 => 23.IN1
+S2 => 18.IN1
+S0 => 11.IN0
+S0 => 6.IN0
+S0 => 21.IN0
+S0 => 16.IN0
+S1 => 12.IN1
+S1 => 7.IN1
+S1 => 22.IN1
+S1 => 17.IN1
+M => 98.IN0
+A0N => 9.IN0
+A0N => 8.IN2
+A0N => 43.IN0
+B0N => 9.IN2
+B0N => 27.IN0
+B0N => 6.IN1
+CN => 66.IN2
+CN => 73.IN0
+CN => 73.IN3
+CN => 69.IN0
+CN => 64.IN0
+CN => 61.IN4
+CN => 61.IN5
+AEQB <= 83.DB_MAX_OUTPUT_PORT_TYPE
+A3N => 24.IN0
+A3N => 23.IN2
+A3N => 51.IN0
+B3N => 24.IN2
+B3N => 25.IN0
+B3N => 21.IN1
+A2N => 19.IN0
+A2N => 18.IN2
+A2N => 45.IN0
+B2N => 19.IN2
+B2N => 31.IN0
+B2N => 16.IN1
+F2N <= 85.DB_MAX_OUTPUT_PORT_TYPE
+F3N <= 84.DB_MAX_OUTPUT_PORT_TYPE
+PN <= 60.DB_MAX_OUTPUT_PORT_TYPE
+CN4 <= 78.DB_MAX_OUTPUT_PORT_TYPE
+GN <= 63.DB_MAX_OUTPUT_PORT_TYPE
+F0N <= 87.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ALU-8:ALU|74182:inst1
+GN <= 24.DB_MAX_OUTPUT_PORT_TYPE
+GN3 => 11.IN0
+GN3 => 12.IN2
+GN3 => 13.IN2
+GN3 => 14.IN1
+GN2 => 11.IN1
+GN2 => 12.IN1
+GN2 => 13.IN0
+GN2 => 15.IN0
+GN2 => 16.IN0
+GN2 => 17.IN2
+GN2 => 18.IN0
+GN1 => 11.IN2
+GN1 => 12.IN3
+GN1 => 15.IN1
+GN1 => 16.IN2
+GN1 => 17.IN0
+GN1 => 21.IN0
+GN1 => 20.IN2
+GN1 => 19.IN1
+GN0 => 11.IN3
+GN0 => 15.IN2
+GN0 => 16.IN3
+GN0 => 20.IN0
+GN0 => 19.IN2
+GN0 => 22.IN0
+GN0 => 23.IN0
+PN1 => 12.IN0
+PN1 => 10.IN2
+PN1 => 17.IN1
+PN1 => 21.IN1
+PN2 => 13.IN1
+PN2 => 10.IN1
+PN2 => 18.IN1
+PN3 => 14.IN0
+PN3 => 10.IN0
+PN <= 10.DB_MAX_OUTPUT_PORT_TYPE
+PN0 => 10.IN3
+PN0 => 16.IN1
+PN0 => 20.IN1
+PN0 => 23.IN1
+CZ <= 27.DB_MAX_OUTPUT_PORT_TYPE
+CI => 33.IN0
+CY <= 29.DB_MAX_OUTPUT_PORT_TYPE
+CX <= 31.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|IR-8:Y
+Q7 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+RE => inst1.ACLR
+RE => inst1.PRESET
+RE => inst3.ACLR
+RE => inst3.PRESET
+RE => inst.ACLR
+RE => inst.PRESET
+RE => inst2.ACLR
+RE => inst2.PRESET
+RE => inst5.ACLR
+RE => inst5.PRESET
+RE => inst7.ACLR
+RE => inst7.PRESET
+RE => inst4.ACLR
+RE => inst4.PRESET
+RE => inst6.ACLR
+RE => inst6.PRESET
+CP => inst1.CLK
+CP => inst3.CLK
+CP => inst.CLK
+CP => inst2.CLK
+CP => inst5.CLK
+CP => inst7.CLK
+CP => inst4.CLK
+CP => inst6.CLK
+D7 => inst1.DATAIN
+Q6 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst3.DATAIN
+Q5 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst.DATAIN
+Q4 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst2.DATAIN
+Q3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst5.DATAIN
+Q2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst7.DATAIN
+Q1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst4.DATAIN
+Q0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst6.DATAIN
+
+
+|ModelMachine|selector:inst28
+Y7 <= inst46.DB_MAX_OUTPUT_PORT_TYPE
+B7 => inst.IN0
+BY => inst.IN1
+BY => inst15.IN1
+BY => inst21.IN1
+BY => inst23.IN1
+BY => inst2.IN1
+BY => inst17.IN1
+BY => inst27.IN1
+BY => inst26.IN1
+A7 => inst22.IN0
+AY => inst22.IN1
+AY => inst13.IN1
+AY => inst16.IN1
+AY => inst24.IN1
+AY => inst25.IN1
+AY => inst14.IN1
+AY => inst18.IN1
+AY => inst28.IN1
+Y6 <= inst47.DB_MAX_OUTPUT_PORT_TYPE
+B6 => inst15.IN0
+A6 => inst13.IN0
+Y5 <= inst48.DB_MAX_OUTPUT_PORT_TYPE
+B5 => inst21.IN0
+A5 => inst16.IN0
+Y4 <= inst49.DB_MAX_OUTPUT_PORT_TYPE
+B4 => inst23.IN0
+A4 => inst24.IN0
+Y3 <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+B3 => inst2.IN0
+A3 => inst25.IN0
+Y2 <= inst51.DB_MAX_OUTPUT_PORT_TYPE
+B2 => inst17.IN0
+A2 => inst14.IN0
+Y1 <= inst52.DB_MAX_OUTPUT_PORT_TYPE
+B1 => inst27.IN0
+A1 => inst18.IN0
+Y0 <= inst53.DB_MAX_OUTPUT_PORT_TYPE
+B0 => inst26.IN0
+A0 => inst28.IN0
+
+
+|ModelMachine|IR-8:MAR
+Q7 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+RE => inst1.ACLR
+RE => inst1.PRESET
+RE => inst3.ACLR
+RE => inst3.PRESET
+RE => inst.ACLR
+RE => inst.PRESET
+RE => inst2.ACLR
+RE => inst2.PRESET
+RE => inst5.ACLR
+RE => inst5.PRESET
+RE => inst7.ACLR
+RE => inst7.PRESET
+RE => inst4.ACLR
+RE => inst4.PRESET
+RE => inst6.ACLR
+RE => inst6.PRESET
+CP => inst1.CLK
+CP => inst3.CLK
+CP => inst.CLK
+CP => inst2.CLK
+CP => inst5.CLK
+CP => inst7.CLK
+CP => inst4.CLK
+CP => inst6.CLK
+D7 => inst1.DATAIN
+Q6 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst3.DATAIN
+Q5 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst.DATAIN
+Q4 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst2.DATAIN
+Q3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst5.DATAIN
+Q2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst7.DATAIN
+Q1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst4.DATAIN
+Q0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst6.DATAIN
+
+
+|ModelMachine|count8:pc
+Q7 <= count2:inst.Q1
+CK => count2:inst.CK
+CK => count2:inst1.CK
+CK => count2:inst3.CK
+CK => count2:inst2.CK
+CLR => count2:inst.CLR
+CLR => count2:inst1.CLR
+CLR => count2:inst3.CLR
+CLR => count2:inst2.CLR
+LD => inst5.IN0
+D1 => count2:inst3.D1
+D0 => count2:inst3.D0
+D3 => count2:inst2.D1
+D2 => count2:inst2.D0
+D5 => count2:inst1.D1
+D4 => count2:inst1.D0
+D7 => count2:inst.D1
+D6 => count2:inst.D0
+Q6 <= count2:inst.Q0
+Q5 <= count2:inst1.Q1
+Q4 <= count2:inst1.Q0
+Q3 <= count2:inst2.Q1
+Q2 <= count2:inst2.Q0
+Q1 <= count2:inst3.Q1
+Q0 <= count2:inst3.Q0
+
+
+|ModelMachine|count8:pc|count2:inst
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst1.ACLR
+CLR => inst1.PRESET
+CLR => inst.PRESET
+CK => inst.CLK
+CK => inst1.CLK
+D1 => select2-1:inst2.A
+LD => inst7.IN0
+LD => select2-1:inst3.BY
+LD => select2-1:inst2.BY
+EN => inst6.IN0
+EN => inst11.IN0
+EN => select2-1:inst4.BY
+D0 => select2-1:inst3.A
+Q0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CN <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|count8:pc|count2:inst|select2-1:inst2
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:pc|count2:inst|select2-1:inst4
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:pc|count2:inst|select2-1:inst3
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:pc|count2:inst1
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst1.ACLR
+CLR => inst1.PRESET
+CLR => inst.PRESET
+CK => inst.CLK
+CK => inst1.CLK
+D1 => select2-1:inst2.A
+LD => inst7.IN0
+LD => select2-1:inst3.BY
+LD => select2-1:inst2.BY
+EN => inst6.IN0
+EN => inst11.IN0
+EN => select2-1:inst4.BY
+D0 => select2-1:inst3.A
+Q0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CN <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|count8:pc|count2:inst1|select2-1:inst2
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:pc|count2:inst1|select2-1:inst4
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:pc|count2:inst1|select2-1:inst3
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:pc|count2:inst3
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst1.ACLR
+CLR => inst1.PRESET
+CLR => inst.PRESET
+CK => inst.CLK
+CK => inst1.CLK
+D1 => select2-1:inst2.A
+LD => inst7.IN0
+LD => select2-1:inst3.BY
+LD => select2-1:inst2.BY
+EN => inst6.IN0
+EN => inst11.IN0
+EN => select2-1:inst4.BY
+D0 => select2-1:inst3.A
+Q0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CN <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|count8:pc|count2:inst3|select2-1:inst2
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:pc|count2:inst3|select2-1:inst4
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:pc|count2:inst3|select2-1:inst3
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:pc|count2:inst2
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst1.ACLR
+CLR => inst1.PRESET
+CLR => inst.PRESET
+CK => inst.CLK
+CK => inst1.CLK
+D1 => select2-1:inst2.A
+LD => inst7.IN0
+LD => select2-1:inst3.BY
+LD => select2-1:inst2.BY
+EN => inst6.IN0
+EN => inst11.IN0
+EN => select2-1:inst4.BY
+D0 => select2-1:inst3.A
+Q0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CN <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|count8:pc|count2:inst2|select2-1:inst2
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:pc|count2:inst2|select2-1:inst4
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|count8:pc|count2:inst2|select2-1:inst3
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|ModelMachine|THREE-STATE-DOUBLE-GATE:inst3
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+DIO0 <= inst14
+EN_read => inst.OE
+EN_read => inst16.OE
+EN_read => inst17.OE
+EN_read => inst19.OE
+EN_read => inst21.OE
+EN_read => inst23.OE
+EN_read => inst25.OE
+EN_read => inst27.OE
+Q1 <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+DIO1 <= inst15
+Q2 <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+DIO2 <= inst18
+Q3 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+DIO3 <= inst20
+Q4 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+DIO4 <= inst22
+Q5 <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+DIO5 <= inst24
+Q6 <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+DIO6 <= inst26
+Q7 <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+DIO7 <= inst28
+D0 => inst14.DATAIN
+EN_write => inst14.OE
+EN_write => inst15.OE
+EN_write => inst18.OE
+EN_write => inst20.OE
+EN_write => inst22.OE
+EN_write => inst24.OE
+EN_write => inst26.OE
+EN_write => inst28.OE
+D1 => inst15.DATAIN
+D2 => inst18.DATAIN
+D3 => inst20.DATAIN
+D4 => inst22.DATAIN
+D5 => inst24.DATAIN
+D6 => inst26.DATAIN
+D7 => inst28.DATAIN
+
+
+|ModelMachine|IR-8:MDR
+Q7 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+RE => inst1.ACLR
+RE => inst1.PRESET
+RE => inst3.ACLR
+RE => inst3.PRESET
+RE => inst.ACLR
+RE => inst.PRESET
+RE => inst2.ACLR
+RE => inst2.PRESET
+RE => inst5.ACLR
+RE => inst5.PRESET
+RE => inst7.ACLR
+RE => inst7.PRESET
+RE => inst4.ACLR
+RE => inst4.PRESET
+RE => inst6.ACLR
+RE => inst6.PRESET
+CP => inst1.CLK
+CP => inst3.CLK
+CP => inst.CLK
+CP => inst2.CLK
+CP => inst5.CLK
+CP => inst7.CLK
+CP => inst4.CLK
+CP => inst6.CLK
+D7 => inst1.DATAIN
+Q6 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst3.DATAIN
+Q5 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst.DATAIN
+Q4 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst2.DATAIN
+Q3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst5.DATAIN
+Q2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst7.DATAIN
+Q1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst4.DATAIN
+Q0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst6.DATAIN
+
+
+|ModelMachine|74138:inst75
+Y7N <= 22.DB_MAX_OUTPUT_PORT_TYPE
+G1 => 8.IN0
+G2BN => 1.IN1
+G2AN => 1.IN2
+B => 10.IN0
+A => 9.IN0
+C => 11.IN0
+Y6N <= 21.DB_MAX_OUTPUT_PORT_TYPE
+Y5N <= 20.DB_MAX_OUTPUT_PORT_TYPE
+Y4N <= 19.DB_MAX_OUTPUT_PORT_TYPE
+Y3N <= 18.DB_MAX_OUTPUT_PORT_TYPE
+Y2N <= 17.DB_MAX_OUTPUT_PORT_TYPE
+Y1N <= 16.DB_MAX_OUTPUT_PORT_TYPE
+Y0N <= 15.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|THREE-STATE-DOUBLE-GATE:inst2
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+DIO0 <= inst14
+EN_read => inst.OE
+EN_read => inst16.OE
+EN_read => inst17.OE
+EN_read => inst19.OE
+EN_read => inst21.OE
+EN_read => inst23.OE
+EN_read => inst25.OE
+EN_read => inst27.OE
+Q1 <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+DIO1 <= inst15
+Q2 <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+DIO2 <= inst18
+Q3 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+DIO3 <= inst20
+Q4 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+DIO4 <= inst22
+Q5 <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+DIO5 <= inst24
+Q6 <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+DIO6 <= inst26
+Q7 <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+DIO7 <= inst28
+D0 => inst14.DATAIN
+EN_write => inst14.OE
+EN_write => inst15.OE
+EN_write => inst18.OE
+EN_write => inst20.OE
+EN_write => inst22.OE
+EN_write => inst24.OE
+EN_write => inst26.OE
+EN_write => inst28.OE
+D1 => inst15.DATAIN
+D2 => inst18.DATAIN
+D3 => inst20.DATAIN
+D4 => inst22.DATAIN
+D5 => inst24.DATAIN
+D6 => inst26.DATAIN
+D7 => inst28.DATAIN
+
+
+|ModelMachine|selector-4:inst4
+Y7 <= inst36.DB_MAX_OUTPUT_PORT_TYPE
+A7 => inst.IN0
+AY => inst.IN1
+AY => inst69.IN1
+AY => inst73.IN1
+AY => inst77.IN1
+AY => inst81.IN1
+AY => inst85.IN1
+AY => inst89.IN1
+AY => inst93.IN1
+C7 => inst67.IN0
+CY => inst67.IN1
+CY => inst71.IN1
+CY => inst75.IN1
+CY => inst79.IN1
+CY => inst83.IN1
+CY => inst87.IN1
+CY => inst91.IN1
+CY => inst95.IN1
+D7 => inst68.IN0
+DY => inst68.IN1
+DY => inst72.IN1
+DY => inst76.IN1
+DY => inst80.IN1
+DY => inst84.IN1
+DY => inst88.IN1
+DY => inst92.IN1
+DY => inst96.IN1
+B7 => inst66.IN0
+BY => inst66.IN1
+BY => inst70.IN1
+BY => inst74.IN1
+BY => inst78.IN1
+BY => inst82.IN1
+BY => inst86.IN1
+BY => inst90.IN1
+BY => inst94.IN1
+Y6 <= inst37.DB_MAX_OUTPUT_PORT_TYPE
+A6 => inst69.IN0
+C6 => inst71.IN0
+D6 => inst72.IN0
+B6 => inst70.IN0
+Y5 <= inst38.DB_MAX_OUTPUT_PORT_TYPE
+A5 => inst73.IN0
+C5 => inst75.IN0
+D5 => inst76.IN0
+B5 => inst74.IN0
+Y4 <= inst39.DB_MAX_OUTPUT_PORT_TYPE
+A4 => inst77.IN0
+C4 => inst79.IN0
+D4 => inst80.IN0
+B4 => inst78.IN0
+Y3 <= inst40.DB_MAX_OUTPUT_PORT_TYPE
+A3 => inst81.IN0
+C3 => inst83.IN0
+D3 => inst84.IN0
+B3 => inst82.IN0
+Y2 <= inst41.DB_MAX_OUTPUT_PORT_TYPE
+A2 => inst85.IN0
+C2 => inst87.IN0
+D2 => inst88.IN0
+B2 => inst86.IN0
+Y1 <= inst42.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst89.IN0
+C1 => inst91.IN0
+D1 => inst92.IN0
+B1 => inst90.IN0
+Y0 <= inst43.DB_MAX_OUTPUT_PORT_TYPE
+A0 => inst93.IN0
+C0 => inst95.IN0
+D0 => inst96.IN0
+B0 => inst94.IN0
+
+
+|ModelMachine|IR-8:R0
+Q7 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+RE => inst1.ACLR
+RE => inst1.PRESET
+RE => inst3.ACLR
+RE => inst3.PRESET
+RE => inst.ACLR
+RE => inst.PRESET
+RE => inst2.ACLR
+RE => inst2.PRESET
+RE => inst5.ACLR
+RE => inst5.PRESET
+RE => inst7.ACLR
+RE => inst7.PRESET
+RE => inst4.ACLR
+RE => inst4.PRESET
+RE => inst6.ACLR
+RE => inst6.PRESET
+CP => inst1.CLK
+CP => inst3.CLK
+CP => inst.CLK
+CP => inst2.CLK
+CP => inst5.CLK
+CP => inst7.CLK
+CP => inst4.CLK
+CP => inst6.CLK
+D7 => inst1.DATAIN
+Q6 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst3.DATAIN
+Q5 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst.DATAIN
+Q4 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst2.DATAIN
+Q3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst5.DATAIN
+Q2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst7.DATAIN
+Q1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst4.DATAIN
+Q0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst6.DATAIN
+
+
+|ModelMachine|74138:inst
+Y7N <= 22.DB_MAX_OUTPUT_PORT_TYPE
+G1 => 8.IN0
+G2BN => 1.IN1
+G2AN => 1.IN2
+B => 10.IN0
+A => 9.IN0
+C => 11.IN0
+Y6N <= 21.DB_MAX_OUTPUT_PORT_TYPE
+Y5N <= 20.DB_MAX_OUTPUT_PORT_TYPE
+Y4N <= 19.DB_MAX_OUTPUT_PORT_TYPE
+Y3N <= 18.DB_MAX_OUTPUT_PORT_TYPE
+Y2N <= 17.DB_MAX_OUTPUT_PORT_TYPE
+Y1N <= 16.DB_MAX_OUTPUT_PORT_TYPE
+Y0N <= 15.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|selector-2bit:inst17
+Y1 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+B1 => inst1.IN0
+BY => inst1.IN1
+BY => inst3.IN1
+A1 => inst.IN0
+AY => inst.IN1
+AY => inst2.IN1
+Y0 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+B0 => inst3.IN0
+A0 => inst2.IN0
+
+
+|ModelMachine|IR-8:R1
+Q7 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+RE => inst1.ACLR
+RE => inst1.PRESET
+RE => inst3.ACLR
+RE => inst3.PRESET
+RE => inst.ACLR
+RE => inst.PRESET
+RE => inst2.ACLR
+RE => inst2.PRESET
+RE => inst5.ACLR
+RE => inst5.PRESET
+RE => inst7.ACLR
+RE => inst7.PRESET
+RE => inst4.ACLR
+RE => inst4.PRESET
+RE => inst6.ACLR
+RE => inst6.PRESET
+CP => inst1.CLK
+CP => inst3.CLK
+CP => inst.CLK
+CP => inst2.CLK
+CP => inst5.CLK
+CP => inst7.CLK
+CP => inst4.CLK
+CP => inst6.CLK
+D7 => inst1.DATAIN
+Q6 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst3.DATAIN
+Q5 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst.DATAIN
+Q4 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst2.DATAIN
+Q3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst5.DATAIN
+Q2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst7.DATAIN
+Q1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst4.DATAIN
+Q0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst6.DATAIN
+
+
+|ModelMachine|IR-8:R2
+Q7 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+RE => inst1.ACLR
+RE => inst1.PRESET
+RE => inst3.ACLR
+RE => inst3.PRESET
+RE => inst.ACLR
+RE => inst.PRESET
+RE => inst2.ACLR
+RE => inst2.PRESET
+RE => inst5.ACLR
+RE => inst5.PRESET
+RE => inst7.ACLR
+RE => inst7.PRESET
+RE => inst4.ACLR
+RE => inst4.PRESET
+RE => inst6.ACLR
+RE => inst6.PRESET
+CP => inst1.CLK
+CP => inst3.CLK
+CP => inst.CLK
+CP => inst2.CLK
+CP => inst5.CLK
+CP => inst7.CLK
+CP => inst4.CLK
+CP => inst6.CLK
+D7 => inst1.DATAIN
+Q6 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst3.DATAIN
+Q5 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst.DATAIN
+Q4 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst2.DATAIN
+Q3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst5.DATAIN
+Q2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst7.DATAIN
+Q1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst4.DATAIN
+Q0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst6.DATAIN
+
+
+|ModelMachine|IR-8:R3
+Q7 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+RE => inst1.ACLR
+RE => inst1.PRESET
+RE => inst3.ACLR
+RE => inst3.PRESET
+RE => inst.ACLR
+RE => inst.PRESET
+RE => inst2.ACLR
+RE => inst2.PRESET
+RE => inst5.ACLR
+RE => inst5.PRESET
+RE => inst7.ACLR
+RE => inst7.PRESET
+RE => inst4.ACLR
+RE => inst4.PRESET
+RE => inst6.ACLR
+RE => inst6.PRESET
+CP => inst1.CLK
+CP => inst3.CLK
+CP => inst.CLK
+CP => inst2.CLK
+CP => inst5.CLK
+CP => inst7.CLK
+CP => inst4.CLK
+CP => inst6.CLK
+D7 => inst1.DATAIN
+Q6 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst3.DATAIN
+Q5 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst.DATAIN
+Q4 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst2.DATAIN
+Q3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst5.DATAIN
+Q2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst7.DATAIN
+Q1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst4.DATAIN
+Q0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst6.DATAIN
+
+
+|ModelMachine|74138:inst6
+Y7N <= 22.DB_MAX_OUTPUT_PORT_TYPE
+G1 => 8.IN0
+G2BN => 1.IN1
+G2AN => 1.IN2
+B => 10.IN0
+A => 9.IN0
+C => 11.IN0
+Y6N <= 21.DB_MAX_OUTPUT_PORT_TYPE
+Y5N <= 20.DB_MAX_OUTPUT_PORT_TYPE
+Y4N <= 19.DB_MAX_OUTPUT_PORT_TYPE
+Y3N <= 18.DB_MAX_OUTPUT_PORT_TYPE
+Y2N <= 17.DB_MAX_OUTPUT_PORT_TYPE
+Y1N <= 16.DB_MAX_OUTPUT_PORT_TYPE
+Y0N <= 15.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|THREE-STATE-ONE-GATE:inst5
+Q0 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst10.DATAIN
+EN => inst10.OE
+EN => inst11.OE
+EN => inst12.OE
+EN => inst13.OE
+EN => inst14.OE
+EN => inst15.OE
+EN => inst16.OE
+EN => inst17.OE
+Q1 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst11.DATAIN
+Q2 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst12.DATAIN
+Q3 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst13.DATAIN
+Q4 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst14.DATAIN
+Q5 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst15.DATAIN
+Q6 <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst16.DATAIN
+Q7 <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+D7 => inst17.DATAIN
+
+
+|ModelMachine|THREE-STATE-ONE-GATE:inst30
+Q0 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst10.DATAIN
+EN => inst10.OE
+EN => inst11.OE
+EN => inst12.OE
+EN => inst13.OE
+EN => inst14.OE
+EN => inst15.OE
+EN => inst16.OE
+EN => inst17.OE
+Q1 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst11.DATAIN
+Q2 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst12.DATAIN
+Q3 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst13.DATAIN
+Q4 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst14.DATAIN
+Q5 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst15.DATAIN
+Q6 <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst16.DATAIN
+Q7 <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+D7 => inst17.DATAIN
+
+
+|ModelMachine|IR-8:Z
+Q7 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+RE => inst1.ACLR
+RE => inst1.PRESET
+RE => inst3.ACLR
+RE => inst3.PRESET
+RE => inst.ACLR
+RE => inst.PRESET
+RE => inst2.ACLR
+RE => inst2.PRESET
+RE => inst5.ACLR
+RE => inst5.PRESET
+RE => inst7.ACLR
+RE => inst7.PRESET
+RE => inst4.ACLR
+RE => inst4.PRESET
+RE => inst6.ACLR
+RE => inst6.PRESET
+CP => inst1.CLK
+CP => inst3.CLK
+CP => inst.CLK
+CP => inst2.CLK
+CP => inst5.CLK
+CP => inst7.CLK
+CP => inst4.CLK
+CP => inst6.CLK
+D7 => inst1.DATAIN
+Q6 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst3.DATAIN
+Q5 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst.DATAIN
+Q4 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst2.DATAIN
+Q3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst5.DATAIN
+Q2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst7.DATAIN
+Q1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst4.DATAIN
+Q0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst6.DATAIN
+
+
+|ModelMachine|THREE-STATE-ONE-GATE:inst70
+Q0 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst10.DATAIN
+EN => inst10.OE
+EN => inst11.OE
+EN => inst12.OE
+EN => inst13.OE
+EN => inst14.OE
+EN => inst15.OE
+EN => inst16.OE
+EN => inst17.OE
+Q1 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst11.DATAIN
+Q2 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst12.DATAIN
+Q3 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst13.DATAIN
+Q4 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst14.DATAIN
+Q5 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst15.DATAIN
+Q6 <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst16.DATAIN
+Q7 <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+D7 => inst17.DATAIN
+
+
+|ModelMachine|THREE-STATE-ONE-GATE:inst73
+Q0 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst10.DATAIN
+EN => inst10.OE
+EN => inst11.OE
+EN => inst12.OE
+EN => inst13.OE
+EN => inst14.OE
+EN => inst15.OE
+EN => inst16.OE
+EN => inst17.OE
+Q1 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst11.DATAIN
+Q2 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst12.DATAIN
+Q3 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst13.DATAIN
+Q4 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst14.DATAIN
+Q5 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst15.DATAIN
+Q6 <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst16.DATAIN
+Q7 <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+D7 => inst17.DATAIN
+
+
+|ModelMachine|selector:inst67
+Y7 <= inst46.DB_MAX_OUTPUT_PORT_TYPE
+B7 => inst.IN0
+BY => inst.IN1
+BY => inst15.IN1
+BY => inst21.IN1
+BY => inst23.IN1
+BY => inst2.IN1
+BY => inst17.IN1
+BY => inst27.IN1
+BY => inst26.IN1
+A7 => inst22.IN0
+AY => inst22.IN1
+AY => inst13.IN1
+AY => inst16.IN1
+AY => inst24.IN1
+AY => inst25.IN1
+AY => inst14.IN1
+AY => inst18.IN1
+AY => inst28.IN1
+Y6 <= inst47.DB_MAX_OUTPUT_PORT_TYPE
+B6 => inst15.IN0
+A6 => inst13.IN0
+Y5 <= inst48.DB_MAX_OUTPUT_PORT_TYPE
+B5 => inst21.IN0
+A5 => inst16.IN0
+Y4 <= inst49.DB_MAX_OUTPUT_PORT_TYPE
+B4 => inst23.IN0
+A4 => inst24.IN0
+Y3 <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+B3 => inst2.IN0
+A3 => inst25.IN0
+Y2 <= inst51.DB_MAX_OUTPUT_PORT_TYPE
+B2 => inst17.IN0
+A2 => inst14.IN0
+Y1 <= inst52.DB_MAX_OUTPUT_PORT_TYPE
+B1 => inst27.IN0
+A1 => inst18.IN0
+Y0 <= inst53.DB_MAX_OUTPUT_PORT_TYPE
+B0 => inst26.IN0
+A0 => inst28.IN0
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84
+Q15 <= IR-16:inst2.Q15
+RE => IR-16:inst2.RE
+CP => IR-16:inst2.CP
+X0 => ZHENLIE-CHENGFAQI-UNIT:inst71.X
+X0 => ZHENLIE-CHENGFAQI-UNIT:inst63.X
+X0 => ZHENLIE-CHENGFAQI-UNIT:inst55.X
+X0 => ZHENLIE-CHENGFAQI-UNIT:inst47.X
+X0 => ZHENLIE-CHENGFAQI-UNIT:inst39.X
+X0 => ZHENLIE-CHENGFAQI-UNIT:inst31.X
+X0 => ZHENLIE-CHENGFAQI-UNIT:inst23.X
+X0 => ZHENLIE-CHENGFAQI-UNIT:inst15.X
+Y7 => ZHENLIE-CHENGFAQI-UNIT:inst71.Y
+Y7 => ZHENLIE-CHENGFAQI-UNIT:inst70.Y
+Y7 => ZHENLIE-CHENGFAQI-UNIT:inst69.Y
+Y7 => ZHENLIE-CHENGFAQI-UNIT:inst68.Y
+Y7 => ZHENLIE-CHENGFAQI-UNIT:inst67.Y
+Y7 => ZHENLIE-CHENGFAQI-UNIT:inst66.Y
+Y7 => ZHENLIE-CHENGFAQI-UNIT:inst65.Y
+Y7 => ZHENLIE-CHENGFAQI-UNIT:inst64.Y
+Y6 => ZHENLIE-CHENGFAQI-UNIT:inst63.Y
+Y6 => ZHENLIE-CHENGFAQI-UNIT:inst62.Y
+Y6 => ZHENLIE-CHENGFAQI-UNIT:inst61.Y
+Y6 => ZHENLIE-CHENGFAQI-UNIT:inst60.Y
+Y6 => ZHENLIE-CHENGFAQI-UNIT:inst59.Y
+Y6 => ZHENLIE-CHENGFAQI-UNIT:inst58.Y
+Y6 => ZHENLIE-CHENGFAQI-UNIT:inst57.Y
+Y6 => ZHENLIE-CHENGFAQI-UNIT:inst56.Y
+Y5 => ZHENLIE-CHENGFAQI-UNIT:inst55.Y
+Y5 => ZHENLIE-CHENGFAQI-UNIT:inst54.Y
+Y5 => ZHENLIE-CHENGFAQI-UNIT:inst53.Y
+Y5 => ZHENLIE-CHENGFAQI-UNIT:inst52.Y
+Y5 => ZHENLIE-CHENGFAQI-UNIT:inst51.Y
+Y5 => ZHENLIE-CHENGFAQI-UNIT:inst50.Y
+Y5 => ZHENLIE-CHENGFAQI-UNIT:inst49.Y
+Y5 => ZHENLIE-CHENGFAQI-UNIT:inst48.Y
+Y4 => ZHENLIE-CHENGFAQI-UNIT:inst47.Y
+Y4 => ZHENLIE-CHENGFAQI-UNIT:inst46.Y
+Y4 => ZHENLIE-CHENGFAQI-UNIT:inst45.Y
+Y4 => ZHENLIE-CHENGFAQI-UNIT:inst44.Y
+Y4 => ZHENLIE-CHENGFAQI-UNIT:inst43.Y
+Y4 => ZHENLIE-CHENGFAQI-UNIT:inst42.Y
+Y4 => ZHENLIE-CHENGFAQI-UNIT:inst41.Y
+Y4 => ZHENLIE-CHENGFAQI-UNIT:inst40.Y
+Y3 => ZHENLIE-CHENGFAQI-UNIT:inst39.Y
+Y3 => ZHENLIE-CHENGFAQI-UNIT:inst38.Y
+Y3 => ZHENLIE-CHENGFAQI-UNIT:inst37.Y
+Y3 => ZHENLIE-CHENGFAQI-UNIT:inst36.Y
+Y3 => ZHENLIE-CHENGFAQI-UNIT:inst35.Y
+Y3 => ZHENLIE-CHENGFAQI-UNIT:inst34.Y
+Y3 => ZHENLIE-CHENGFAQI-UNIT:inst33.Y
+Y3 => ZHENLIE-CHENGFAQI-UNIT:inst32.Y
+Y2 => ZHENLIE-CHENGFAQI-UNIT:inst31.Y
+Y2 => ZHENLIE-CHENGFAQI-UNIT:inst30.Y
+Y2 => ZHENLIE-CHENGFAQI-UNIT:inst29.Y
+Y2 => ZHENLIE-CHENGFAQI-UNIT:inst28.Y
+Y2 => ZHENLIE-CHENGFAQI-UNIT:inst27.Y
+Y2 => ZHENLIE-CHENGFAQI-UNIT:inst26.Y
+Y2 => ZHENLIE-CHENGFAQI-UNIT:inst25.Y
+Y2 => ZHENLIE-CHENGFAQI-UNIT:inst24.Y
+Y1 => ZHENLIE-CHENGFAQI-UNIT:inst23.Y
+Y1 => ZHENLIE-CHENGFAQI-UNIT:inst22.Y
+Y1 => ZHENLIE-CHENGFAQI-UNIT:inst21.Y
+Y1 => ZHENLIE-CHENGFAQI-UNIT:inst20.Y
+Y1 => ZHENLIE-CHENGFAQI-UNIT:inst19.Y
+Y1 => ZHENLIE-CHENGFAQI-UNIT:inst18.Y
+Y1 => ZHENLIE-CHENGFAQI-UNIT:inst17.Y
+Y1 => ZHENLIE-CHENGFAQI-UNIT:inst16.Y
+Y0 => ZHENLIE-CHENGFAQI-UNIT:inst15.Y
+Y0 => ZHENLIE-CHENGFAQI-UNIT:inst14.Y
+Y0 => ZHENLIE-CHENGFAQI-UNIT:inst13.Y
+Y0 => ZHENLIE-CHENGFAQI-UNIT:inst12.Y
+Y0 => ZHENLIE-CHENGFAQI-UNIT:inst11.Y
+Y0 => ZHENLIE-CHENGFAQI-UNIT:inst10.Y
+Y0 => ZHENLIE-CHENGFAQI-UNIT:inst9.Y
+Y0 => ZHENLIE-CHENGFAQI-UNIT:inst.Y
+X1 => ZHENLIE-CHENGFAQI-UNIT:inst14.X
+X1 => ZHENLIE-CHENGFAQI-UNIT:inst22.X
+X1 => ZHENLIE-CHENGFAQI-UNIT:inst30.X
+X1 => ZHENLIE-CHENGFAQI-UNIT:inst38.X
+X1 => ZHENLIE-CHENGFAQI-UNIT:inst46.X
+X1 => ZHENLIE-CHENGFAQI-UNIT:inst54.X
+X1 => ZHENLIE-CHENGFAQI-UNIT:inst62.X
+X1 => ZHENLIE-CHENGFAQI-UNIT:inst70.X
+X2 => ZHENLIE-CHENGFAQI-UNIT:inst13.X
+X2 => ZHENLIE-CHENGFAQI-UNIT:inst21.X
+X2 => ZHENLIE-CHENGFAQI-UNIT:inst29.X
+X2 => ZHENLIE-CHENGFAQI-UNIT:inst37.X
+X2 => ZHENLIE-CHENGFAQI-UNIT:inst45.X
+X2 => ZHENLIE-CHENGFAQI-UNIT:inst53.X
+X2 => ZHENLIE-CHENGFAQI-UNIT:inst61.X
+X2 => ZHENLIE-CHENGFAQI-UNIT:inst69.X
+X3 => ZHENLIE-CHENGFAQI-UNIT:inst12.X
+X3 => ZHENLIE-CHENGFAQI-UNIT:inst20.X
+X3 => ZHENLIE-CHENGFAQI-UNIT:inst28.X
+X3 => ZHENLIE-CHENGFAQI-UNIT:inst36.X
+X3 => ZHENLIE-CHENGFAQI-UNIT:inst44.X
+X3 => ZHENLIE-CHENGFAQI-UNIT:inst52.X
+X3 => ZHENLIE-CHENGFAQI-UNIT:inst60.X
+X3 => ZHENLIE-CHENGFAQI-UNIT:inst68.X
+X4 => ZHENLIE-CHENGFAQI-UNIT:inst11.X
+X4 => ZHENLIE-CHENGFAQI-UNIT:inst19.X
+X4 => ZHENLIE-CHENGFAQI-UNIT:inst27.X
+X4 => ZHENLIE-CHENGFAQI-UNIT:inst35.X
+X4 => ZHENLIE-CHENGFAQI-UNIT:inst43.X
+X4 => ZHENLIE-CHENGFAQI-UNIT:inst51.X
+X4 => ZHENLIE-CHENGFAQI-UNIT:inst59.X
+X4 => ZHENLIE-CHENGFAQI-UNIT:inst67.X
+X5 => ZHENLIE-CHENGFAQI-UNIT:inst10.X
+X5 => ZHENLIE-CHENGFAQI-UNIT:inst18.X
+X5 => ZHENLIE-CHENGFAQI-UNIT:inst26.X
+X5 => ZHENLIE-CHENGFAQI-UNIT:inst34.X
+X5 => ZHENLIE-CHENGFAQI-UNIT:inst42.X
+X5 => ZHENLIE-CHENGFAQI-UNIT:inst50.X
+X5 => ZHENLIE-CHENGFAQI-UNIT:inst58.X
+X5 => ZHENLIE-CHENGFAQI-UNIT:inst66.X
+X6 => ZHENLIE-CHENGFAQI-UNIT:inst9.X
+X6 => ZHENLIE-CHENGFAQI-UNIT:inst17.X
+X6 => ZHENLIE-CHENGFAQI-UNIT:inst25.X
+X6 => ZHENLIE-CHENGFAQI-UNIT:inst33.X
+X6 => ZHENLIE-CHENGFAQI-UNIT:inst41.X
+X6 => ZHENLIE-CHENGFAQI-UNIT:inst49.X
+X6 => ZHENLIE-CHENGFAQI-UNIT:inst57.X
+X6 => ZHENLIE-CHENGFAQI-UNIT:inst65.X
+X7 => ZHENLIE-CHENGFAQI-UNIT:inst.X
+X7 => ZHENLIE-CHENGFAQI-UNIT:inst16.X
+X7 => ZHENLIE-CHENGFAQI-UNIT:inst24.X
+X7 => ZHENLIE-CHENGFAQI-UNIT:inst32.X
+X7 => ZHENLIE-CHENGFAQI-UNIT:inst40.X
+X7 => ZHENLIE-CHENGFAQI-UNIT:inst48.X
+X7 => ZHENLIE-CHENGFAQI-UNIT:inst56.X
+X7 => ZHENLIE-CHENGFAQI-UNIT:inst64.X
+Q14 <= IR-16:inst2.Q14
+Q13 <= IR-16:inst2.Q13
+Q12 <= IR-16:inst2.Q12
+Q11 <= IR-16:inst2.Q11
+Q10 <= IR-16:inst2.Q10
+Q9 <= IR-16:inst2.Q9
+Q8 <= IR-16:inst2.Q8
+Q7 <= IR-16:inst2.Q7
+Q6 <= IR-16:inst2.Q6
+Q5 <= IR-16:inst2.Q5
+Q4 <= IR-16:inst2.Q4
+Q3 <= IR-16:inst2.Q3
+Q2 <= IR-16:inst2.Q2
+Q1 <= IR-16:inst2.Q1
+Q0 <= IR-16:inst2.Q0
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|IR-16:inst2
+Q15 <= IR-8:inst2.Q7
+RE => IR-8:inst2.RE
+RE => IR-8:inst3.RE
+CP => IR-8:inst2.CP
+CP => IR-8:inst3.CP
+D15 => IR-8:inst2.D7
+D14 => IR-8:inst2.D6
+D13 => IR-8:inst2.D5
+D12 => IR-8:inst2.D4
+D11 => IR-8:inst2.D3
+D10 => IR-8:inst2.D2
+D9 => IR-8:inst2.D1
+D8 => IR-8:inst2.D0
+Q14 <= IR-8:inst2.Q6
+Q13 <= IR-8:inst2.Q5
+Q12 <= IR-8:inst2.Q4
+Q11 <= IR-8:inst2.Q3
+Q10 <= IR-8:inst2.Q2
+Q9 <= IR-8:inst2.Q1
+Q8 <= IR-8:inst2.Q0
+Q7 <= IR-8:inst3.Q7
+D7 => IR-8:inst3.D7
+D6 => IR-8:inst3.D6
+D5 => IR-8:inst3.D5
+D4 => IR-8:inst3.D4
+D3 => IR-8:inst3.D3
+D2 => IR-8:inst3.D2
+D1 => IR-8:inst3.D1
+D0 => IR-8:inst3.D0
+Q6 <= IR-8:inst3.Q6
+Q5 <= IR-8:inst3.Q5
+Q4 <= IR-8:inst3.Q4
+Q3 <= IR-8:inst3.Q3
+Q2 <= IR-8:inst3.Q2
+Q1 <= IR-8:inst3.Q1
+Q0 <= IR-8:inst3.Q0
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|IR-16:inst2|IR-8:inst2
+Q7 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+RE => inst1.ACLR
+RE => inst1.PRESET
+RE => inst3.ACLR
+RE => inst3.PRESET
+RE => inst.ACLR
+RE => inst.PRESET
+RE => inst2.ACLR
+RE => inst2.PRESET
+RE => inst5.ACLR
+RE => inst5.PRESET
+RE => inst7.ACLR
+RE => inst7.PRESET
+RE => inst4.ACLR
+RE => inst4.PRESET
+RE => inst6.ACLR
+RE => inst6.PRESET
+CP => inst1.CLK
+CP => inst3.CLK
+CP => inst.CLK
+CP => inst2.CLK
+CP => inst5.CLK
+CP => inst7.CLK
+CP => inst4.CLK
+CP => inst6.CLK
+D7 => inst1.DATAIN
+Q6 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst3.DATAIN
+Q5 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst.DATAIN
+Q4 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst2.DATAIN
+Q3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst5.DATAIN
+Q2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst7.DATAIN
+Q1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst4.DATAIN
+Q0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst6.DATAIN
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|IR-16:inst2|IR-8:inst3
+Q7 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+RE => inst1.ACLR
+RE => inst1.PRESET
+RE => inst3.ACLR
+RE => inst3.PRESET
+RE => inst.ACLR
+RE => inst.PRESET
+RE => inst2.ACLR
+RE => inst2.PRESET
+RE => inst5.ACLR
+RE => inst5.PRESET
+RE => inst7.ACLR
+RE => inst7.PRESET
+RE => inst4.ACLR
+RE => inst4.PRESET
+RE => inst6.ACLR
+RE => inst6.PRESET
+CP => inst1.CLK
+CP => inst3.CLK
+CP => inst.CLK
+CP => inst2.CLK
+CP => inst5.CLK
+CP => inst7.CLK
+CP => inst4.CLK
+CP => inst6.CLK
+D7 => inst1.DATAIN
+Q6 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D6 => inst3.DATAIN
+Q5 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+D5 => inst.DATAIN
+Q4 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst2.DATAIN
+Q3 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst5.DATAIN
+Q2 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst7.DATAIN
+Q1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst4.DATAIN
+Q0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+D0 => inst6.DATAIN
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst64
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst65
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst66
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst67
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst68
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst69
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst70
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst71
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst62
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst63
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst54
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst55
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst46
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst47
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst38
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst39
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst30
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst31
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst22
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst23
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst14
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst15
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst13
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst21
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst12
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst29
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst20
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst11
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst37
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst28
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst19
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst10
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst45
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst36
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst27
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst18
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst9
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst53
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst44
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst35
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst26
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst17
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst61
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst52
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst43
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst34
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst25
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst16
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst60
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst51
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst42
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst33
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst24
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst59
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst50
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst41
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst32
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst58
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst49
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst40
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst57
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst48
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst56
+PART_JI_OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+X => inst5.IN0
+Y => inst5.IN1
+PART_JI_IN => inst.IN1
+PART_JI_IN => inst3.IN0
+C_IN => inst1.IN1
+C_IN => inst2.IN0
+C_OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

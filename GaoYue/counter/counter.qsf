@@ -44,3 +44,23 @@ set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name MISC_FILE "E:/Project/¼Æ×é¿ÎÉè/sdu-computer-organization-project/GaoYue/counter/counter.dpf"
 set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_location_assignment PIN_132 -to CLK
+set_location_assignment PIN_206 -to CLR
+set_location_assignment PIN_77 -to PR0
+set_location_assignment PIN_80 -to PR1
+set_location_assignment PIN_81 -to PR2
+set_location_assignment PIN_82 -to PR3
+set_location_assignment PIN_84 -to PR4
+set_location_assignment PIN_86 -to PR5
+set_location_assignment PIN_87 -to PR6
+set_location_assignment PIN_88 -to PR7
+set_location_assignment PIN_142 -to q0
+set_location_assignment PIN_143 -to q1
+set_location_assignment PIN_144 -to q2
+set_location_assignment PIN_145 -to q3
+set_location_assignment PIN_146 -to q4
+set_location_assignment PIN_147 -to q5
+set_location_assignment PIN_149 -to q6
+set_location_assignment PIN_150 -to q7
+set_global_assignment -name MISC_FILE "C:/Users/dell/Desktop/sdu-computer-organization-project/GaoYue/counter/counter.dpf"
+set_location_assignment PIN_67 -to en

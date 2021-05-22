@@ -1,0 +1,204 @@
+|count8
+Q7 <= count2:inst.Q1
+CK => count2:inst.CK
+CK => count2:inst1.CK
+CK => count2:inst3.CK
+CK => count2:inst2.CK
+CLR => count2:inst.CLR
+CLR => count2:inst1.CLR
+CLR => count2:inst3.CLR
+CLR => count2:inst2.CLR
+LD => inst5.IN0
+D1 => count2:inst3.D1
+D0 => count2:inst3.D0
+D3 => count2:inst2.D1
+D2 => count2:inst2.D0
+D5 => count2:inst1.D1
+D4 => count2:inst1.D0
+D7 => count2:inst.D1
+D6 => count2:inst.D0
+Q6 <= count2:inst.Q0
+Q5 <= count2:inst1.Q1
+Q4 <= count2:inst1.Q0
+Q3 <= count2:inst2.Q1
+Q2 <= count2:inst2.Q0
+Q1 <= count2:inst3.Q1
+Q0 <= count2:inst3.Q0
+
+
+|count8|count2:inst
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst1.ACLR
+CLR => inst1.PRESET
+CLR => inst.PRESET
+CK => inst.CLK
+CK => inst1.CLK
+D1 => select2-1:inst2.A
+LD => inst7.IN0
+LD => select2-1:inst3.BY
+LD => select2-1:inst2.BY
+EN => inst6.IN0
+EN => inst11.IN0
+EN => select2-1:inst4.BY
+D0 => select2-1:inst3.A
+Q0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CN <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|count8|count2:inst|select2-1:inst2
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|count8|count2:inst|select2-1:inst4
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|count8|count2:inst|select2-1:inst3
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|count8|count2:inst1
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst1.ACLR
+CLR => inst1.PRESET
+CLR => inst.PRESET
+CK => inst.CLK
+CK => inst1.CLK
+D1 => select2-1:inst2.A
+LD => inst7.IN0
+LD => select2-1:inst3.BY
+LD => select2-1:inst2.BY
+EN => inst6.IN0
+EN => inst11.IN0
+EN => select2-1:inst4.BY
+D0 => select2-1:inst3.A
+Q0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CN <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|count8|count2:inst1|select2-1:inst2
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|count8|count2:inst1|select2-1:inst4
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|count8|count2:inst1|select2-1:inst3
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|count8|count2:inst3
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst1.ACLR
+CLR => inst1.PRESET
+CLR => inst.PRESET
+CK => inst.CLK
+CK => inst1.CLK
+D1 => select2-1:inst2.A
+LD => inst7.IN0
+LD => select2-1:inst3.BY
+LD => select2-1:inst2.BY
+EN => inst6.IN0
+EN => inst11.IN0
+EN => select2-1:inst4.BY
+D0 => select2-1:inst3.A
+Q0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CN <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|count8|count2:inst3|select2-1:inst2
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|count8|count2:inst3|select2-1:inst4
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|count8|count2:inst3|select2-1:inst3
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|count8|count2:inst2
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst1.ACLR
+CLR => inst1.PRESET
+CLR => inst.PRESET
+CK => inst.CLK
+CK => inst1.CLK
+D1 => select2-1:inst2.A
+LD => inst7.IN0
+LD => select2-1:inst3.BY
+LD => select2-1:inst2.BY
+EN => inst6.IN0
+EN => inst11.IN0
+EN => select2-1:inst4.BY
+D0 => select2-1:inst3.A
+Q0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+CN <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|count8|count2:inst2|select2-1:inst2
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|count8|count2:inst2|select2-1:inst4
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+
+|count8|count2:inst2|select2-1:inst3
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat May 22 13:56:20 2021
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
+Revision Name : ZHENLIE-CHENGFAQI
+Top-level Entity Name : ZHENLIE-CHENGFAQI
+Family : Cyclone II
+Total logic elements : 129
+    Total combinational functions : 129
+    Dedicated logic registers : 16
+Total registers : 16
+Total pins : 34
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

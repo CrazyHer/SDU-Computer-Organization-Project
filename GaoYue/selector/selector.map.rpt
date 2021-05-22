@@ -1,5 +1,5 @@
 Analysis & Synthesis report for selector
-Thu Apr 22 21:38:09 2021
+Thu May 06 22:41:48 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -39,7 +39,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                 ;
 +------------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Apr 22 21:38:09 2021   ;
+; Analysis & Synthesis Status        ; Successful - Thu May 06 22:41:48 2021   ;
 ; Quartus II Version                 ; 8.1 Build 163 10/28/2008 SJ Web Edition ;
 ; Revision Name                      ; selector                                ;
 ; Top-level Entity Name              ; selector-4                              ;
@@ -132,13 +132,13 @@ applicable agreement for further details.
 +----------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                 ;
-+----------------------------------+-----------------+------------------------------------+------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path ;
-+----------------------------------+-----------------+------------------------------------+------------------------------+
-; selector-4.bdf                   ; yes             ; User Block Diagram/Schematic File  ; F:/selector/selector-4.bdf   ;
-+----------------------------------+-----------------+------------------------------------+------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                        ;
++----------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                        ;
++----------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------+
+; selector-4.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/sdu-computer-organization-project/GaoYue/selector/selector-4.bdf ;
++----------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -201,19 +201,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Thu Apr 22 21:38:03 2021
+    Info: Processing started: Thu May 06 22:41:48 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off selector -c selector
 Info: Found 1 design units, including 1 entities, in source file selector-4.bdf
     Info: Found entity 1: selector-4
+Info: Found 1 design units, including 1 entities, in source file selector-2bit.bdf
+    Info: Found entity 1: selector-2bit
 Info: Elaborating entity "selector-4" for the top level hierarchy
 Info: Implemented 68 device resources after synthesis - the final resource count might be different
     Info: Implemented 36 input pins
     Info: Implemented 8 output pins
     Info: Implemented 24 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 193 megabytes
-    Info: Processing ended: Thu Apr 22 21:38:10 2021
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 246 megabytes
+    Info: Processing ended: Thu May 06 22:41:48 2021
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
 
 

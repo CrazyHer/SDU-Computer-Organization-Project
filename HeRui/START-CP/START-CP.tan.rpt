@@ -1,5 +1,5 @@
 Classic Timing Analyzer report for START-CP
-Tue Apr 13 21:18:41 2021
+Mon May 17 17:23:28 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -112,7 +112,7 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Classic Timing Analyzer
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Tue Apr 13 21:18:41 2021
+    Info: Processing started: Mon May 17 17:23:28 2021
 Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off START-CP -c START-CP --timing_analysis_only
 Warning: Found pins functioning as undefined clocks and/or memory enables
     Info: Assuming node "START_CP" is an undefined clock
@@ -137,9 +137,9 @@ Info: Longest tpd from source pin "HALT" to destination pin "OUT_CP" is 9.983 ns
     Info: Total cell delay = 4.273 ns ( 42.80 % )
     Info: Total interconnect delay = 5.710 ns ( 57.20 % )
 Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 197 megabytes
-    Info: Processing ended: Tue Apr 13 21:18:41 2021
+    Info: Peak virtual memory: 156 megabytes
+    Info: Processing ended: Mon May 17 17:23:28 2021
     Info: Elapsed time: 00:00:00
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
 
 

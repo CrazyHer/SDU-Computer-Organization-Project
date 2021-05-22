@@ -1,0 +1,99 @@
+Version 8.1 Build 163 10/28/2008 SJ Web Edition
+11
+942
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+count2
+# storage
+db|count8.(1).cnf
+db|count8.(1).cnf
+# case_insensitive
+# source_file
+count2.bdf
+56519fac4cc8e6de72796fc1ebad9c0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+count2:inst
+count2:inst1
+count2:inst3
+count2:inst2
+}
+# macro_sequence
+
+# end
+# entity
+select2-1
+# storage
+db|count8.(2).cnf
+db|count8.(2).cnf
+# case_insensitive
+# source_file
+select2-1.bdf
+e5dd33c2226c932f38f97c29e958820
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+count2:inst|select2-1:inst2
+count2:inst|select2-1:inst4
+count2:inst|select2-1:inst3
+count2:inst1|select2-1:inst2
+count2:inst1|select2-1:inst4
+count2:inst1|select2-1:inst3
+count2:inst3|select2-1:inst2
+count2:inst3|select2-1:inst4
+count2:inst3|select2-1:inst3
+count2:inst2|select2-1:inst2
+count2:inst2|select2-1:inst4
+count2:inst2|select2-1:inst3
+}
+# macro_sequence
+
+# end
+# entity
+count8
+# storage
+db|count8.(0).cnf
+db|count8.(0).cnf
+# case_insensitive
+# source_file
+count8.bdf
+1eb3b767ddd6ce2f9c48655f7aa85bc6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

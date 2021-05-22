@@ -52,6 +52,23 @@ acb218a3ca2249762e7b23e1aca16c
 BLOCK_DESIGN_NAMING
 AUTO
 }
+# macro_sequence
+
+# end
+# entity
+THREE-STATE-ONE-GATE
+# storage
+db|THREE-STATE-GATE.(2).cnf
+db|THREE-STATE-GATE.(2).cnf
+# case_insensitive
+# source_file
+THREE-STATE-ONE-GATE.bdf
+f6b31a6988ed68f4dd5c441be3c69e8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
 # hierarchies {
 |
 }

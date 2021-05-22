@@ -1,5 +1,5 @@
 Assembler report for selector
-Thu Apr 22 21:38:25 2021
+Thu May 06 22:41:52 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: F:/selector/selector.sof
-  6. Assembler Device Options: F:/selector/selector.pof
+  5. Assembler Device Options: D:/sdu-computer-organization-project/GaoYue/selector/selector.sof
+  6. Assembler Device Options: D:/sdu-computer-organization-project/GaoYue/selector/selector.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Apr 22 21:38:25 2021 ;
+; Assembler Status      ; Successful - Thu May 06 22:41:52 2021 ;
 ; Revision Name         ; selector                              ;
 ; Top-level Entity Name ; selector-4                            ;
 ; Family                ; Cyclone II                            ;
@@ -76,37 +76,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+---------------------------+
-; Assembler Generated Files ;
-+---------------------------+
-; File Name                 ;
-+---------------------------+
-; F:/selector/selector.sof  ;
-; F:/selector/selector.pof  ;
-+---------------------------+
++-------------------------------------------------------------------+
+; Assembler Generated Files                                         ;
++-------------------------------------------------------------------+
+; File Name                                                         ;
++-------------------------------------------------------------------+
+; D:/sdu-computer-organization-project/GaoYue/selector/selector.sof ;
+; D:/sdu-computer-organization-project/GaoYue/selector/selector.pof ;
++-------------------------------------------------------------------+
 
 
-+----------------------------------------------------+
-; Assembler Device Options: F:/selector/selector.sof ;
-+----------------+-----------------------------------+
-; Option         ; Setting                           ;
-+----------------+-----------------------------------+
-; Device         ; EP2C8Q208C8                       ;
-; JTAG usercode  ; 0xFFFFFFFF                        ;
-; Checksum       ; 0x000C5247                        ;
-+----------------+-----------------------------------+
++---------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/sdu-computer-organization-project/GaoYue/selector/selector.sof ;
++----------------+----------------------------------------------------------------------------+
+; Option         ; Setting                                                                    ;
++----------------+----------------------------------------------------------------------------+
+; Device         ; EP2C8Q208C8                                                                ;
+; JTAG usercode  ; 0xFFFFFFFF                                                                 ;
+; Checksum       ; 0x000C5247                                                                 ;
++----------------+----------------------------------------------------------------------------+
 
 
-+----------------------------------------------------+
-; Assembler Device Options: F:/selector/selector.pof ;
-+--------------------+-------------------------------+
-; Option             ; Setting                       ;
-+--------------------+-------------------------------+
-; Device             ; EPCS4                         ;
-; JTAG usercode      ; 0x00000000                    ;
-; Checksum           ; 0x06EF96F3                    ;
-; Compression Ratio  ; 3                             ;
-+--------------------+-------------------------------+
++---------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/sdu-computer-organization-project/GaoYue/selector/selector.pof ;
++--------------------+------------------------------------------------------------------------+
+; Option             ; Setting                                                                ;
++--------------------+------------------------------------------------------------------------+
+; Device             ; EPCS4                                                                  ;
+; JTAG usercode      ; 0x00000000                                                             ;
+; Checksum           ; 0x06EF96F3                                                             ;
+; Compression Ratio  ; 3                                                                      ;
++--------------------+------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -115,14 +115,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Thu Apr 22 21:38:19 2021
+    Info: Processing started: Thu May 06 22:41:51 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off selector -c selector
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 189 megabytes
-    Info: Processing ended: Thu Apr 22 21:38:25 2021
-    Info: Elapsed time: 00:00:06
+    Info: Peak virtual memory: 244 megabytes
+    Info: Processing ended: Thu May 06 22:41:52 2021
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

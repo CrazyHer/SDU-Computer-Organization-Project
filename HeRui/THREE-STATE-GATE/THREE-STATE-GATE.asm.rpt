@@ -1,5 +1,5 @@
 Assembler report for THREE-STATE-GATE
-Thu Apr 22 00:03:57 2021
+Thu Apr 29 20:46:08 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: E:/Project/计组课设/sdu-computer-organization-project/HeRui/THREE-STATE-GATE/THREE-STATE-GATE.sof
-  6. Assembler Device Options: E:/Project/计组课设/sdu-computer-organization-project/HeRui/THREE-STATE-GATE/THREE-STATE-GATE.pof
+  5. Assembler Device Options: D:/sdu-computer-organization-project/HeRui/THREE-STATE-GATE/THREE-STATE-GATE.sof
+  6. Assembler Device Options: D:/sdu-computer-organization-project/HeRui/THREE-STATE-GATE/THREE-STATE-GATE.pof
   7. Assembler Messages
 
 
@@ -38,9 +38,9 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Apr 22 00:03:57 2021 ;
+; Assembler Status      ; Successful - Thu Apr 29 20:46:08 2021 ;
 ; Revision Name         ; THREE-STATE-GATE                      ;
-; Top-level Entity Name ; THREE-STATE-DOUBLE-GATE               ;
+; Top-level Entity Name ; THREE-STATE-ONE-GATE                  ;
 ; Family                ; Cyclone II                            ;
 ; Device                ; EP2C8Q208C7                           ;
 +-----------------------+---------------------------------------+
@@ -76,37 +76,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+---------------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                         ;
-+---------------------------------------------------------------------------------------------------+
-; File Name                                                                                         ;
-+---------------------------------------------------------------------------------------------------+
-; E:/Project/计组课设/sdu-computer-organization-project/HeRui/THREE-STATE-GATE/THREE-STATE-GATE.sof ;
-; E:/Project/计组课设/sdu-computer-organization-project/HeRui/THREE-STATE-GATE/THREE-STATE-GATE.pof ;
-+---------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------+
+; Assembler Generated Files                                                        ;
++----------------------------------------------------------------------------------+
+; File Name                                                                        ;
++----------------------------------------------------------------------------------+
+; D:/sdu-computer-organization-project/HeRui/THREE-STATE-GATE/THREE-STATE-GATE.sof ;
+; D:/sdu-computer-organization-project/HeRui/THREE-STATE-GATE/THREE-STATE-GATE.pof ;
++----------------------------------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: E:/Project/计组课设/sdu-computer-organization-project/HeRui/THREE-STATE-GATE/THREE-STATE-GATE.sof ;
-+----------------+------------------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                                    ;
-+----------------+------------------------------------------------------------------------------------------------------------+
-; Device         ; EP2C8Q208C7                                                                                                ;
-; JTAG usercode  ; 0xFFFFFFFF                                                                                                 ;
-; Checksum       ; 0x000C14D4                                                                                                 ;
-+----------------+------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/sdu-computer-organization-project/HeRui/THREE-STATE-GATE/THREE-STATE-GATE.sof ;
++----------------+-------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                   ;
++----------------+-------------------------------------------------------------------------------------------+
+; Device         ; EP2C8Q208C7                                                                               ;
+; JTAG usercode  ; 0xFFFFFFFF                                                                                ;
+; Checksum       ; 0x000BFAD0                                                                                ;
++----------------+-------------------------------------------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: E:/Project/计组课设/sdu-computer-organization-project/HeRui/THREE-STATE-GATE/THREE-STATE-GATE.pof ;
-+--------------------+--------------------------------------------------------------------------------------------------------+
-; Option             ; Setting                                                                                                ;
-+--------------------+--------------------------------------------------------------------------------------------------------+
-; Device             ; EPCS4                                                                                                  ;
-; JTAG usercode      ; 0x00000000                                                                                             ;
-; Checksum           ; 0x06F02DD6                                                                                             ;
-; Compression Ratio  ; 3                                                                                                      ;
-+--------------------+--------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/sdu-computer-organization-project/HeRui/THREE-STATE-GATE/THREE-STATE-GATE.pof ;
++--------------------+---------------------------------------------------------------------------------------+
+; Option             ; Setting                                                                               ;
++--------------------+---------------------------------------------------------------------------------------+
+; Device             ; EPCS4                                                                                 ;
+; JTAG usercode      ; 0x00000000                                                                            ;
+; Checksum           ; 0x06F045D7                                                                            ;
+; Compression Ratio  ; 3                                                                                     ;
++--------------------+---------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -115,14 +115,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Thu Apr 22 00:03:57 2021
+    Info: Processing started: Thu Apr 29 20:46:08 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off THREE-STATE-GATE -c THREE-STATE-GATE
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 226 megabytes
-    Info: Processing ended: Thu Apr 22 00:03:58 2021
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 242 megabytes
+    Info: Processing ended: Thu Apr 29 20:46:08 2021
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
 
 

@@ -1,5 +1,5 @@
 Classic Timing Analyzer report for THREE-STATE-GATE
-Thu Apr 22 00:03:59 2021
+Thu Apr 29 20:46:09 2021
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +------------------------------+-------+---------------+-------------+------+----+------------+----------+--------------+
 ; Type                         ; Slack ; Required Time ; Actual Time ; From ; To ; From Clock ; To Clock ; Failed Paths ;
 +------------------------------+-------+---------------+-------------+------+----+------------+----------+--------------+
-; Worst-case tpd               ; N/A   ; None          ; 9.790 ns    ; DIO1 ; Q1 ; --         ; --       ; 0            ;
+; Worst-case tpd               ; N/A   ; None          ; 9.546 ns    ; EN   ; Q0 ; --         ; --       ; 0            ;
 ; Total number of failed paths ;       ;               ;             ;      ;    ;            ;          ; 0            ;
 +------------------------------+-------+---------------+-------------+------+----+------------+----------+--------------+
 
@@ -75,44 +75,28 @@ applicable agreement for further details.
 +---------------------------------------------------------------------+--------------------+------+----+-------------+
 
 
-+---------------------------------------------------------------+
-; tpd                                                           ;
-+-------+-------------------+-----------------+----------+------+
-; Slack ; Required P2P Time ; Actual P2P Time ; From     ; To   ;
-+-------+-------------------+-----------------+----------+------+
-; N/A   ; None              ; 9.790 ns        ; DIO1     ; Q1   ;
-; N/A   ; None              ; 9.716 ns        ; DIO7     ; Q7   ;
-; N/A   ; None              ; 9.671 ns        ; D7       ; DIO7 ;
-; N/A   ; None              ; 9.307 ns        ; DIO2     ; Q2   ;
-; N/A   ; None              ; 9.280 ns        ; D5       ; DIO5 ;
-; N/A   ; None              ; 9.240 ns        ; D4       ; DIO4 ;
-; N/A   ; None              ; 9.061 ns        ; D3       ; DIO3 ;
-; N/A   ; None              ; 9.038 ns        ; DIO4     ; Q4   ;
-; N/A   ; None              ; 9.017 ns        ; DIO3     ; Q3   ;
-; N/A   ; None              ; 9.002 ns        ; D6       ; DIO6 ;
-; N/A   ; None              ; 8.976 ns        ; D2       ; DIO2 ;
-; N/A   ; None              ; 8.970 ns        ; DIO6     ; Q6   ;
-; N/A   ; None              ; 8.960 ns        ; DIO5     ; Q5   ;
-; N/A   ; None              ; 8.864 ns        ; DIO0     ; Q0   ;
-; N/A   ; None              ; 6.249 ns        ; EN_read  ; Q4   ;
-; N/A   ; None              ; 6.121 ns        ; EN_read  ; Q7   ;
-; N/A   ; None              ; 6.111 ns        ; EN_read  ; Q2   ;
-; N/A   ; None              ; 6.101 ns        ; EN_read  ; Q3   ;
-; N/A   ; None              ; 5.644 ns        ; EN_write ; DIO7 ;
-; N/A   ; None              ; 5.336 ns        ; EN_write ; DIO3 ;
-; N/A   ; None              ; 5.075 ns        ; D1       ; DIO1 ;
-; N/A   ; None              ; 5.061 ns        ; EN_read  ; Q1   ;
-; N/A   ; None              ; 5.056 ns        ; EN_write ; DIO6 ;
-; N/A   ; None              ; 5.022 ns        ; EN_write ; DIO1 ;
-; N/A   ; None              ; 5.012 ns        ; EN_write ; DIO2 ;
-; N/A   ; None              ; 4.989 ns        ; EN_write ; DIO4 ;
-; N/A   ; None              ; 4.738 ns        ; D0       ; DIO0 ;
-; N/A   ; None              ; 4.706 ns        ; EN_read  ; Q5   ;
-; N/A   ; None              ; 4.689 ns        ; EN_read  ; Q0   ;
-; N/A   ; None              ; 4.687 ns        ; EN_write ; DIO0 ;
-; N/A   ; None              ; 4.686 ns        ; EN_read  ; Q6   ;
-; N/A   ; None              ; 4.678 ns        ; EN_write ; DIO5 ;
-+-------+-------------------+-----------------+----------+------+
++---------------------------------------------------------+
+; tpd                                                     ;
++-------+-------------------+-----------------+------+----+
+; Slack ; Required P2P Time ; Actual P2P Time ; From ; To ;
++-------+-------------------+-----------------+------+----+
+; N/A   ; None              ; 9.546 ns        ; EN   ; Q6 ;
+; N/A   ; None              ; 9.546 ns        ; EN   ; Q0 ;
+; N/A   ; None              ; 9.033 ns        ; D2   ; Q2 ;
+; N/A   ; None              ; 8.975 ns        ; EN   ; Q7 ;
+; N/A   ; None              ; 8.975 ns        ; EN   ; Q5 ;
+; N/A   ; None              ; 8.967 ns        ; D1   ; Q1 ;
+; N/A   ; None              ; 8.942 ns        ; EN   ; Q3 ;
+; N/A   ; None              ; 8.841 ns        ; EN   ; Q2 ;
+; N/A   ; None              ; 8.811 ns        ; EN   ; Q4 ;
+; N/A   ; None              ; 8.811 ns        ; EN   ; Q1 ;
+; N/A   ; None              ; 8.654 ns        ; D3   ; Q3 ;
+; N/A   ; None              ; 8.644 ns        ; D0   ; Q0 ;
+; N/A   ; None              ; 5.051 ns        ; D7   ; Q7 ;
+; N/A   ; None              ; 5.048 ns        ; D4   ; Q4 ;
+; N/A   ; None              ; 5.036 ns        ; D5   ; Q5 ;
+; N/A   ; None              ; 4.727 ns        ; D6   ; Q6 ;
++-------+-------------------+-----------------+------+----+
 
 
 +--------------------------+
@@ -121,18 +105,17 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Classic Timing Analyzer
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Thu Apr 22 00:03:58 2021
+    Info: Processing started: Thu Apr 29 20:46:09 2021
 Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off THREE-STATE-GATE -c THREE-STATE-GATE --timing_analysis_only
-Info: Longest tpd from source pin "DIO1" to destination pin "Q1" is 9.790 ns
-    Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = PIN_12; Fanout = 1; PIN Node = 'DIO1'
-    Info: 2: + IC(0.000 ns) + CELL(0.924 ns) = 0.924 ns; Loc. = IOC_X0_Y16_N1; Fanout = 1; COMB Node = 'DIO1~0'
-    Info: 3: + IC(5.966 ns) + CELL(2.900 ns) = 9.790 ns; Loc. = PIN_43; Fanout = 0; PIN Node = 'Q1'
-    Info: Total cell delay = 3.824 ns ( 39.06 % )
-    Info: Total interconnect delay = 5.966 ns ( 60.94 % )
+Info: Longest tpd from source pin "EN" to destination pin "Q6" is 9.546 ns
+    Info: 1: + IC(0.000 ns) + CELL(0.934 ns) = 0.934 ns; Loc. = PIN_6; Fanout = 8; PIN Node = 'EN'
+    Info: 2: + IC(5.689 ns) + CELL(2.923 ns) = 9.546 ns; Loc. = PIN_33; Fanout = 0; PIN Node = 'Q6'
+    Info: Total cell delay = 3.857 ns ( 40.40 % )
+    Info: Total interconnect delay = 5.689 ns ( 59.60 % )
 Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 196 megabytes
-    Info: Processing ended: Thu Apr 22 00:03:59 2021
-    Info: Elapsed time: 00:00:01
+    Info: Peak virtual memory: 213 megabytes
+    Info: Processing ended: Thu Apr 29 20:46:09 2021
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 
 

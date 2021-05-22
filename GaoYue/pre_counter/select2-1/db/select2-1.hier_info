@@ -1,0 +1,8 @@
+|select2-1
+Y <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+BY => inst2.IN1
+A => inst.IN0
+AY => inst.IN1
+
+

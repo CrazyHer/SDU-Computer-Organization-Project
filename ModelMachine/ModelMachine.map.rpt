@@ -1,0 +1,430 @@
+Analysis & Synthesis report for ModelMachine
+Sat May 22 16:49:54 2021
+Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Analysis & Synthesis Source Files Read
+  5. Analysis & Synthesis Resource Usage Summary
+  6. Analysis & Synthesis Resource Utilization by Entity
+  7. General Register Statistics
+  8. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                 ;
++------------------------------------+-----------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Sat May 22 16:49:54 2021   ;
+; Quartus II Version                 ; 8.1 Build 163 10/28/2008 SJ Web Edition ;
+; Revision Name                      ; ModelMachine                            ;
+; Top-level Entity Name              ; ModelMachine                            ;
+; Family                             ; Cyclone II                              ;
+; Total logic elements               ; 281                                     ;
+;     Total combinational functions  ; 281                                     ;
+;     Dedicated logic registers      ; 107                                     ;
+; Total registers                    ; 107                                     ;
+; Total pins                         ; 75                                      ;
+; Total virtual pins                 ; 0                                       ;
+; Total memory bits                  ; 0                                       ;
+; Embedded Multiplier 9-bit elements ; 0                                       ;
+; Total PLLs                         ; 0                                       ;
++------------------------------------+-----------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                            ;
++----------------------------------------------------------------+--------------------+--------------------+
+; Option                                                         ; Setting            ; Default Value      ;
++----------------------------------------------------------------+--------------------+--------------------+
+; Device                                                         ; EP2C8Q208C7        ;                    ;
+; Top-level entity name                                          ; ModelMachine       ; ModelMachine       ;
+; Family name                                                    ; Cyclone II         ; Stratix II         ;
+; Use Generated Physical Constraints File                        ; Off                ;                    ;
+; Use smart compilation                                          ; Off                ; Off                ;
+; Restructure Multiplexers                                       ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                            ; Off                ; Off                ;
+; Preserve fewer node names                                      ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                      ; Off                ; Off                ;
+; Verilog Version                                                ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                   ; VHDL93             ; VHDL93             ;
+; State Machine Processing                                       ; Auto               ; Auto               ;
+; Safe State Machine                                             ; Off                ; Off                ;
+; Extract Verilog State Machines                                 ; On                 ; On                 ;
+; Extract VHDL State Machines                                    ; On                 ; On                 ;
+; Ignore Verilog initial constructs                              ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                     ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                 ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                        ; On                 ; On                 ;
+; Parallel Synthesis                                             ; Off                ; Off                ;
+; DSP Block Balancing                                            ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                             ; On                 ; On                 ;
+; Power-Up Don't Care                                            ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                   ; Off                ; Off                ;
+; Remove Duplicate Registers                                     ; On                 ; On                 ;
+; Ignore CARRY Buffers                                           ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                         ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                          ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                      ; Off                ; Off                ;
+; Ignore LCELL Buffers                                           ; Off                ; Off                ;
+; Ignore SOFT Buffers                                            ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                 ; Off                ; Off                ;
+; Optimization Technique                                         ; Balanced           ; Balanced           ;
+; Carry Chain Length                                             ; 70                 ; 70                 ;
+; Auto Carry Chains                                              ; On                 ; On                 ;
+; Auto Open-Drain Pins                                           ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                          ; Off                ; Off                ;
+; Perform gate-level register retiming                           ; Off                ; Off                ;
+; Allow register retiming to trade off Tsu/Tco with Fmax         ; On                 ; On                 ;
+; Auto ROM Replacement                                           ; On                 ; On                 ;
+; Auto RAM Replacement                                           ; On                 ; On                 ;
+; Auto Shift Register Replacement                                ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                  ; On                 ; On                 ;
+; Strict RAM Replacement                                         ; Off                ; Off                ;
+; Allow Synchronous Control Signals                              ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                         ; Off                ; Off                ;
+; Auto RAM to Logic Cell Conversion                              ; Off                ; Off                ;
+; Auto Resource Sharing                                          ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                             ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                             ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                  ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing            ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives              ; Off                ; Off                ;
+; Show Parameter Settings Tables in Synthesis Report             ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                             ; Off                ; Off                ;
+; Synchronization Register Chain Length                          ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                   ; Normal compilation ; Normal compilation ;
+; HDL message level                                              ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report       ; 100                ; 100                ;
+; Number of Inverted Registers Reported in Synthesis Report      ; 100                ; 100                ;
+; Clock MUX Protection                                           ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                    ; Off                ; Off                ;
+; Block Design Naming                                            ; Auto               ; Auto               ;
+; SDC constraint protection                                      ; Off                ; Off                ;
+; Synthesis Effort                                               ; Auto               ; Auto               ;
+; Allows Asynchronous Clear Usage For Shift Register Replacement ; On                 ; On                 ;
+; Analysis & Synthesis Message Level                             ; Medium             ; Medium             ;
++----------------------------------------------------------------+--------------------+--------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                    ;
++-------------------------------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------------------------+
+; File Name with User-Entered Path                      ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                               ;
++-------------------------------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------------------------+
+; ../HeRui/IR-16/IR-16.bdf                              ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dell/Desktop/sdu-computer-organization-project/HeRui/IR-16/IR-16.bdf                              ;
+; ../HeRui/ZHENLIE-CHENGFAQI/ZHENLIE-CHENGFAQI.bdf      ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dell/Desktop/sdu-computer-organization-project/HeRui/ZHENLIE-CHENGFAQI/ZHENLIE-CHENGFAQI.bdf      ;
+; ../HeRui/ZHENLIE-CHENGFAQI/ZHENLIE-CHENGFAQI-UNIT.bdf ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dell/Desktop/sdu-computer-organization-project/HeRui/ZHENLIE-CHENGFAQI/ZHENLIE-CHENGFAQI-UNIT.bdf ;
+; ../GaoYue/pre_counter/count8/count2.bdf               ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dell/Desktop/sdu-computer-organization-project/GaoYue/pre_counter/count8/count2.bdf               ;
+; ../GaoYue/pre_counter/count8/count8.bdf               ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dell/Desktop/sdu-computer-organization-project/GaoYue/pre_counter/count8/count8.bdf               ;
+; ../GaoYue/pre_counter/count8/select2-1.bdf            ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dell/Desktop/sdu-computer-organization-project/GaoYue/pre_counter/count8/select2-1.bdf            ;
+; ../GaoYue/selector/selector-2bit.bdf                  ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dell/Desktop/sdu-computer-organization-project/GaoYue/selector/selector-2bit.bdf                  ;
+; ../GaoYue/selector/selector.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dell/Desktop/sdu-computer-organization-project/GaoYue/selector/selector.bdf                       ;
+; ../HeRui/THREE-STATE-GATE/THREE-STATE-ONE-GATE.bdf    ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dell/Desktop/sdu-computer-organization-project/HeRui/THREE-STATE-GATE/THREE-STATE-ONE-GATE.bdf    ;
+; ../HeRui/START-CP/START-CP.bdf                        ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dell/Desktop/sdu-computer-organization-project/HeRui/START-CP/START-CP.bdf                        ;
+; ../GaoYue/selector/selector-4.bdf                     ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dell/Desktop/sdu-computer-organization-project/GaoYue/selector/selector-4.bdf                     ;
+; ../HeRui/ALU-16/ALU-8.bdf                             ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dell/Desktop/sdu-computer-organization-project/HeRui/ALU-16/ALU-8.bdf                             ;
+; ../HeRui/THREE-STATE-GATE/THREE-STATE-DOUBLE-GATE.bdf ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dell/Desktop/sdu-computer-organization-project/HeRui/THREE-STATE-GATE/THREE-STATE-DOUBLE-GATE.bdf ;
+; ../HeRui/IR-16/IR-8.bdf                               ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dell/Desktop/sdu-computer-organization-project/HeRui/IR-16/IR-8.bdf                               ;
+; ModelMachine.bdf                                      ; yes             ; User Block Diagram/Schematic File  ; C:/Users/dell/Desktop/sdu-computer-organization-project/ModelMachine/ModelMachine.bdf                      ;
+; 74138.bdf                                             ; yes             ; Megafunction                       ; c:/altera/81/quartus/libraries/others/maxplus2/74138.bdf                                                   ;
+; 74181.bdf                                             ; yes             ; Megafunction                       ; c:/altera/81/quartus/libraries/others/maxplus2/74181.bdf                                                   ;
+; 74182.bdf                                             ; yes             ; Megafunction                       ; c:/altera/81/quartus/libraries/others/maxplus2/74182.bdf                                                   ;
++-------------------------------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Estimated Total logic elements              ; 281   ;
+;                                             ;       ;
+; Total combinational functions               ; 281   ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 191   ;
+;     -- 3 input functions                    ; 55    ;
+;     -- <=2 input functions                  ; 35    ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 281   ;
+;     -- arithmetic mode                      ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 107   ;
+;     -- Dedicated logic registers            ; 107   ;
+;     -- I/O registers                        ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 75    ;
+; Maximum fan-out node                        ; CLR   ;
+; Maximum fan-out                             ; 107   ;
+; Total fan-out                               ; 1388  ;
+; Average fan-out                             ; 3.00  ;
++---------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                     ;
++---------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node            ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                  ; Library Name ;
++---------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------+--------------+
+; |ModelMachine                         ; 281 (28)          ; 107 (0)      ; 0           ; 0            ; 0       ; 0         ; 75   ; 0            ; |ModelMachine                                                        ; work         ;
+;    |74138:CP_CHOOSER|                 ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|74138:CP_CHOOSER                                       ; work         ;
+;    |74138:inst6|                      ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|74138:inst6                                            ; work         ;
+;    |74138:inst75|                     ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|74138:inst75                                           ; work         ;
+;    |ALU-8:ALU|                        ; 24 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ALU-8:ALU                                              ; work         ;
+;       |74181:inst2|                   ; 11 (11)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ALU-8:ALU|74181:inst2                                  ; work         ;
+;       |74181:inst|                    ; 11 (11)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ALU-8:ALU|74181:inst                                   ; work         ;
+;       |74182:inst1|                   ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ALU-8:ALU|74182:inst1                                  ; work         ;
+;    |IR-8:IR|                          ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|IR-8:IR                                                ; work         ;
+;    |IR-8:MAR|                         ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|IR-8:MAR                                               ; work         ;
+;    |IR-8:MDR|                         ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|IR-8:MDR                                               ; work         ;
+;    |IR-8:PSW|                         ; 0 (0)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|IR-8:PSW                                               ; work         ;
+;    |IR-8:R0|                          ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|IR-8:R0                                                ; work         ;
+;    |IR-8:R1|                          ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|IR-8:R1                                                ; work         ;
+;    |IR-8:R2|                          ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|IR-8:R2                                                ; work         ;
+;    |IR-8:R3|                          ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|IR-8:R3                                                ; work         ;
+;    |IR-8:Y|                           ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|IR-8:Y                                                 ; work         ;
+;    |IR-8:Z|                           ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|IR-8:Z                                                 ; work         ;
+;    |START-CP:inst20|                  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|START-CP:inst20                                        ; work         ;
+;    |THREE-STATE-DOUBLE-GATE:inst2|    ; 18 (18)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|THREE-STATE-DOUBLE-GATE:inst2                          ; work         ;
+;    |THREE-STATE-DOUBLE-GATE:inst3|    ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|THREE-STATE-DOUBLE-GATE:inst3                          ; work         ;
+;    |THREE-STATE-ONE-GATE:inst73|      ; 47 (47)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|THREE-STATE-ONE-GATE:inst73                            ; work         ;
+;    |ZHENLIE-CHENGFAQI:inst84|         ; 99 (0)            ; 14 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84                               ; work         ;
+;       |IR-16:inst2|                   ; 0 (0)             ; 14 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|IR-16:inst2                   ; work         ;
+;          |IR-8:inst2|                 ; 0 (0)             ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|IR-16:inst2|IR-8:inst2        ; work         ;
+;          |IR-8:inst3|                 ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|IR-16:inst2|IR-8:inst3        ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst10| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst10 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst11| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst11 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst12| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst12 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst15| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst15 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst17| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst17 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst18| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst18 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst19| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst19 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst20| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst20 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst21| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst21 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst22| ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst22 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst23| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst23 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst25| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst25 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst26| ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst26 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst27| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst27 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst28| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst28 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst29| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst29 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst30| ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst30 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst31| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst31 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst33| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst33 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst34| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst34 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst35| ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst35 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst36| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst36 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst37| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst37 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst38| ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst38 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst39| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst39 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst41| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst41 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst42| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst42 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst43| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst43 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst44| ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst44 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst45| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst45 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst46| ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst46 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst47| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst47 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst49| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst49 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst50| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst50 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst51| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst51 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst52| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst52 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst53| ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst53 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst54| ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst54 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst55| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst55 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst57| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst57 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst58| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst58 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst59| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst59 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst60| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst60 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst61| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst61 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst62| ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst62 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst63| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst63 ; work         ;
+;       |ZHENLIE-CHENGFAQI-UNIT:inst9|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst9  ; work         ;
+;    |count8:pc|                        ; 14 (2)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:pc                                              ; work         ;
+;       |count2:inst1|                  ; 3 (2)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:pc|count2:inst1                                 ; work         ;
+;          |select2-1:inst3|            ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:pc|count2:inst1|select2-1:inst3                 ; work         ;
+;       |count2:inst2|                  ; 3 (2)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:pc|count2:inst2                                 ; work         ;
+;          |select2-1:inst3|            ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:pc|count2:inst2|select2-1:inst3                 ; work         ;
+;       |count2:inst3|                  ; 3 (1)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:pc|count2:inst3                                 ; work         ;
+;          |select2-1:inst2|            ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:pc|count2:inst3|select2-1:inst2                 ; work         ;
+;          |select2-1:inst3|            ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:pc|count2:inst3|select2-1:inst3                 ; work         ;
+;       |count2:inst|                   ; 3 (2)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:pc|count2:inst                                  ; work         ;
+;          |select2-1:inst3|            ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:pc|count2:inst|select2-1:inst3                  ; work         ;
+;    |count8:uPC|                       ; 23 (2)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:uPC                                             ; work         ;
+;       |count2:inst1|                  ; 8 (3)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:uPC|count2:inst1                                ; work         ;
+;          |select2-1:inst2|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:uPC|count2:inst1|select2-1:inst2                ; work         ;
+;          |select2-1:inst3|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:uPC|count2:inst1|select2-1:inst3                ; work         ;
+;          |select2-1:inst4|            ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:uPC|count2:inst1|select2-1:inst4                ; work         ;
+;       |count2:inst2|                  ; 2 (0)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:uPC|count2:inst2                                ; work         ;
+;          |select2-1:inst2|            ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:uPC|count2:inst2|select2-1:inst2                ; work         ;
+;          |select2-1:inst3|            ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:uPC|count2:inst2|select2-1:inst3                ; work         ;
+;       |count2:inst3|                  ; 3 (1)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:uPC|count2:inst3                                ; work         ;
+;          |select2-1:inst2|            ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:uPC|count2:inst3|select2-1:inst2                ; work         ;
+;          |select2-1:inst3|            ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:uPC|count2:inst3|select2-1:inst3                ; work         ;
+;       |count2:inst|                   ; 8 (3)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:uPC|count2:inst                                 ; work         ;
+;          |select2-1:inst2|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:uPC|count2:inst|select2-1:inst2                 ; work         ;
+;          |select2-1:inst3|            ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:uPC|count2:inst|select2-1:inst3                 ; work         ;
+;          |select2-1:inst4|            ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|count8:uPC|count2:inst|select2-1:inst4                 ; work         ;
+;    |selector-2bit:inst17|             ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|selector-2bit:inst17                                   ; work         ;
+;    |selector:inst28|                  ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ModelMachine|selector:inst28                                        ; work         ;
++---------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 107   ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 7     ;
+; Number of registers using Asynchronous Clear ; 107   ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II Analysis & Synthesis
+    Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
+    Info: Processing started: Sat May 22 16:49:51 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ModelMachine -c ModelMachine
+Info: Found 1 design units, including 1 entities, in source file ../HeRui/IR-16/IR-16.bdf
+    Info: Found entity 1: IR-16
+Info: Found 1 design units, including 1 entities, in source file ../HeRui/ZHENLIE-CHENGFAQI/ZHENLIE-CHENGFAQI.bdf
+    Info: Found entity 1: ZHENLIE-CHENGFAQI
+Info: Found 1 design units, including 1 entities, in source file ../HeRui/ZHENLIE-CHENGFAQI/ZHENLIE-CHENGFAQI-UNIT.bdf
+    Info: Found entity 1: ZHENLIE-CHENGFAQI-UNIT
+Info: Found 1 design units, including 1 entities, in source file ../GaoYue/pre_counter/count8/count2.bdf
+    Info: Found entity 1: count2
+Info: Found 1 design units, including 1 entities, in source file ../GaoYue/pre_counter/count8/count8.bdf
+    Info: Found entity 1: count8
+Info: Found 1 design units, including 1 entities, in source file ../GaoYue/pre_counter/count8/select2-1.bdf
+    Info: Found entity 1: select2-1
+Info: Found 1 design units, including 1 entities, in source file ../GaoYue/selector/selector-2bit.bdf
+    Info: Found entity 1: selector-2bit
+Info: Found 1 design units, including 1 entities, in source file ../GaoYue/selector/selector.bdf
+    Info: Found entity 1: selector
+Info: Found 1 design units, including 1 entities, in source file ../HeRui/THREE-STATE-GATE/THREE-STATE-ONE-GATE.bdf
+    Info: Found entity 1: THREE-STATE-ONE-GATE
+Info: Found 1 design units, including 1 entities, in source file ../HeRui/START-CP/START-CP.bdf
+    Info: Found entity 1: START-CP
+Info: Found 1 design units, including 1 entities, in source file ../GaoYue/selector/selector-4.bdf
+    Info: Found entity 1: selector-4
+Info: Found 1 design units, including 1 entities, in source file ../HeRui/THREE-STATE-GATE/THREE-STATE-GATE.bdf
+    Info: Found entity 1: THREE-STATE-GATE
+Info: Found 1 design units, including 1 entities, in source file ../HeRui/ALU-16/ALU-8.bdf
+    Info: Found entity 1: ALU-8
+Info: Found 1 design units, including 1 entities, in source file ../HeRui/THREE-STATE-GATE/THREE-STATE-DOUBLE-GATE.bdf
+    Info: Found entity 1: THREE-STATE-DOUBLE-GATE
+Info: Found 1 design units, including 1 entities, in source file ../HeRui/IR-16/IR-8.bdf
+    Info: Found entity 1: IR-8
+Info: Found 1 design units, including 1 entities, in source file ModelMachine.bdf
+    Info: Found entity 1: ModelMachine
+Info: Elaborating entity "ModelMachine" for the top level hierarchy
+Warning: Block or symbol "IR-8" of instance "Z" overlaps another block or symbol
+Warning: Block or symbol "NOT" of instance "inst36" overlaps another block or symbol
+Warning: Block or symbol "NOT" of instance "inst38" overlaps another block or symbol
+Warning: Block or symbol "NOT" of instance "inst43" overlaps another block or symbol
+Warning: Block or symbol "NOT" of instance "inst45" overlaps another block or symbol
+Warning: Block or symbol "NOT" of instance "inst47" overlaps another block or symbol
+Warning: Block or symbol "NOT" of instance "inst56" overlaps another block or symbol
+Warning: Block or symbol "NOT" of instance "inst58" overlaps another block or symbol
+Warning: Block or symbol "NOT" of instance "inst62" overlaps another block or symbol
+Warning: Block or symbol "NOT" of instance "inst64" overlaps another block or symbol
+Warning: Block or symbol "NOT" of instance "inst51" overlaps another block or symbol
+Warning: Block or symbol "NOT" of instance "inst68" overlaps another block or symbol
+Warning: Block or symbol "NOT" of instance "inst76" overlaps another block or symbol
+Warning: Block or symbol "NOT" of instance "inst78" overlaps another block or symbol
+Warning: Block or symbol "NOT" of instance "inst81" overlaps another block or symbol
+Warning: Block or symbol "AND2" of instance "inst80" overlaps another block or symbol
+Warning: Primitive "VCC" of instance "inst49" not used
+Info: Elaborating entity "START-CP" for hierarchy "START-CP:inst20"
+Info: Elaborating entity "count8" for hierarchy "count8:uPC"
+Warning: Block or symbol "NOT" of instance "inst5" overlaps another block or symbol
+Info: Elaborating entity "count2" for hierarchy "count8:uPC|count2:inst"
+Info: Elaborating entity "select2-1" for hierarchy "count8:uPC|count2:inst|select2-1:inst2"
+Info: Elaborating entity "selector" for hierarchy "selector:inst55"
+Info: Elaborating entity "IR-8" for hierarchy "IR-8:IR"
+Info: Elaborating entity "74138" for hierarchy "74138:CP_CHOOSER"
+Info: Elaborated megafunction instantiation "74138:CP_CHOOSER"
+Info: Elaborating entity "ALU-8" for hierarchy "ALU-8:ALU"
+Info: Elaborating entity "74181" for hierarchy "ALU-8:ALU|74181:inst"
+Info: Elaborated megafunction instantiation "ALU-8:ALU|74181:inst"
+Info: Elaborating entity "74182" for hierarchy "ALU-8:ALU|74182:inst1"
+Info: Elaborated megafunction instantiation "ALU-8:ALU|74182:inst1"
+Info: Elaborating entity "THREE-STATE-DOUBLE-GATE" for hierarchy "THREE-STATE-DOUBLE-GATE:inst3"
+Info: Elaborating entity "selector-4" for hierarchy "selector-4:inst4"
+Info: Elaborating entity "selector-2bit" for hierarchy "selector-2bit:inst17"
+Info: Elaborating entity "THREE-STATE-ONE-GATE" for hierarchy "THREE-STATE-ONE-GATE:inst5"
+Info: Elaborating entity "ZHENLIE-CHENGFAQI" for hierarchy "ZHENLIE-CHENGFAQI:inst84"
+Info: Elaborating entity "IR-16" for hierarchy "ZHENLIE-CHENGFAQI:inst84|IR-16:inst2"
+Info: Elaborating entity "ZHENLIE-CHENGFAQI-UNIT" for hierarchy "ZHENLIE-CHENGFAQI:inst84|ZHENLIE-CHENGFAQI-UNIT:inst64"
+Info: Ignored 30 buffer(s)
+    Info: Ignored 30 SOFT buffer(s)
+Warning: Tri-state node(s) do not directly drive top-level pin(s)
+    Warning: Converted tri-state node feeding "IR-8:PSW|inst5" into a selector
+    Warning: Converted tri-state node feeding "IR-8:PSW|inst7" into a selector
+Warning: Clock multiplexers are found and protected
+    Warning: Found clock multiplexer inst9~2
+Warning: Tri-state node(s) do not directly drive top-level pin(s)
+    Warning: Converted the fan-out from the tri-state buffer "THREE-STATE-DOUBLE-GATE:inst3|inst27" to the node "IR-8:MDR|inst1" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "THREE-STATE-DOUBLE-GATE:inst2|inst27" to the node "IR-8:R3|inst1" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "THREE-STATE-DOUBLE-GATE:inst3|inst25" to the node "IR-8:MDR|inst3" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "THREE-STATE-DOUBLE-GATE:inst2|inst25" to the node "IR-8:R3|inst3" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "THREE-STATE-DOUBLE-GATE:inst3|inst23" to the node "IR-8:MDR|inst" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "THREE-STATE-DOUBLE-GATE:inst2|inst23" to the node "IR-8:R3|inst" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "THREE-STATE-DOUBLE-GATE:inst3|inst21" to the node "IR-8:MDR|inst2" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "THREE-STATE-DOUBLE-GATE:inst2|inst21" to the node "IR-8:R3|inst2" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "THREE-STATE-DOUBLE-GATE:inst3|inst19" to the node "IR-8:MDR|inst5" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "THREE-STATE-DOUBLE-GATE:inst2|inst19" to the node "IR-8:R3|inst5" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "THREE-STATE-DOUBLE-GATE:inst3|inst17" to the node "IR-8:MDR|inst7" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "THREE-STATE-DOUBLE-GATE:inst2|inst17" to the node "IR-8:R3|inst7" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "THREE-STATE-DOUBLE-GATE:inst3|inst16" to the node "IR-8:MDR|inst4" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "THREE-STATE-DOUBLE-GATE:inst2|inst16" to the node "IR-8:R3|inst4" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "THREE-STATE-DOUBLE-GATE:inst3|inst" to the node "IR-8:MDR|inst6" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "THREE-STATE-DOUBLE-GATE:inst2|inst" to the node "IR-8:R3|inst6" into an OR gate
+Warning: Output pins are stuck at VCC or GND
+    Warning (13410): Pin "uRD" is stuck at GND
+Info: Implemented 421 device resources after synthesis - the final resource count might be different
+    Info: Implemented 27 input pins
+    Info: Implemented 40 output pins
+    Info: Implemented 8 bidirectional pins
+    Info: Implemented 346 logic cells
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 42 warnings
+    Info: Peak virtual memory: 194 megabytes
+    Info: Processing ended: Sat May 22 16:49:54 2021
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
+
+
